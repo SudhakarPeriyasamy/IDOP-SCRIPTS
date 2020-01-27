@@ -1,0 +1,228 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@2.35">
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@1.3.9"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@1.3.9">
+      <jobProperties/>
+      <triggers/>
+      <parameters/>
+      <options/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+  </actions>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <hudson.plugins.jira.JiraProjectProperty plugin="jira@3.0.9"/>
+    <hudson.model.ParametersDefinitionProperty>
+      <parameterDefinitions>
+        <hudson.model.ChoiceParameterDefinition>
+          <name>VCenter_Hostname</name>
+          <description></description>
+          <choices class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>xda</string>
+              <string>xdb</string>
+              <string>xdc</string>
+            </a>
+          </choices>
+        </hudson.model.ChoiceParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>Server</name>
+          <description></description>
+          <defaultValue>dc8sftptst01.ash.sf.priv</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.ChoiceParameterDefinition>
+          <name>Enhance_Disk</name>
+          <description></description>
+          <choices class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>1 GB</string>
+              <string>2 GB</string>
+              <string>3 GB</string>
+            </a>
+          </choices>
+        </hudson.model.ChoiceParameterDefinition>
+        <hudson.model.ChoiceParameterDefinition>
+          <name>Drive_Letter</name>
+          <description></description>
+          <choices class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>C</string>
+              <string>D</string>
+              <string>E</string>
+              <string>F</string>
+              <string>G</string>
+              <string>H</string>
+              <string>I</string>
+            </a>
+          </choices>
+        </hudson.model.ChoiceParameterDefinition>
+      </parameterDefinitions>
+    </hudson.model.ParametersDefinitionProperty>
+  </properties>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@2.74">
+    <script>pipeline {
+        agent any
+		environment {
+		ansible_userid = credentials(&apos;ansible_userid&apos;)
+        ansible_password = credentials(&apos;ansible_password&apos;)
+        VCentre_Username = credentials(&apos;VCentre_Username&apos;)
+        VCentre_Password = credentials(&apos;VCentre_Password&apos;)
+        
+        }
+        stages {
+                stage(&apos;Validating Parameters&apos;) {
+                        steps {
+                            
+                                dir(&quot;/var/lib/jenkins/workspace/enhance_harddisk&quot;) {
+                                        sh &apos;&apos;&apos;
+if [ &quot;$VCenter_Hostname&quot; == &quot;xda&quot; ];then
+VCentre_Hostname=&quot;10.8.87.43&quot;
+elif [ &quot;$VCenter_Hostname&quot; == &quot;xdb&quot; ];then
+VCentre_Hostname=&quot;10.8.87.39&quot;
+elif [ &quot;$VCenter_Hostname&quot; == &quot;xdc&quot; ];then
+VCentre_Hostname=&quot;10.8.87.40&quot;
+fi
+if [ &quot;$Enhance_Disk&quot; == &quot;1 GB&quot; ];then
+Enhance_Disks=&quot;1&quot;
+elif [ &quot;$Enhance_Disk&quot; == &quot;2 GB&quot; ];then
+Enhance_Disks=&quot;2&quot;
+elif [ &quot;$Enhance_Disk&quot; == &quot;3 GB&quot; ];then
+Enhance_Disks=&quot;3&quot;
+fi
+cat &lt;&lt;EOT &gt; /var/lib/jenkins/workspace/enhance_harddisk/hosts
+vcenter_hostname: &quot;$VCentre_Hostname&quot;
+vcenter_username: &quot;$VCentre_Username&quot;
+hostname: &quot;$Server&quot;
+enhance_disk: &quot;$Enhance_Disks&quot;
+device_id: &quot;$Drive_Letter&quot;
+EOT
+&apos;&apos;&apos;
+                                        }
+                                        
+                                }
+                               
+                        }
+                stage(&apos;Validating Hostname&apos;){
+							steps {
+								dir(&quot;/var/lib/jenkins/workspace/enhance_harddisk&quot;) {
+								    sh &apos;sh inventory.sh&apos;
+									sh &apos;ansible-playbook check.yml -i inventory -e &quot;ansible_user=$ansible_userid ansible_password=$ansible_password vcenter_password=$VCentre_Password&quot; --tags precheck --extra-vars @/var/lib/jenkins/workspace/enhance_harddisk/hosts&apos;
+									}
+								}
+					   }        
+               stage(&apos;Performing Pre-Checks&apos;) {
+									
+					parallel {
+					    stage(&apos;Validating Server Reachability&apos;){
+							steps {
+								dir(&quot;/var/lib/jenkins/workspace/enhance_harddisk&quot;) {
+								    sh &apos;#sh inventory.sh&apos;
+									sh &apos;#ansible-playbook check.yml -i inventory -e &quot;ansible_user=$ansible_userid ansible_password=$ansible_password vcenter_password=$VCentre_Password&quot; --tags medcheck_startup --extra-vars @/var/lib/jenkins/workspace/enhance_harddisk/hosts&apos;
+									}
+								}
+					   }
+						stage(&apos;Validating vCenter connectivity&apos;){
+							steps {
+								dir(&quot;/var/lib/jenkins/workspace/enhance_harddisk&quot;) {
+								    sh &apos;sh inventory.sh&apos;
+									sh &apos;ansible-playbook check.yml -i inventory -e &quot;ansible_user=$ansible_userid ansible_password=$ansible_password vcenter_password=$VCentre_Password&quot; --tags precheck_vconnection --extra-vars @/var/lib/jenkins/workspace/enhance_harddisk/hosts&apos;
+									}
+								}
+					   }
+					   stage(&apos;Validating datastore size&apos;){
+							steps {
+								dir(&quot;/var/lib/jenkins/workspace/enhance_harddisk&quot;) {
+								    sh &apos;sh inventory.sh&apos;
+									sh &apos;ansible-playbook check.yml -i inventory -e &quot;ansible_user=$ansible_userid ansible_password=$ansible_password vcenter_password=$VCentre_Password&quot; --tags &quot;precheck_harddisk,precheck_datastore&quot; --extra-vars @/var/lib/jenkins/workspace/enhance_harddisk/hosts&apos;
+									}
+								}
+					   }
+					   stage(&apos;Validating Snapshot Existence&apos;){
+							steps {
+								dir(&quot;/var/lib/jenkins/workspace/enhance_harddisk&quot;) {
+								    sh &apos;sh inventory.sh&apos;
+									sh &apos;ansible-playbook check.yml -i inventory -e &quot;ansible_user=$ansible_userid ansible_password=$ansible_password vcenter_password=$VCentre_Password&quot; --tags postcheck_snapshotcreated --extra-vars @/var/lib/jenkins/workspace/enhance_harddisk/hosts&apos;
+									}
+								}
+					   }
+					   						
+						
+                    }
+                } 
+               stage(&apos;Enhance Harddisk for hosted VM&apos;){
+					steps {
+						dir(&quot;/var/lib/jenkins/workspace/enhance_harddisk&quot;) {
+						     
+                                    sh &apos;sh inventory.sh&apos;
+									sh &apos;ansible-playbook main.yml -i inventory -e &quot;ansible_user=$ansible_userid ansible_password=$ansible_password vcenter_password=$VCentre_Password&quot; --tags &quot;harddisk&quot; -vvv --extra-vars @/var/lib/jenkins/workspace/enhance_harddisk/hosts&apos;
+                            	
+                            
+                            }
+                        
+						}
+                    }		
+		       
+				stage(&apos;Performing post-Checks&apos;) {
+									
+					parallel {
+					    stage(&apos;Validating Datastore Free Space&apos;){
+							steps {
+								dir(&quot;/var/lib/jenkins/workspace/enhance_harddisk&quot;) {
+								    sh &apos;sh inventory.sh&apos;
+									sh &apos;ansible-playbook check.yml -i inventory -e &quot;ansible_user=$ansible_userid ansible_password=$ansible_password vcenter_password=$VCentre_Password&quot; --tags precheck_datastore --extra-vars @/var/lib/jenkins/workspace/enhance_harddisk/hosts&apos;
+									}
+								}
+					   }
+					   stage(&apos;Validating Server Reachability&apos;){
+							steps {
+								dir(&quot;/var/lib/jenkins/workspace/enhance_harddisk&quot;) {
+								    sh &apos;sh inventory.sh&apos;
+									sh &apos;ansible-playbook check.yml -i inventory -e &quot;ansible_user=$ansible_userid ansible_password=$ansible_password vcenter_password=$VCentre_Password&quot; --tags medcheck_startup --extra-vars @/var/lib/jenkins/workspace/enhance_harddisk/hosts&apos;
+									}
+								}
+					   }
+					stage(&apos;Allocating space&apos;){
+					steps {
+						dir(&quot;/var/lib/jenkins/workspace/enhance_harddisk&quot;) {
+						     
+                                    sh &apos;sh inventory.sh&apos;
+									sh &apos;ansible-playbook main.yml -i inventory_host -e &quot;ansible_user=$ansible_userid ansible_password=$ansible_password vcenter_password=$VCentre_Password&quot; --tags &quot;harddisk_new&quot; -vvv --extra-vars @/var/lib/jenkins/workspace/enhance_harddisk/hosts&apos;
+                            	
+                            
+                            }
+                        
+						}
+                    }
+					
+					}
+				}
+				stage(&apos;Completed&apos;){
+							steps {								
+								dir(&quot;/var/lib/jenkins/workspace/enhance_harddisk&quot;) {								    
+									
+										}
+									} 
+				        }
+			}			
+
+				      			
+						
+
+                
+	
+	post {
+        always {
+            sh &apos;#echo &quot;&quot; &gt; /var/lib/jenkins/workspace/enhance_harddisk/hosts&apos;
+			sh &apos;#echo &quot;&quot; &gt; /var/lib/jenkins/workspace/enhance_harddisk/inventory&apos;
+			sh &apos;#echo &quot;&quot; &gt; /var/lib/jenkins/workspace/enhance_harddisk/inventory_host&apos;
+        }
+        
+	}
+}</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

@@ -1,0 +1,99 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@2.35">
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@1.3.9"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@1.3.9">
+      <jobProperties/>
+      <triggers/>
+      <parameters/>
+      <options/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+  </actions>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <hudson.plugins.jira.JiraProjectProperty plugin="jira@3.0.9"/>
+    <hudson.model.ParametersDefinitionProperty>
+      <parameterDefinitions>
+        <hudson.model.StringParameterDefinition>
+          <name>HostNames</name>
+          <description></description>
+          <defaultValue>10.8.20.89</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>File_path</name>
+          <description></description>
+          <defaultValue>/var</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>UserName</name>
+          <description></description>
+          <defaultValue>opsadmin</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.PasswordParameterDefinition>
+          <name>Password</name>
+          <description></description>
+          <defaultValue>{AQAAABAAAAAQRI0m1jA6Lgk/sIj2I83ciNa5Z59Uy5P5zJZBFdryUrc=}</defaultValue>
+        </hudson.model.PasswordParameterDefinition>
+      </parameterDefinitions>
+    </hudson.model.ParametersDefinitionProperty>
+  </properties>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@2.74">
+    <script>pipeline {
+        agent any
+        environment {
+              FOO = &quot;$env.BUILD_NUMBER&quot;
+           }
+         stages {
+               stage(&apos;Code Quality&apos;)
+                {
+                        steps {
+                                dir(&quot;/var/lib/jenkins/workspace/${JOB_NAME}/Linux-DiskClean-report/&quot;)
+                                {
+                                       
+                                        sh &apos;sh server.sh&apos;
+                                        sh &apos;echo jobno: &quot;$FOO&quot; &gt;&gt; DiskReport/vars/main.yml&apos;
+                                 }
+                               }
+                 }
+                 stage(&apos;Generate Report&apos;)
+                {
+                        steps {
+                                dir(&quot;/var/lib/jenkins/workspace/${JOB_NAME}/Linux-DiskClean-report/&quot;)
+                                {
+                                        
+                                        sh &apos;sudo ansible-playbook main.yml -i inventory --tags=report&apos;
+                                 }
+                               }
+                 }
+                 stage(&apos;Clearing Code&apos;)
+                {
+                        steps {
+                                dir(&quot;/var/lib/jenkins/workspace/${JOB_NAME}/Linux-DiskClean-report/&quot;)
+                                {
+                                       
+                                        sh &apos;sudo ansible-playbook main.yml -i inventory --tags=clear&apos;
+                                 }
+                               }
+                 }
+                  stage(&apos;Completed&apos;)
+                {
+                        steps {
+                                dir(&quot;/var/lib/jenkins/workspace/${JOB_NAME}/Linux-DiskClean-report/&quot;)
+                                {
+                                        
+                                        
+                                 }
+                               }
+                 }
+                
+}
+}</script>
+    <sandbox>false</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

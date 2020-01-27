@@ -1,0 +1,205 @@
+Started by user [8mha:////4LasLZTu51liXJgzWxThIVEU+vfWaWFA1/I2NQbCLbUvAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyxEgY+/dLi1CL9ZFMjSwtLU0sA/LyLlsMAAAA=[0mKolasani Tirupathi Rao
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4OLV+lntHjZuxZp2t894VegAQzqSx7P3txzt/b9ofVCrAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4LwqxUFl6RELUlb7E1W5yt6jrbypcMQx5grSSCh7TyOtAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4KZhxD3tv46iVbhKjbbb27qqykto+K3ZMv6IMwic71ghAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/lib/jenkins/workspace/Rundeck-cleanup
+[8mha:////4C58DzLyD46MV1Rd5WJBaVz+E45TYGgZ+5XahqCj2HSlAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4ERG3xrkOFexMT8+1J1pSGvle3kanr7bQDBu0KwPof1+AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] withCredentials
+Masking supported pattern matches of $ansible_userid or $ansible_password
+[8mha:////4K/ArAjwl9QOpmzlHW5Wms1meZ02ASF9sbPibfSBc2/+AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] {
+[8mha:////4DIfZIsmi6f3oFGTFqGJySagjQVBFHrlavQDOyIXObFCAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] stage
+[8mha:////4FJSxUXCqmMjPbAn2Otf6s68g0+loEa2vUXL2jnVMecTAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] { (Validating)
+[8mha:////4JGKmfdW0JyHo2FM/61AzdI3x1ILbL+aa+jYfsZVPLQLAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BSEm1igLJwhJCGmj/9skpZ04EVfjDgQqMWHJkm3Jes8X1CnCkaLjrcXOY9Ke92F0JfGJYncNNPGWLlwTJgqWSztJMva0VEnZwiJWwUrA2qIOlDy6DBvRqrtqgkLXnHMs20FA5c0AD2CikLOK+VvmCNvbaBLhj/MXAHOfge2K959f/QbB16AVwAAAAA==[0m[Pipeline] dir
+Running in /var/lib/jenkins/workspace/Rundeck-cleanup
+[8mha:////4DpauG9ftNgMx4ocCjRmGYGv++vOlTn0ZTqjI0rJX0vRAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDJUJUtJYbXmBiY5xYd8G+kFS8iK/xBwKRqNhqZ6XVPF9Q5gQHSl42DtuAuQ6yi72fmhwotZdIg2zoLGvCTNFJ7QZN1h1n1MQO5ogCFgqWDutIOaBnWKnG3E0VDfrqxGna9gqKYG/wAKEmM5vEXxgTrK+9zYQ/z18BjB2D2DEU283nWL4Bsam+msEAAAA=[0m[Pipeline] {
+[8mha:////4AZuGQabZLclvDSc7MlJTuJHmYaTBQ6+hWiqZ1iw8ZpnAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCakRFa6XhBSYxxo5159gOTsWL+Bp/IBCJii1WO9vM8wXrGODIQaNV1BuKrUHvRj0vzBz6q+OMli/YMkV2ChuVG+7UacGGk4IlRQkrARtFreNoSCfYCivvsnKSdHVOYf4OAkrTDfCAQszmJEP6whRgdxu7yPTz/BXA5BOU9f5TtX8D0loxuL4AAAA=[0m[Pipeline] sh
++ ansible-playbook main.yml -i inventory.txt --tags=copy -vvv -e 'ansible_user=**** ansible_password=****'
+ansible-playbook 2.8.5
+  config file = None
+  configured module search path = ['/var/lib/jenkins/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
+  ansible python module location = /opt/python3.7.4/lib/python3.7/site-packages/ansible
+  executable location = /usr/bin/ansible-playbook
+  python version = 3.7.4 (default, Sep 24 2019, 06:06:05) [GCC 4.8.5]
+No config file found; using defaults
+host_list declined parsing /var/lib/jenkins/workspace/Rundeck-cleanup/inventory.txt as it did not pass it's verify_file() method
+auto declined parsing /var/lib/jenkins/workspace/Rundeck-cleanup/inventory.txt as it did not pass it's verify_file() method
+yaml declined parsing /var/lib/jenkins/workspace/Rundeck-cleanup/inventory.txt as it did not pass it's verify_file() method
+Parsed /var/lib/jenkins/workspace/Rundeck-cleanup/inventory.txt inventory source with ini plugin
+
+PLAYBOOK: main.yml *************************************************************
+1 plays in main.yml
+
+PLAY [RunDeck Cleanup] *********************************************************
+META: ran handlers
+
+TASK [Rundeckclr : Copy Script to Client Location] *****************************
+task path: /var/lib/jenkins/workspace/Rundeck-cleanup/Rundeckclr/tasks/main.yml:2
+<10.4.198.233> ESTABLISH SSH CONNECTION FOR USER: ****
+<10.4.198.233> SSH: EXEC sshpass -d8 ssh -C -o ControlMaster=auto -o ControlPersist=60s -o 'User="****"' -o ConnectTimeout=10 -o ControlPath=/var/lib/jenkins/.ansible/cp/be44dbda11 10.4.198.233 '/bin/sh -c '"'"'echo ~**** && sleep 0'"'"''
+<10.4.198.233> (0, b'/home/****\n', b'')
+<10.4.198.233> ESTABLISH SSH CONNECTION FOR USER: ****
+<10.4.198.233> SSH: EXEC sshpass -d8 ssh -C -o ControlMaster=auto -o ControlPersist=60s -o 'User="****"' -o ConnectTimeout=10 -o ControlPath=/var/lib/jenkins/.ansible/cp/be44dbda11 10.4.198.233 '/bin/sh -c '"'"'( umask 77 && mkdir -p "` echo /home/****/.ansible/tmp/ansible-tmp-1577960399.9760664-275795128787518 `" && echo ansible-tmp-1577960399.9760664-275795128787518="` echo /home/****/.ansible/tmp/ansible-tmp-1577960399.9760664-275795128787518 `" ) && sleep 0'"'"''
+<10.4.198.233> (0, b'ansible-tmp-1577960399.9760664-275795128787518=/home/****/.ansible/tmp/ansible-tmp-1577960399.9760664-275795128787518\n', b'')
+<10.4.198.233> Attempting python interpreter discovery
+<10.4.198.233> ESTABLISH SSH CONNECTION FOR USER: ****
+<10.4.198.233> SSH: EXEC sshpass -d8 ssh -C -o ControlMaster=auto -o ControlPersist=60s -o 'User="****"' -o ConnectTimeout=10 -o ControlPath=/var/lib/jenkins/.ansible/cp/be44dbda11 10.4.198.233 '/bin/sh -c '"'"'echo PLATFORM; uname; echo FOUND; command -v '"'"'"'"'"'"'"'"'/usr/bin/python'"'"'"'"'"'"'"'"'; command -v '"'"'"'"'"'"'"'"'python3.7'"'"'"'"'"'"'"'"'; command -v '"'"'"'"'"'"'"'"'python3.6'"'"'"'"'"'"'"'"'; command -v '"'"'"'"'"'"'"'"'python3.5'"'"'"'"'"'"'"'"'; command -v '"'"'"'"'"'"'"'"'python2.7'"'"'"'"'"'"'"'"'; command -v '"'"'"'"'"'"'"'"'python2.6'"'"'"'"'"'"'"'"'; command -v '"'"'"'"'"'"'"'"'/usr/libexec/platform-python'"'"'"'"'"'"'"'"'; command -v '"'"'"'"'"'"'"'"'/usr/bin/python3'"'"'"'"'"'"'"'"'; command -v '"'"'"'"'"'"'"'"'python'"'"'"'"'"'"'"'"'; echo ENDFOUND && sleep 0'"'"''
+<10.4.198.233> (0, b'PLATFORM\nLinux\nFOUND\n/usr/bin/python\n/usr/local/bin/python3.7\n/usr/local/bin/python3.5\n/usr/bin/python2.7\n/usr/bin/python\nENDFOUND\n', b'')
+<10.4.198.233> ESTABLISH SSH CONNECTION FOR USER: ****
+<10.4.198.233> SSH: EXEC sshpass -d8 ssh -C -o ControlMaster=auto -o ControlPersist=60s -o 'User="****"' -o ConnectTimeout=10 -o ControlPath=/var/lib/jenkins/.ansible/cp/be44dbda11 10.4.198.233 '/bin/sh -c '"'"'/usr/bin/python && sleep 0'"'"''
+<10.4.198.233> (0, b'{"osrelease_content": "NAME=\\"SLES\\"\\nVERSION=\\"12-SP1\\"\\nVERSION_ID=\\"12.1\\"\\nPRETTY_NAME=\\"SUSE Linux Enterprise Server 12 SP1\\"\\nID=\\"sles\\"\\nANSI_COLOR=\\"0;32\\"\\nCPE_NAME=\\"cpe:/o:suse:sles:12:sp1\\"\\n", "platform_dist_result": ["SuSE", "12", "x86_64"]}\n', b'')
+<10.4.198.233> Python interpreter discovery fallback (unsupported Linux distribution: SuSE)
+Using module file /opt/python3.7.4/lib/python3.7/site-packages/ansible/modules/files/stat.py
+<10.4.198.233> PUT /var/lib/jenkins/.ansible/tmp/ansible-local-766822kc6ed4/tmp5kwrusa3 TO /home/****/.ansible/tmp/ansible-tmp-1577960399.9760664-275795128787518/AnsiballZ_stat.py
+<10.4.198.233> SSH: EXEC sshpass -d8 sftp -o BatchMode=no -b - -C -o ControlMaster=auto -o ControlPersist=60s -o 'User="****"' -o ConnectTimeout=10 -o ControlPath=/var/lib/jenkins/.ansible/cp/be44dbda11 '[10.4.198.233]'
+<10.4.198.233> (0, b'sftp> put /var/lib/jenkins/.ansible/tmp/ansible-local-766822kc6ed4/tmp5kwrusa3 /home/****/.ansible/tmp/ansible-tmp-1577960399.9760664-275795128787518/AnsiballZ_stat.py\n', b'')
+<10.4.198.233> ESTABLISH SSH CONNECTION FOR USER: ****
+<10.4.198.233> SSH: EXEC sshpass -d8 ssh -C -o ControlMaster=auto -o ControlPersist=60s -o 'User="****"' -o ConnectTimeout=10 -o ControlPath=/var/lib/jenkins/.ansible/cp/be44dbda11 10.4.198.233 '/bin/sh -c '"'"'chmod u+x /home/****/.ansible/tmp/ansible-tmp-1577960399.9760664-275795128787518/ /home/****/.ansible/tmp/ansible-tmp-1577960399.9760664-275795128787518/AnsiballZ_stat.py && sleep 0'"'"''
+<10.4.198.233> (0, b'', b'')
+<10.4.198.233> ESTABLISH SSH CONNECTION FOR USER: ****
+<10.4.198.233> SSH: EXEC sshpass -d8 ssh -C -o ControlMaster=auto -o ControlPersist=60s -o 'User="****"' -o ConnectTimeout=10 -o ControlPath=/var/lib/jenkins/.ansible/cp/be44dbda11 -tt 10.4.198.233 '/bin/sh -c '"'"'sudo -H -S -n  -u root /bin/sh -c '"'"'"'"'"'"'"'"'echo BECOME-SUCCESS-enuhtugylxkcgxugqvdvsvigjlmzyscc ; /usr/bin/python /home/****/.ansible/tmp/ansible-tmp-1577960399.9760664-275795128787518/AnsiballZ_stat.py'"'"'"'"'"'"'"'"' && sleep 0'"'"''
+Escalation succeeded
+<10.4.198.233> (0, b'\r\n{"invocation": {"module_args": {"checksum_algorithm": "sha1", "get_checksum": true, "follow": false, "path": "/tmp/rundekclr.sh", "get_md5": null, "get_mime": true, "get_attributes": true}}, "stat": {"charset": "us-ascii", "uid": 1400, "exists": true, "attr_flags": "", "woth": true, "isreg": true, "device_type": 0, "mtime": 1577960152.968598, "block_size": 4096, "inode": 2048270, "isgid": false, "size": 520, "executable": true, "isuid": false, "readable": true, "version": "507808134", "pw_name": "deployer", "gid": 1400, "ischr": false, "wusr": true, "writeable": true, "mimetype": "text/x-shellscript", "blocks": 8, "xoth": true, "islnk": false, "nlink": 1, "issock": false, "rgrp": true, "gr_name": "deployer", "path": "/tmp/rundekclr.sh", "xusr": true, "atime": 1577960155.11681, "isdir": false, "ctime": 1577960155.1168108, "isblk": false, "wgrp": true, "checksum": "ce2167f52c105b58849ee09253185098a10b68dd", "dev": 65027, "roth": true, "isfifo": false, "mode": "0777", "xgrp": true, "rusr": true, "attributes": []}, "changed": false}\r\n', b'Shared connection to 10.4.198.233 closed.\r\n')
+Using module file /opt/python3.7.4/lib/python3.7/site-packages/ansible/modules/files/file.py
+<10.4.198.233> PUT /var/lib/jenkins/.ansible/tmp/ansible-local-766822kc6ed4/tmp38pre7gn TO /home/****/.ansible/tmp/ansible-tmp-1577960399.9760664-275795128787518/AnsiballZ_file.py
+<10.4.198.233> SSH: EXEC sshpass -d8 sftp -o BatchMode=no -b - -C -o ControlMaster=auto -o ControlPersist=60s -o 'User="****"' -o ConnectTimeout=10 -o ControlPath=/var/lib/jenkins/.ansible/cp/be44dbda11 '[10.4.198.233]'
+<10.4.198.233> (0, b'sftp> put /var/lib/jenkins/.ansible/tmp/ansible-local-766822kc6ed4/tmp38pre7gn /home/****/.ansible/tmp/ansible-tmp-1577960399.9760664-275795128787518/AnsiballZ_file.py\n', b'')
+<10.4.198.233> ESTABLISH SSH CONNECTION FOR USER: ****
+<10.4.198.233> SSH: EXEC sshpass -d8 ssh -C -o ControlMaster=auto -o ControlPersist=60s -o 'User="****"' -o ConnectTimeout=10 -o ControlPath=/var/lib/jenkins/.ansible/cp/be44dbda11 10.4.198.233 '/bin/sh -c '"'"'chmod u+x /home/****/.ansible/tmp/ansible-tmp-1577960399.9760664-275795128787518/ /home/****/.ansible/tmp/ansible-tmp-1577960399.9760664-275795128787518/AnsiballZ_file.py && sleep 0'"'"''
+<10.4.198.233> (0, b'', b'')
+<10.4.198.233> ESTABLISH SSH CONNECTION FOR USER: ****
+<10.4.198.233> SSH: EXEC sshpass -d8 ssh -C -o ControlMaster=auto -o ControlPersist=60s -o 'User="****"' -o ConnectTimeout=10 -o ControlPath=/var/lib/jenkins/.ansible/cp/be44dbda11 -tt 10.4.198.233 '/bin/sh -c '"'"'sudo -H -S -n  -u root /bin/sh -c '"'"'"'"'"'"'"'"'echo BECOME-SUCCESS-qemtwjqlifwsaebvtflhkcxkbkoqyzgn ; /usr/bin/python /home/****/.ansible/tmp/ansible-tmp-1577960399.9760664-275795128787518/AnsiballZ_file.py'"'"'"'"'"'"'"'"' && sleep 0'"'"''
+Escalation succeeded
+<10.4.198.233> (0, b'\r\n{"group": "deployer", "uid": 1400, "changed": false, "owner": "deployer", "state": "file", "gid": 1400, "mode": "0777", "path": "/tmp/rundekclr.sh", "invocation": {"module_args": {"directory_mode": null, "force": false, "remote_src": null, "_original_basename": "rundekclr.sh", "path": "/tmp/rundekclr.sh", "owner": null, "follow": true, "group": null, "unsafe_writes": null, "setype": null, "content": null, "serole": null, "access_time": null, "state": "file", "dest": "/tmp/rundekclr.sh", "selevel": null, "access_time_format": "%Y%m%d%H%M.%S", "modification_time": null, "regexp": null, "src": null, "seuser": null, "recurse": false, "_diff_peek": null, "delimiter": null, "mode": 511, "modification_time_format": "%Y%m%d%H%M.%S", "attributes": null, "backup": null}}, "diff": {"after": {"path": "/tmp/rundekclr.sh"}, "before": {"path": "/tmp/rundekclr.sh"}}, "size": 520}\r\n', b'Shared connection to 10.4.198.233 closed.\r\n')
+<10.4.198.233> ESTABLISH SSH CONNECTION FOR USER: ****
+<10.4.198.233> SSH: EXEC sshpass -d8 ssh -C -o ControlMaster=auto -o ControlPersist=60s -o 'User="****"' -o ConnectTimeout=10 -o ControlPath=/var/lib/jenkins/.ansible/cp/be44dbda11 10.4.198.233 '/bin/sh -c '"'"'rm -f -r /home/****/.ansible/tmp/ansible-tmp-1577960399.9760664-275795128787518/ > /dev/null 2>&1 && sleep 0'"'"''
+<10.4.198.233> (0, b'', b'')
+ [WARNING]: Platform linux on host 10.4.198.233 is using the discovered Python
+interpreter at /usr/bin/python, but future installation of another Python
+interpreter could change this. See https://docs.ansible.com/ansible/2.8/referen
+ce_appendices/interpreter_discovery.html for more information.
+ok: [10.4.198.233] => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python"
+    },
+    "changed": false,
+    "checksum": "ce2167f52c105b58849ee09253185098a10b68dd",
+    "dest": "/tmp/rundekclr.sh",
+    "diff": {
+        "after": {
+            "path": "/tmp/rundekclr.sh"
+        },
+        "before": {
+            "path": "/tmp/rundekclr.sh"
+        }
+    },
+    "gid": 1400,
+    "group": "deployer",
+    "invocation": {
+        "module_args": {
+            "_diff_peek": null,
+            "_original_basename": "rundekclr.sh",
+            "access_time": null,
+            "access_time_format": "%Y%m%d%H%M.%S",
+            "attributes": null,
+            "backup": null,
+            "content": null,
+            "delimiter": null,
+            "dest": "/tmp/rundekclr.sh",
+            "directory_mode": null,
+            "follow": true,
+            "force": false,
+            "group": null,
+            "mode": 511,
+            "modification_time": null,
+            "modification_time_format": "%Y%m%d%H%M.%S",
+            "owner": null,
+            "path": "/tmp/rundekclr.sh",
+            "recurse": false,
+            "regexp": null,
+            "remote_src": null,
+            "selevel": null,
+            "serole": null,
+            "setype": null,
+            "seuser": null,
+            "src": null,
+            "state": "file",
+            "unsafe_writes": null
+        }
+    },
+    "mode": "0777",
+    "owner": "deployer",
+    "path": "/tmp/rundekclr.sh",
+    "size": 520,
+    "state": "file",
+    "uid": 1400
+}
+META: ran handlers
+META: ran handlers
+
+PLAY RECAP *********************************************************************
+10.4.198.233               : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+[8mha:////4AyvExha2DAauUM+pMpI1SzGBwi2ZMbTxKQyqwJ4ZpoZAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICtIgqreWGF5jYGCfWnbEdkooX8TX+QCASFVusdraZ5wuWKcKRo8XWUOcoNQ6D7+20cODYXTwP2PIZG6bE3qA0g2Rt6hklZwNzihIWAlaGGs/Jkc2wFq26q8orstUpx+k7CCidvsEDCjGZs4r5C2OEzbXXienn+SuAMYQM5W7/qe0bsgYiW74AAAA=[0m[Pipeline] }
+[8mha:////4DFkW2ynJGArESzUbQGKwaPPXpRBZAJ/VPBSu3Fkjfr8AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRokKIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsTZPsP6C1U670AAAA=[0m[Pipeline] // dir
+[8mha:////4CZnXPToyqMR4ivDOjVGmKLa0+/8bPaq2HTxncne2QvFAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIREgUSoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/uBNn+A27Bcy69AAAA[0m[Pipeline] }
+[8mha:////4PoxC7DaPhq1iDWvS3Q16dYpcbY8He2mjq40OLMig7rcAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRBaJAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5NudINt/AE/1rIO9AAAA[0m[Pipeline] // stage
+[8mha:////4GWVCKtmtgQyePUq08sqa3WZDWx2Uk4sMqolnoZuupdfAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjmjSIitZywwtMYowT6y7YF5KKF/E1/oAhEhVb7ay0mucLyhThQNHJzmLvMTVeDmF0ucmJYn8JNMmOzrIhTBSs1HbS1NrjgprYwhJRwErB2mITKHl0DBvVmbupgkFXnTjmba+g8O0NHiBUNrOJ/IU5wvY6tonw5/krgHlgEDVDsas/x/INar4f38EAAAA=[0m[Pipeline] stage
+[8mha:////4JomicfLJqc6Unbw2BQMJ9n2FcUuPUKaa/v+2ICQY/JBAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] { (Removing Nodes)
+[8mha:////4Ab4uFnX6yZp/mCZJOw1mH71icf/FLFc2/XsmLidarOPAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTCAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0rlhNLCAAAA[0m[Pipeline] dir
+Running in /var/lib/jenkins/workspace/Rundeck-cleanup
+[8mha:////4H3FEPw0Yt2gsT/iJPY3depRcthUplHrUaR8ZJ6QJnvAAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUbCDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASnCIIrCAAAA[0m[Pipeline] {
+[8mha:////4Mo4kCluwNb/Qeq9xgwYa3IDpr1HLyWtzOSIw+7pLQCmAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICdAilorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYI5e6Qa78dPhmQ9Da+AAAA[0m[Pipeline] sh
++ ansible-playbook main.yml -i inventory.txt --tags=rundeck -vvv -e 'ansible_user=**** ansible_password=****'
+ansible-playbook 2.8.5
+  config file = None
+  configured module search path = ['/var/lib/jenkins/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
+  ansible python module location = /opt/python3.7.4/lib/python3.7/site-packages/ansible
+  executable location = /usr/bin/ansible-playbook
+  python version = 3.7.4 (default, Sep 24 2019, 06:06:05) [GCC 4.8.5]
+No config file found; using defaults
+host_list declined parsing /var/lib/jenkins/workspace/Rundeck-cleanup/inventory.txt as it did not pass it's verify_file() method
+auto declined parsing /var/lib/jenkins/workspace/Rundeck-cleanup/inventory.txt as it did not pass it's verify_file() method
+yaml declined parsing /var/lib/jenkins/workspace/Rundeck-cleanup/inventory.txt as it did not pass it's verify_file() method
+Parsed /var/lib/jenkins/workspace/Rundeck-cleanup/inventory.txt inventory source with ini plugin
+
+PLAYBOOK: main.yml *************************************************************
+1 plays in main.yml
+
+PLAY [RunDeck Cleanup] *********************************************************
+META: ran handlers
+
+TASK [Rundeckclr : Rundeck Cleanup Start...] ***********************************
+task path: /var/lib/jenkins/workspace/Rundeck-cleanup/Rundeckclr/tasks/main.yml:9
+<10.4.198.233> ESTABLISH SSH CONNECTION FOR USER: ****
+<10.4.198.233> SSH: EXEC sshpass -d8 ssh -C -o ControlMaster=auto -o ControlPersist=60s -o 'User="****"' -o ConnectTimeout=10 -o ControlPath=/var/lib/jenkins/.ansible/cp/be44dbda11 10.4.198.233 '/bin/sh -c '"'"'echo ~**** && sleep 0'"'"''
+<10.4.198.233> (0, b'/home/****\n', b'')
+<10.4.198.233> ESTABLISH SSH CONNECTION FOR USER: ****
+<10.4.198.233> SSH: EXEC sshpass -d8 ssh -C -o ControlMaster=auto -o ControlPersist=60s -o 'User="****"' -o ConnectTimeout=10 -o ControlPath=/var/lib/jenkins/.ansible/cp/be44dbda11 10.4.198.233 '/bin/sh -c '"'"'( umask 77 && mkdir -p "` echo /var/tmp/ansible-tmp-1577960408.95549-153223779995958 `" && echo ansible-tmp-1577960408.95549-153223779995958="` echo /var/tmp/ansible-tmp-1577960408.95549-153223779995958 `" ) && sleep 0'"'"''
+<10.4.198.233> (0, b'ansible-tmp-1577960408.95549-153223779995958=/var/tmp/ansible-tmp-1577960408.95549-153223779995958\n', b'')
+<10.4.198.233> ESTABLISH SSH CONNECTION FOR USER: ****
+<10.4.198.233> SSH: EXEC sshpass -d8 ssh -C -o ControlMaster=auto -o ControlPersist=60s -o 'User="****"' -o ConnectTimeout=10 -o ControlPath=/var/lib/jenkins/.ansible/cp/be44dbda11 10.4.198.233 '/bin/sh -c '"'"'rm -f -r /var/tmp/ansible-tmp-1577960408.95549-153223779995958/ > /dev/null 2>&1 && sleep 0'"'"''
+<10.4.198.233> (0, b'', b'')
+fatal: [10.4.198.233]: FAILED! => {
+    "changed": false,
+    "msg": "Could not find or access '/tmp/rundekclr.sh' on the Ansible Controller.\nIf you are using a module and expect the file to exist on the remote, see the remote_src option"
+}
+
+PLAY RECAP *********************************************************************
+10.4.198.233               : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+
+[8mha:////4GzRX/R63u0o4srw30S0oLzLb3WALDRuw0Fp/sp0EtYXAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKi0CFEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOW+zlUfPiXWgpW+AAAA[0m[Pipeline] }
+[8mha:////4NRLbkWXkVg+uCiXU9yaVG0Xssjy/IXo7xwvdONoUjaFAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRqZAQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJyjrOtf+8AEdlBFkvgAAAA==[0m[Pipeline] // dir
+[8mha:////4L0M//zqxPrJLbC5uyQ1jMnGa1PlpuO4qquTe5gPOZdqAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioKBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw8pWvI/vgAAAA==[0m[Pipeline] }
+[8mha:////4Dzzes2XQXllWajjvnDDmCX6xQ5F4wEaYMVAvd0ALzLAAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEKJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw8HWvBVvgAAAA==[0m[Pipeline] // stage
+[8mha:////4NmvwAUvAF0wC5xZztHJ1WYEGJ+Qd/vgq7G9DU/X8RGsAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjIUGDqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFjKDbbz7F8A1nWY2jBAAAA[0m[Pipeline] stage
+[8mha:////4EnJTP0IGQPXEoaJibClIXhe4Q10JL9MGlQdJMcxSJ9AAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQoIFMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfACW9ZT2wgAAAA==[0m[Pipeline] { (Completed)
+Stage "Completed" skipped due to earlier failure(s)
+[8mha:////4ENq6OLErwkyQeLn870su6F7kwTT5X4ZBc8uRrYJrmSKAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUUCBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQFqe0n4vgAAAA==[0m[Pipeline] }
+[8mha:////4Agh2OlU+67yk9gyxNS9aY1R5FiRF/xH/JvC0+t0L4cCAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISEhIaq0lhteYGJjnFh3xnZIKl7E1/gDgUhUbLHa2WaeL1imCEeOFltDnaPUOAy+t9PCgWN38Txgy2dsmBJ7g9IMkrWpZ5ScDcwpSlgIWBlqPCdHNsNatOquKq/IVqccp+8goHT6Bg8oxGTOKuYvjBE2114npp/nrwDGEDKU2/2ndm8FmBaQvgAAAA==[0m[Pipeline] // stage
+[8mha:////4MN41sO9gLeIFOlBDOx5uvsOz0VwzX/03yqe3gfQhM0aAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRKJAQoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/uBdnuA3Zaz7e9AAAA[0m[Pipeline] }
+[8mha:////4PlshhROiKFBuL/CLrci+Z5yPFpPyG03e3BQYnL5mgXiAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJBQlSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLcVZPsPGLqK6L0AAAA=[0m[Pipeline] // withCredentials
+[8mha:////4IXZPuY+FiOLEsE5kuJwlnUHt0CQSUzRD8Mt8RxJkSzkAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRgg5R0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Q77aCbP8BPqPtor0AAAA=[0m[Pipeline] }
+[8mha:////4CD1AEw0gfgVyOvTPj9Yix1Flc7THlaCo2OuHBRwFlgEAAAAoh+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkMhon14bFL6hQa6F5D9uHMPlF/pr/IJHEyTvdc5bzemOdIo4cnWotdZ5S7VUfBjc/NXLsroFH1fJF1UyJg1WVHStu7GnBisViWZZjpbGxVAdOnpxgq1vzMEUw5IqzxNkdNHLf3PFEpueymChfmCJ2t6FJTL/O3wCmvhfk5V6QlR9NTCl7vQAAAA==[0m[Pipeline] // node
+[8mha:////4NAxLnp+j8iNyux35hALjTPbjL46qcCBbwRmW4GN20r1AAAAoh+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkMhon14bFL6hQa6F5D9uHMPlF/pr/IJHEyTvdc5bzemOdIo4cnWotdZ5S7VUfBjc/NXLsroFH1fJF1UyJg1WVHStu7GnBisViWZZjpbGxVAdOnpxgq1vzMEUw5IqzxNkdNHLf3PFEpueymChfmCJ2t6FJTL/O3wCmvhfkZSnI9h9rVU4xvQAAAA==[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 2
+Finished: FAILURE

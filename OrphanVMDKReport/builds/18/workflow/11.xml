@@ -1,0 +1,38 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@3.3">
+  <node class="cps.n.StepAtomNode" plugin="workflow-cps@2.74">
+    <parentIds>
+      <string>10</string>
+    </parentIds>
+    <id>11</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.durable_task.ShellStep</descriptorId>
+  </node>
+  <actions>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2.74">
+      <arguments>
+        <entry>
+          <string>script</string>
+          <string>
+cat &lt;&lt;EOT &gt; /var/lib/jenkins/workspace/orphan_vmdkreport/roles/orphan_vmdk/files/server_ip.txt
+$VCenter_Hostname
+EOT
+value=&quot;$(cat /var/lib/jenkins/workspace/orphan_vmdkreport/roles/orphan_vmdk/files/server_ip.txt | tr -s &apos; &apos; | cut -d &apos; &apos; -f 2 | tr &apos;
+&apos; &apos;,&apos; | sed &apos;s/,$//&apos;)&quot;
+echo &quot;$value&quot; &gt; ips.txt
+echo $VCentre_Username
+echo $VCentre_Password
+cat &lt;&lt;EOT &gt; /var/lib/jenkins/workspace/orphan_vmdkreport/roles/orphan_vmdk/files/hosts.txt
+$VCentre_Username
+$VCentre_Password
+EOT
+</string>
+        </entry>
+      </arguments>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@2.37">
+      <startTime>1576474371868</startTime>
+    </wf.a.TimingAction>
+    <s.a.LogStorageAction/>
+  </actions>
+</Tag>

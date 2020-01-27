@@ -1,0 +1,35 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@3.3">
+  <node class="cps.n.StepAtomNode" plugin="workflow-cps@2.74">
+    <parentIds>
+      <string>10</string>
+    </parentIds>
+    <id>11</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.durable_task.ShellStep</descriptorId>
+  </node>
+  <actions>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2.74">
+      <arguments>
+        <entry>
+          <string>script</string>
+          <string>
+cat &lt;&lt;EOT &gt; /var/lib/jenkins/workspace/vm_toolstatus/roles/vm_toolstatus/files/server_ip.txt
+$VCenter_Hostname
+EOT
+echo $VCentre_Username
+echo $VCentre_Password
+cat &lt;&lt;EOT &gt; /var/lib/jenkins/workspace/vm_toolstatus/roles/vm_toolstatus/files/hosts.txt
+$VCentre_Username
+$VCentre_Password
+EOT
+</string>
+        </entry>
+      </arguments>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@2.37">
+      <startTime>1574753813082</startTime>
+    </wf.a.TimingAction>
+    <s.a.LogStorageAction/>
+  </actions>
+</Tag>

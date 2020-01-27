@@ -1,0 +1,398 @@
+Started by user [8mha:////4Iy0sGTUN0gDNYcELbaOdcHjc8BywZd3xO+qv3DwXuU4AAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgY+/dLi1CL9ZFMjSwtLUwsAn8gsN8MAAAA=[0mAnjietha Khanna
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4OLV+lntHjZuxZp2t894VegAQzqSx7P3txzt/b9ofVCrAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4LwqxUFl6RELUlb7E1W5yt6jrbypcMQx5grSSCh7TyOtAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4KZhxD3tv46iVbhKjbbb27qqykto+K3ZMv6IMwic71ghAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/lib/jenkins/workspace/Enhance_Harddisk
+[8mha:////4C58DzLyD46MV1Rd5WJBaVz+E45TYGgZ+5XahqCj2HSlAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4ERG3xrkOFexMT8+1J1pSGvle3kanr7bQDBu0KwPof1+AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] withCredentials
+Masking supported pattern matches of $ansible_userid or $ansible_password or $VCentre_Username or $VCentre_Password
+[8mha:////4K/ArAjwl9QOpmzlHW5Wms1meZ02ASF9sbPibfSBc2/+AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] {
+[8mha:////4DIfZIsmi6f3oFGTFqGJySagjQVBFHrlavQDOyIXObFCAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] stage
+[8mha:////4FJSxUXCqmMjPbAn2Otf6s68g0+loEa2vUXL2jnVMecTAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] { (Validating Parameters)
+[8mha:////4JGKmfdW0JyHo2FM/61AzdI3x1ILbL+aa+jYfsZVPLQLAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BSEm1igLJwhJCGmj/9skpZ04EVfjDgQqMWHJkm3Jes8X1CnCkaLjrcXOY9Ke92F0JfGJYncNNPGWLlwTJgqWSztJMva0VEnZwiJWwUrA2qIOlDy6DBvRqrtqgkLXnHMs20FA5c0AD2CikLOK+VvmCNvbaBLhj/MXAHOfge2K959f/QbB16AVwAAAAA==[0m[Pipeline] dir
+Running in /var/lib/jenkins/workspace/enhance_harddisk
+[8mha:////4DpauG9ftNgMx4ocCjRmGYGv++vOlTn0ZTqjI0rJX0vRAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDJUJUtJYbXmBiY5xYd8G+kFS8iK/xBwKRqNhqZ6XVPF9Q5gQHSl42DtuAuQ6yi72fmhwotZdIg2zoLGvCTNFJ7QZN1h1n1MQO5ogCFgqWDutIOaBnWKnG3E0VDfrqxGna9gqKYG/wAKEmM5vEXxgTrK+9zYQ/z18BjB2D2DEU283nWL4Bsam+msEAAAA=[0m[Pipeline] {
+[8mha:////4AZuGQabZLclvDSc7MlJTuJHmYaTBQ6+hWiqZ1iw8ZpnAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCakRFa6XhBSYxxo5159gOTsWL+Bp/IBCJii1WO9vM8wXrGODIQaNV1BuKrUHvRj0vzBz6q+OMli/YMkV2ChuVG+7UacGGk4IlRQkrARtFreNoSCfYCivvsnKSdHVOYf4OAkrTDfCAQszmJEP6whRgdxu7yPTz/BXA5BOU9f5TtX8D0loxuL4AAAA=[0m[Pipeline] sh
++ '[' xdc == xda ']'
++ '[' xdc == xdb ']'
++ '[' xdc == xdc ']'
++ VCentre_Hostname=10.8.87.40
++ '[' '1 GB' == '1 GB' ']'
++ Enhance_Disks=1
++ cat
+[8mha:////4AyvExha2DAauUM+pMpI1SzGBwi2ZMbTxKQyqwJ4ZpoZAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICtIgqreWGF5jYGCfWnbEdkooX8TX+QCASFVusdraZ5wuWKcKRo8XWUOcoNQ6D7+20cODYXTwP2PIZG6bE3qA0g2Rt6hklZwNzihIWAlaGGs/Jkc2wFq26q8orstUpx+k7CCidvsEDCjGZs4r5C2OEzbXXienn+SuAMYQM5W7/qe0bsgYiW74AAAA=[0m[Pipeline] }
+[8mha:////4DFkW2ynJGArESzUbQGKwaPPXpRBZAJ/VPBSu3Fkjfr8AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRokKIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsTZPsP6C1U670AAAA=[0m[Pipeline] // dir
+[8mha:////4CZnXPToyqMR4ivDOjVGmKLa0+/8bPaq2HTxncne2QvFAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIREgUSoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/uBNn+A27Bcy69AAAA[0m[Pipeline] }
+[8mha:////4PoxC7DaPhq1iDWvS3Q16dYpcbY8He2mjq40OLMig7rcAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRBaJAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5NudINt/AE/1rIO9AAAA[0m[Pipeline] // stage
+[8mha:////4GWVCKtmtgQyePUq08sqa3WZDWx2Uk4sMqolnoZuupdfAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjmjSIitZywwtMYowT6y7YF5KKF/E1/oAhEhVb7ay0mucLyhThQNHJzmLvMTVeDmF0ucmJYn8JNMmOzrIhTBSs1HbS1NrjgprYwhJRwErB2mITKHl0DBvVmbupgkFXnTjmba+g8O0NHiBUNrOJ/IU5wvY6tonw5/krgHlgEDVDsas/x/INar4f38EAAAA=[0m[Pipeline] stage
+[8mha:////4JomicfLJqc6Unbw2BQMJ9n2FcUuPUKaa/v+2ICQY/JBAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] { (Validating Hostname)
+[8mha:////4Ab4uFnX6yZp/mCZJOw1mH71icf/FLFc2/XsmLidarOPAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTCAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0rlhNLCAAAA[0m[Pipeline] dir
+Running in /var/lib/jenkins/workspace/enhance_harddisk
+[8mha:////4H3FEPw0Yt2gsT/iJPY3depRcthUplHrUaR8ZJ6QJnvAAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUbCDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASnCIIrCAAAA[0m[Pipeline] {
+[8mha:////4Mo4kCluwNb/Qeq9xgwYa3IDpr1HLyWtzOSIw+7pLQCmAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICdAilorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYI5e6Qa78dPhmQ9Da+AAAA[0m[Pipeline] sh
++ sh inventory.sh
+[8mha:////4JNDaeFSsbqIGXk6eCYaPNk/68oz2oanceiqi8cDxjJyAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKi0CFEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNknKOtDrn3tP1ih7y++AAAA[0m[Pipeline] sh
++ ansible-playbook check.yml -i inventory -e 'ansible_user=**** ansible_password=**** vcenter_password=****' --tags precheck --extra-vars @/var/lib/jenkins/workspace/enhance_harddisk/hosts
+ [WARNING]: Ansible is being run in a world writable directory
+(/var/lib/jenkins/workspace/enhance_harddisk), ignoring it as an ansible.cfg
+source. For more information see
+https://docs.ansible.com/ansible/devel/reference_appendices/config.html#cfg-in-
+world-writable-dir
+
+PLAY [VM Provisioning Precheck] ************************************************
+
+TASK [Validate hostname] *******************************************************
+changed: [10.171.198.13]
+
+TASK [Print host] **************************************************************
+ok: [10.171.198.13] => {
+    "host": {
+        "changed": true,
+        "cmd": "Import-Module VMware.VimAutomation.Core\nConnect-VIServer 10.8.87.40 -User **** -Password **** -ErrorAction Stop\n$VMname=(get-vm | where {$_.guest.hostname -match \"dc08-rdp01.ash.sf.priv\"}).name\nif ($VMname) {Write-host \"hostname1: $VMname\"} else {\"No\"}\nWrite-Output \"$VMname\"",
+        "delta": "0:03:02.678092",
+        "end": "2020-01-07 05:25:36.564763",
+        "failed": false,
+        "rc": 0,
+        "start": "2020-01-07 05:22:33.886671",
+        "stderr": "",
+        "stderr_lines": [],
+        "stdout": "\r\nName                           Port  User                          \r\n----                           ----  ----                          \r\n10.8.87.40                     443   SFDC\\C5286003                 \r\nhostname1: DC08-RDP01\nDC08-RDP01\r\n\r\n\r\n",
+        "stdout_lines": [
+            "",
+            "Name                           Port  User                          ",
+            "----                           ----  ----                          ",
+            "10.8.87.40                     443   SFDC\\C5286003                 ",
+            "hostname1: DC08-RDP01",
+            "DC08-RDP01",
+            "",
+            ""
+        ]
+    }
+}
+
+TASK [lineinfile] **************************************************************
+changed: [10.171.198.13 -> localhost] => (item={'variable': 'get_hostname', 'value': 'hostname1: DC08-RDP01'})
+
+PLAY RECAP *********************************************************************
+10.171.198.13              : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+[8mha:////4IiBw8QM3tE2NvPf/Puw4ffEWOac60hN9DpTnDm3KvJeAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIR6RCiSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BGVd59ofPoukFhO+AAAA[0m[Pipeline] }
+[8mha:////4EjKJCUf+ktG8Zso/P66VchMgm0QMX15k6dLXHglNuPJAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEFCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw+4R02vvgAAAA==[0m[Pipeline] // dir
+[8mha:////4FO2JJL3/7Qgu4lG42Ba7VdwXRfCWh/mEXpyZwYfUZFsAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEBIFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwAkWr3Ir4AAAA=[0m[Pipeline] }
+[8mha:////4MMgaH3d/4pNDyChKBY95e8mdT9hkAx/w3PUezE1MB1nAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikKBBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw+iiayevgAAAA==[0m[Pipeline] // stage
+[8mha:////4CxEyfltgLGYNoGvqge0DHrJN9VO7h9lJdnjW5HXoiqXAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjUaRBVLSWG15gEmOcWHfBvpBUvIiv8QcMkajYamel1TxfUKYIB4pOdhZ7j6nxcgijy01OFPtLoEl2dJYNYaJgpbaTptYeF9TEFpaIAlYK1habQMmjY9ioztxNFQy66sQxb3sFhW9v8AChsplN5C/MEbbXsU2EP89fAcwDg6gZil39OZZv96T37sEAAAA=[0m[Pipeline] stage
+[8mha:////4Bs8J7gn6dMS4Xui61RS/4ME6WxL+Wuml1G2rXJvhG4uAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYoABMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAyQCqkwgAAAA==[0m[Pipeline] { (Performing Pre-Checks)
+[8mha:////4OX6ri0TFG7Yni2xNoXG+IkD/L4PWowiQD0lv1dnLqelAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgEJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAnLfKUwgAAAA==[0m[Pipeline] parallel
+[8mha:////4CXYp/9ts+xXmCEwLxX6TyD+Ik5LdUVLB8GehreMqot0AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUKgsSYuoadeEEoQkhafR/SVLSiRNxNe5AoBITHizbkvWeL6iChyN5zazCwWDoDRvdpHNiifxwcZSYpTPrCQM5xTqVOpKqXWpHUcGiooQVh7XC3lEwqCNsuBV3UTuBuj5Fn7cDh9LIGzyg4JkchY/fMnvYXicZCH+cvwCYxwhls8+2az7P6g0z8eYAwgAAAA==[0m[Pipeline] { (Branch: Validating Server Reachability)
+[8mha:////4ClUAbjiPC9mxyV2EoYS3EBeH7x+OwHi1m4TeHpN/NZwAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUogsSYuoaZeEEIQkhbfR/SVLaiRNxNe5AoBITHizbkvWeL6higCMFyzqDvcOoHBv8aHNiE4X+4mliHZ2ZIozkDRNmEqRNu1RBycCiooQVh7VB5Sk6tAk2vJN3WXuJtj6lkLcDh9LpGzyg4JmcZEjfMgfYXkcdCX+cvwCYhwTlbp+taT7P6g2WIrrLwgAAAA==[0m[Pipeline] { (Branch: Validating vCenter connectivity)
+[8mha:////4NAKh98Zgb6CVv4qKzHXGlOBabt6OP3a+DxRlEmQlRMCAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAgYk1Ik16sIJQhNC0uj/kqSkEyfiatyBQCUmPFi2Jes9X1AFDw15zazC3mDoDBvcqHNiiXx/cZSYpTPrCAM5xVqVWpLqONeWooJZRQkLDkuFnaNgUEdYcSvuonYCdX2KPm8HDqWRN3hAwTM5Ch+/ZfKwvo4yEP44fwEwDRHKzT7bdvd5Vm8uEr/WwgAAAA==[0m[Pipeline] { (Branch: Validating datastore size)
+[8mha:////4JUhcEsRbVKxWSI5wEm1UuHfBSK0LUcSQuvZ8U+X6orAAAAAqB+LCAAAAAAAAP9tjUEKwjAURH8rXbh16SFSUARBunIbuvEEsYkxafi/JqnpyhN5Ne9gtODKWQwzA8N7vqAKHhrymlmFvcHQGTa4UefEEvn+4igxS2fWEQZyirUqtSTVca4tRQWzihIWHJYKO0fBoI6w4lbcRe0E6voUfd4OHEojb/CAgmdyFD5+y+RhfR1lIPxx/gJgGiKUm3227e7zrN6LweMdwgAAAA==[0m[Pipeline] { (Branch: Validating Snapshot Existence)
+[8mha:////4LvyKJ4biivyz2od5YcPD2RN8uUF5kFYuVqOrO2pv29sAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAokFMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLk+91sh/lZfADOp33iwgAAAA==[0m[Pipeline] stage
+[8mha:////4I6OCbdQkXA2ipaKd0MK2EEep5AUwwWfxvIKPAB8Stq9AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QIIBMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfADpB/iZwgAAAA==[0m[Pipeline] { (Validating Server Reachability)
+[8mha:////4Kb2zmRxUONhyS06rRtAff2BFQ5TDTh32a+hJUiCOsJ0AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh06IKEmFijLJwgNCEkjf5vk5R04kRcjTvQUokJD5ZtyXqvN1QxwImCYU5jZzG2lvV+NHNimUJ385SZoytrCSN5zYTOgpQ+r1VQ0rCqKGHDYaux9RQtmgQ77uRD1l6iqS8pzNuRQ2nVAE8o+ExOMqRvmQLs76OKhD/OXwBMfYKyaRY7LM/qA34Z+RnCAAAA[0m[Pipeline] stage
+[8mha:////4Jw5GyP06wF15gN0pbI2K4J/dQy+3lfbxoysaR4NAiG8AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0YAEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD59NhPHCAAAA[0m[Pipeline] { (Validating vCenter connectivity)
+[8mha:////4ATs6INrVq9Zbfrf4/7UpHi/XnJpu4KyUFFNy0tGyH6cAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUiW6IqWuUhROEJIS00f8lSWknTsTVuAOBSkx4sGxL1nu+oIoBjhQs6wz2DqNybPCjzYlNFPqLp4l1dGaKMJI3TJhJkDbtUgUlA4uKElYc1gaVp+jQJtjwTt5l7SXa+pRC3g4cSqdv8ICCZ3KSIX3LHGB7HXUk/HH+AmAeEpT7Jluz+zyrNx6wNhnCAAAA[0m[Pipeline] stage
+[8mha:////4ArQjjMcGWLigxUkmON7wLxjCwqlh4XykbxCThA8d7cKAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUJDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAbb5KxbCAAAA[0m[Pipeline] { (Validating datastore size)
+[8mha:////4LUBoBGTv9tZDa7DjxHbWAeuXjn7fjrnAGL/75ZSMzYmAAAAqB+LCAAAAAAAAP9tjT0OwjAUg1+LOrAycohU4mdCnVijLpwgNCEkjd4rSUo6cSKuxh0IVGLCg2Vbsr7nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK53WfbbT7P6g3VznCVwgAAAA==[0m[Pipeline] stage
+[8mha:////4Cavj+mb3FK9V2cTVR9DqGEeWXQxT8fwCtNj37GHkQxbAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAXzhjwPCAAAA[0m[Pipeline] { (Validating Snapshot Existence)
+[8mha:////4E0WxMCsetSVt81VknKerlncM1qsZK9uMOh2X08RzPSkAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0oBIDYuoaZeEEIQkhbfR/SVLaiRNxNe5AoBITHizbkvWeL6higCMFyzqDvcOoHBv8aHNiE4X+4mliHZ2ZIozkDRNmEqRNu1RBycCiooQVh7VB5Sk6tAk2vJN3WXuJtj6lkLcDh9LpGzyg4JmcZEjfMgfYXkcdCX+cvwCYhwTlbp+taT7P6g0JlEUbwgAAAA==[0m[Pipeline] dir
+Running in /var/lib/jenkins/workspace/enhance_harddisk
+[8mha:////4OYwUt9iHdaY3mrDehtJLwuXU3C8i7YGeEjjiUNCG9HLAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KRNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPIshjPcIAAAA=[0m[Pipeline] {
+[8mha:////4EUwa2CBe9hCn5i2Sb7KaYWGTQ1O0tDj7feMu3mCcqzWAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ACEh1Ik16sIJQhNC0uj/kqSkEyfiatyBQCUmPFi2Jes9X1AFDw15zazC3mDoDBvcqHNiiXx/cZSYpTPrCAM5xVqVWpLqONeWooJZRQkLDkuFnaNgUEdYcSvuonYCdX2KPm8HDqWRN3hAwTM5Ch+/ZfKwvo4yEP44fwEwDRHKzT7bdvd5Vm8EHvsEwgAAAA==[0m[Pipeline] dir
+Running in /var/lib/jenkins/workspace/enhance_harddisk
+[8mha:////4MZxOrvmE/RUikvnOiF1RQzKQPhXhQLD5M+r41w2+taoAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QTAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD+jQxyjCAAAA[0m[Pipeline] {
+[8mha:////4I/0XnV4WB2z+yLZ6CjZ0wQ8MkiRXTA3sCC+h5MFjAdcAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSAxIiKlrlIUThCaEtNH/5SelnTgRV+MOtFRiwoNlW7Le6w1FZDgRO9FYbD3G2osu9G5KYiBur4EG0dBF1ISRghXKDoqMrZaqKFlYlOWwkrC2WAeKHl2CjWz0Q5dBoyvPiaftKCH35g5PyORETprTt4wM21tvIuGP8xcAY5cg3+9mO8zP4gO+d6rwwgAAAA==[0m[Pipeline] dir
+Running in /var/lib/jenkins/workspace/enhance_harddisk
+[8mha:////4Lo/E1VWA7iio3MmTZYAPl1mDQy3g65Y3IffU3sPuUoFAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0YQAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD56au0DCAAAA[0m[Pipeline] {
+[8mha:////4E7/0PiWs3jTr7Bl7p/rtuEJq6yhFnMSMMi47vHifCdVAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUCZhQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCh322z7zedZvQGmR+LiwgAAAA==[0m[Pipeline] dir
+Running in /var/lib/jenkins/workspace/enhance_harddisk
+[8mha:////4Kxzx69op3hnvAelFfXbWltMTnF7mnLCn2K0W6YePLAVAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUBibE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAW2++SvCAAAA[0m[Pipeline] {
+[8mha:////4NdCMoMJI28v7fCZZbqg4q2IWZq0pTN5lQOhy5NU2FAUAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIVIhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAcw+QXmoc9V7/wEOgM2OvgAAAA==[0m[Pipeline] sh
+[8mha:////4Gs4E50NYEj/o9cbuzSgbmYrylB4nWRoP5T2crDgAwTQAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSAKJAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk75Npvhw9moEkAvgAAAA==[0m[Pipeline] sh
+[8mha:////4FwASBwbFqSSQOWBZpDrtYS6zBZaVSiomKEJHpJdxjegAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLShAIhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAcw+QVkfcu1r/wH8TTcfvgAAAA==[0m[Pipeline] sh
+[8mha:////4CsYWsElXoY+acO4qoP7JZNaelg4nHLZ7vEmDhUfsGVxAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiilSIitZKwwtMYowd686xHZyKF/E1/kAgEhVbrHa2mecL1jHAkYNGq6g3FFuD3o16Xpg59FfHGS1fsGWK7BQ2KjfcqdOCDScFS4oSVgI2ilrH0ZBOsBVW3mXlJOnqnML8HQSUphvgAYWYzUmG9IUpwO42dpHp5/krgMknKOv9p2r/BkQyafm+AAAA[0m[Pipeline] sh
+[8mha:////4D3LEG4EBbsJ6HU2/LFK9/cyZdFuZnKxS6tQaVuDMfEqAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMJpCA2iSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNknKPd1rvrgPwpFoeq+AAAA[0m[Pipeline] sh
++ sh inventory.sh
++ sh inventory.sh
++ sh inventory.sh
+[8mha:////4EYn40kbuFBtbFpsLMA4blJHPWJ8mZNX3O47Hyo5FX+gAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSgFIgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAcw+Qbmvcx1q/wFiZSVkvgAAAA==[0m[Pipeline] sh
+[8mha:////4Lg5tsldqFvJOUGVVFOI1H7DX/XtJlks/L9S68M5ATSYAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSgARCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk95Nrthw/wAoKzvgAAAA==[0m[Pipeline] sh
+[8mha:////4GInVLgDPLwRXSNVT3kvYHT919TgtUw67eJFb8T9dZI3AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCgqEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK3/dQ+vAFIfdxVvgAAAA==[0m[Pipeline] sh
+[8mha:////4J1iZ/S1S3OUmaM3XSWm2rW5RZPBODSMaXL7bsQ9s8EhAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCATQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrDNtdu/wH9mVDevgAAAA==[0m[Pipeline] }
+[8mha:////4F2+rSg+V5qAsJRMifdJfVwFwTLaJkeUFgVZHypnwVZgAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRUkSDqNJaaXiBiQ/jxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgRI80WIqdFd6NJi8xcRiujifR80V0TJEdihanljU2C7acEJYUJawkbJA6x9GSSbCVvXqoyiky1TmF/B0llFbf4QmFzOakQvrCHGB3G3Vk+nn+CmD2PkF52Oeq6w/OegtivgAAAA==[0m[Pipeline] // dir
+[8mha:////4IVpf1ajrCiHYjVm3GQS/hGwPg91Jbl9tjqQ5FxwYqqgAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigQQFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wAHc/XMr4AAAA=[0m[Pipeline] }
++ ansible-playbook check.yml -i inventory -e 'ansible_user=**** ansible_password=**** vcenter_password=****' --tags precheck_vconnection --extra-vars @/var/lib/jenkins/workspace/enhance_harddisk/hosts
++ ansible-playbook check.yml -i inventory -e 'ansible_user=**** ansible_password=**** vcenter_password=****' --tags precheck_harddisk,precheck_datastore --extra-vars @/var/lib/jenkins/workspace/enhance_harddisk/hosts
+[8mha:////4CEpsLuz7Rutu4KeYK6wPGaGuFnek7VUvwXO2t2y8q2TAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIpIqVBVLRWGl5gYmOcWHeOfSGpeBFf4w9YRKJii9XONvN6wzZFOFG0ojc4OEydE8FPNi8xUxxunmbR01V0hIm8Ea2ZW9LmvGJLbGBNUcJGws5g5yk5tAx72auHqrxCW1045u8ooXR6hCcUMptZRf7CEuFwn3Qi/Hn+CmAJgaFs6lx18wEuLIyOvgAAAA==[0m[Pipeline] // stage
++ ansible-playbook check.yml -i inventory -e 'ansible_user=**** ansible_password=**** vcenter_password=****' --tags postcheck_snapshotcreated --extra-vars @/var/lib/jenkins/workspace/enhance_harddisk/hosts
+[8mha:////4NMG/mvel3vgSwxXaSRL7kY2hnaUDeAQdp2U6036SkZ4AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAaJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFAe9rl22w+P2OSUvgAAAA==[0m[Pipeline] }
+ [WARNING]: Ansible is being run in a world writable directory
+(/var/lib/jenkins/workspace/enhance_harddisk), ignoring it as an ansible.cfg
+source. For more information see
+https://docs.ansible.com/ansible/devel/reference_appendices/config.html#cfg-in-
+world-writable-dir
+ [WARNING]: Ansible is being run in a world writable directory
+(/var/lib/jenkins/workspace/enhance_harddisk), ignoring it as an ansible.cfg
+source. For more information see
+https://docs.ansible.com/ansible/devel/reference_appendices/config.html#cfg-in-
+world-writable-dir
+ [WARNING]: Ansible is being run in a world writable directory
+(/var/lib/jenkins/workspace/enhance_harddisk), ignoring it as an ansible.cfg
+source. For more information see
+https://docs.ansible.com/ansible/devel/reference_appendices/config.html#cfg-in-
+world-writable-dir
+
+PLAY [VM Provisioning Precheck] ************************************************
+
+TASK [Validating VC connection and Hostname] ***********************************
+
+PLAY [VM Provisioning Precheck] ************************************************
+
+TASK [Checking datastore] ******************************************************
+
+PLAY [VM Provisioning Precheck] ************************************************
+
+TASK [Check snapshot is present] ***********************************************
+changed: [10.171.198.13]
+
+PLAY RECAP *********************************************************************
+10.171.198.13              : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+[8mha:////4HeTWs7QVpzJXZMhcKqFQHUq49PgpciUvh2xzAWvmhe5AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSABJCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDud7m2hw9lRCuHvgAAAA==[0m[Pipeline] }
+[8mha:////4FaSew9vwYJgFBbe9Bzkek2BAjgUv7adpABobpfY8w4MAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMJpUISEqNJaaXiBiQ/jxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgRI80WIqdFd6NJi8xcRiujifR80V0TJEdihanljU2C7acEJYUJawkbJA6x9GSSbCVvXqoyiky1TmF/B0llFbf4QmFzOakQvrCHGB3G3Vk+nn+CmD2PkFZ17n2hw9dBrh2vgAAAA==[0m[Pipeline] // dir
+[8mha:////4JE5yvwKoRg0bAYc+I+v9QC3/Ovq8kaBzQLsrZ55U4PvAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJAQFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryf8i1234AXG04xL4AAAA=[0m[Pipeline] }
+[8mha:////4Pgs2EvB7zOJBIlAdbn9c5c7mzK1iy/6o3ccGKvb1hNUAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCgRASSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryf8i1234AH+9pQr4AAAA=[0m[Pipeline] // stage
+[8mha:////4O2o4PDjFPkUJKakRsiZLY7ZMpiKGnjExC6pf+EBimUTAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgJAQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryf8i13X0AZG4Zwb4AAAA=[0m[Pipeline] }
+changed: [10.171.198.13]
+
+PLAY RECAP *********************************************************************
+10.171.198.13              : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+[8mha:////4BBWL3ZoJzBwGsL6kuSBY0p9G1JoSdDbNtWGzHFS3BIXAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCgZQCUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkFZ73Md6g9l8ymWvgAAAA==[0m[Pipeline] }
+[8mha:////4KRdWv5FuK3ZldlR3spPDRKCdD02HblWjwTHDt12pNBaAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJAQFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4TysM21238AVhByKr4AAAA=[0m[Pipeline] // dir
+changed: [10.171.198.13]
+
+TASK [Debug snapshot] **********************************************************
+ok: [10.171.198.13] => {
+    "msg": {
+        "changed": true,
+        "cmd": "try {\nImport-Module VMware.VimAutomation.Core\n$conn=Connect-VIServer 10.8.87.40 -User **** -Password ****\n$chksnp=(Get-Snapshot -VM DC08-RDP01).name\nif ($chksnp) {\"No\"} else {\"Yes\"}\n} catch {\"No\"}\nWrite-Output \"$chksnp\"",
+        "delta": "0:00:43.346846",
+        "end": "2020-01-07 05:26:30.260596",
+        "failed": false,
+        "failed_when_result": false,
+        "rc": 0,
+        "start": "2020-01-07 05:25:46.913750",
+        "stderr": "",
+        "stderr_lines": [],
+        "stdout": "Yes\r\n\r\n",
+        "stdout_lines": [
+            "Yes",
+            ""
+        ]
+    }
+}
+
+PLAY RECAP *********************************************************************
+10.171.198.13              : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+[8mha:////4Mbm5uv9VmdeRJzFT4nHdYFNpOFV7Afy93PwLSi4xEl5AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQYEQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wArukYc74AAAA=[0m[Pipeline] }
+[8mha:////4DYbPKEFM37Fuin7YHgkAilOhsNVPoX0aJTy9DapUFzJAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSpAAJUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkG5r3PVhw+dCkPPvgAAAA==[0m[Pipeline] // stage
+[8mha:////4Lr2aKhmFhZVpIRDP3R4msl4azMQT/0o2kmWe6D3xyqmAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSBIkCUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkF52Oeq6w+t45RFvgAAAA==[0m[Pipeline] }
+[8mha:////4INACWfddLabHU6cKt5MVSMF/J2iVI50qDQcWAub7UixAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRRUSBqNJaaXiBiQ/jxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgRI80WIqdFd6NJi8xcRiujifR80V0TJEdihanljU2C7acEJYUJawkbJA6x9GSSbCVvXqoyiky1TmF/B0llFbf4QmFzOakQvrCHGB3G3Vk+nn+CmD2PkF5qHPV+w+i9pw2vgAAAA==[0m[Pipeline] }
+[8mha:////4A3392d+O8xDC5Xmu7suXBbjgvDHxqhhowB27W5sRCdZAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCAxQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrDPtdu+wGatA/HvgAAAA==[0m[Pipeline] // dir
+[8mha:////4IHvutd17rdzF+7QWd7/8uo46jr/MOSpvgVFf1Th3+OPAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgJQCUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkFZ17kO+w/EB0GMvgAAAA==[0m[Pipeline] }
+[8mha:////4Eiwe+xdm4qUvxLEdhXvhEGKkJB9VYoJJm/QWvVCL2GqAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISSQUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpGCKU+0Ou3fYDh4UQCr4AAAA=[0m[Pipeline] // stage
+[8mha:////4BLsGxHDNoZDu0v9Je7GH9WsiDOayXwg+z+CtjlFHIPzAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIIQQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryf8i13X0ARlVpEL4AAAA=[0m[Pipeline] }
+[8mha:////4NcDLVMoWBx2kzLnxIy0YJCmCXdIoHXyeS6nVUgiVCTrAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCqCIhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyjrfa5D/QGbOYSmvgAAAA==[0m[Pipeline] // parallel
+[8mha:////4ABxhyHvXdIXpNzV073XKOXw5H8gciC4rGP89iNZqCB1AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiaEBCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFAetrl2+w+v92f9vgAAAA==[0m[Pipeline] }
+[8mha:////4Ei+He90Zqkm3ZIGMyvTo6hW1xkwJiCI9TbH6loj+vK6AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIipUBIiCqtlYYXmNgYJ9adsR2SihfxNf6ARSQqtljtbDOvN6xjgBMHg72mwVLsLHo3mrxw4jBcHU/Y8wU7pshOY6unlpVuFmw5aVhSlLASsNHUOY6WTIKt6OVDVk6Sqc4p5O8ooLTqDk8oRDYnGdIX5gC726gi08/zVwCz9wnKQ52r3n8Al7X0DL4AAAA=[0m[Pipeline] // stage
+[8mha:////4LT9e0KNOcQs671l+Ru6SkMnovzCMxrBpo8vRH7fhw1FAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYRTICEkREVrueEFJjbGiXUX7AtJxYv4Gn8gEImKrXZWWs3zBWVOcKDkZeOwDZjrILvY+6nJgVJ7iTTIhs6yJswUndRu0GTdcUZN7GCOKGChYOmwjpQDeoaVaszdVNGgr06cpm2voAj2Bg8QajKzSfyFMcH62ttM+PP8FcDYMYgtQ7HbfI7lGwpqShrBAAAA[0m[Pipeline] stage
+[8mha:////4CleDAbg1Jqjp7o7EpWlQqeXO9TM8BY3D0p4/jL7YtGYAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0gAEJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfADxKa4dwgAAAA==[0m[Pipeline] { (Enhance Harddisk for hosted VM)
+[8mha:////4JGU1rpnrkWlQhRa5sVzVGj9vaS3f0sQmA3hY2alRYpeAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AQkJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfADX78n/wgAAAA==[0m[Pipeline] dir
+Running in /var/lib/jenkins/workspace/enhance_harddisk
+[8mha:////4M91odmaK5i5lls7yiG78g3yYvvPFwjytpeSEGWfb8DOAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AiEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD7lC07jCAAAA[0m[Pipeline] {
+[8mha:////4GAJoK3JYeMhSYl/WWrHB4vMgCWE8SkP2fj9WU6GOy7JAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSARKiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBsroJZ2+AAAA[0m[Pipeline] sh
++ sh inventory.sh
+[8mha:////4CU7UGcvTk2Z3w72fCwL5aV0r+1m6KxVT0DACkXKjw2wAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSoUiIitZKwwtMYowd686xHZyKF/E1/kAgEhVbrHa2mecL1jHAkYNGq6g3FFuD3o16Xpg59FfHGS1fsGWK7BQ2KjfcqdOCDScFS4oSVgI2ilrH0ZBOsBVW3mXlJOnqnML8HQSUphvgAYWYzUmG9IUpwO42dpHp5/krgMknKOv9p2r/BgX0vRq+AAAA[0m[Pipeline] sh
++ ansible-playbook main.yml -i inventory -e 'ansible_user=**** ansible_password=**** vcenter_password=****' --tags harddisk -vvv --extra-vars @/var/lib/jenkins/workspace/enhance_harddisk/hosts
+ [WARNING]: Ansible is being run in a world writable directory
+(/var/lib/jenkins/workspace/enhance_harddisk), ignoring it as an ansible.cfg
+source. For more information see
+https://docs.ansible.com/ansible/devel/reference_appendices/config.html#cfg-in-
+world-writable-dir
+ansible-playbook 2.8.5
+  config file = None
+  configured module search path = ['/var/lib/jenkins/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
+  ansible python module location = /opt/python3.7.4/lib/python3.7/site-packages/ansible
+  executable location = /usr/bin/ansible-playbook
+  python version = 3.7.4 (default, Sep 24 2019, 06:06:05) [GCC 4.8.5]
+No config file found; using defaults
+host_list declined parsing /var/lib/jenkins/workspace/enhance_harddisk/inventory as it did not pass it's verify_file() method
+auto declined parsing /var/lib/jenkins/workspace/enhance_harddisk/inventory as it did not pass it's verify_file() method
+Parsed /var/lib/jenkins/workspace/enhance_harddisk/inventory inventory source with ini plugin
+
+PLAYBOOK: main.yml *************************************************************
+1 plays in main.yml
+
+PLAY [Enhance Disk] ************************************************************
+META: ran handlers
+
+TASK [Host IP] *****************************************************************
+task path: /var/lib/jenkins/workspace/enhance_harddisk/main.yml:6
+Using module file /opt/python3.7.4/lib/python3.7/site-packages/ansible/modules/windows/win_shell.ps1
+Pipelining is enabled.
+<10.171.198.13> ESTABLISH WINRM CONNECTION FOR USER: **** on PORT 5986 TO 10.171.198.13
+EXEC (via pipeline wrapper)
+changed: [10.171.198.13] => {
+    "changed": true,
+    "cmd": "(Resolve-DnsName 'DC08-RDP01').IPAddress",
+    "delta": "0:00:01.220091",
+    "end": "2020-01-07 05:26:43.386148",
+    "rc": 0,
+    "start": "2020-01-07 05:26:42.166056",
+    "stderr": "",
+    "stderr_lines": [],
+    "stdout": "fe80::d1cc:3517:62d4:b239\r\n10.171.198.13\r\n",
+    "stdout_lines": [
+        "fe80::d1cc:3517:62d4:b239",
+        "10.171.198.13"
+    ]
+}
+
+TASK [Write into file] *********************************************************
+task path: /var/lib/jenkins/workspace/enhance_harddisk/main.yml:13
+<localhost> ESTABLISH LOCAL CONNECTION FOR USER: jenkins
+<localhost> EXEC /bin/sh -c 'echo ~jenkins && sleep 0'
+<localhost> EXEC /bin/sh -c '( umask 77 && mkdir -p "` echo /var/lib/jenkins/.ansible/tmp/ansible-tmp-1578374803.5269911-141381267354268 `" && echo ansible-tmp-1578374803.5269911-141381267354268="` echo /var/lib/jenkins/.ansible/tmp/ansible-tmp-1578374803.5269911-141381267354268 `" ) && sleep 0'
+Using module file /opt/python3.7.4/lib/python3.7/site-packages/ansible/modules/commands/command.py
+<localhost> PUT /var/lib/jenkins/.ansible/tmp/ansible-local-21138ja4tusj5/tmp5lme8bhl TO /var/lib/jenkins/.ansible/tmp/ansible-tmp-1578374803.5269911-141381267354268/AnsiballZ_command.py
+<localhost> EXEC /bin/sh -c 'chmod u+x /var/lib/jenkins/.ansible/tmp/ansible-tmp-1578374803.5269911-141381267354268/ /var/lib/jenkins/.ansible/tmp/ansible-tmp-1578374803.5269911-141381267354268/AnsiballZ_command.py && sleep 0'
+<localhost> EXEC /bin/sh -c '/usr/bin/python /var/lib/jenkins/.ansible/tmp/ansible-tmp-1578374803.5269911-141381267354268/AnsiballZ_command.py && sleep 0'
+<localhost> EXEC /bin/sh -c 'rm -f -r /var/lib/jenkins/.ansible/tmp/ansible-tmp-1578374803.5269911-141381267354268/ > /dev/null 2>&1 && sleep 0'
+changed: [10.171.198.13 -> localhost] => {
+    "changed": true,
+    "cmd": "echo \"[windows]\" > /etc/ansible/enhance_harddisk/inventory_host\necho \"fe80::d1cc:3517:62d4:b239\" >> inventory_host\necho \"\" >> inventory_host\necho \"[windows:vars]\" >> inventory_host\necho \"ansible_port=5986\" >> inventory_host\necho \"ansible_connection=winrm\" >> inventory_host\necho \"ansible_winrm_server_cert_validation=ignore\" >> inventory_host\necho \"ansible_winrm_transport=ntlm\" >> inventory_host\n",
+    "delta": "0:00:00.006689",
+    "end": "2020-01-07 00:26:43.902621",
+    "invocation": {
+        "module_args": {
+            "_raw_params": "echo \"[windows]\" > /etc/ansible/enhance_harddisk/inventory_host\necho \"fe80::d1cc:3517:62d4:b239\" >> inventory_host\necho \"\" >> inventory_host\necho \"[windows:vars]\" >> inventory_host\necho \"ansible_port=5986\" >> inventory_host\necho \"ansible_connection=winrm\" >> inventory_host\necho \"ansible_winrm_server_cert_validation=ignore\" >> inventory_host\necho \"ansible_winrm_transport=ntlm\" >> inventory_host\n",
+            "_uses_shell": true,
+            "argv": null,
+            "chdir": null,
+            "creates": null,
+            "executable": null,
+            "removes": null,
+            "stdin": null,
+            "stdin_add_newline": true,
+            "strip_empty_ends": true,
+            "warn": true
+        }
+    },
+    "rc": 0,
+    "start": "2020-01-07 00:26:43.895932",
+    "stderr": "/bin/sh: /etc/ansible/enhance_harddisk/inventory_host: No such file or directory",
+    "stderr_lines": [
+        "/bin/sh: /etc/ansible/enhance_harddisk/inventory_host: No such file or directory"
+    ],
+    "stdout": "",
+    "stdout_lines": []
+}
+
+TASK [Add Harddisk space] ******************************************************
+task path: /var/lib/jenkins/workspace/enhance_harddisk/main.yml:26
+Using module file /opt/python3.7.4/lib/python3.7/site-packages/ansible/modules/windows/win_shell.ps1
+Pipelining is enabled.
+<10.171.198.13> ESTABLISH WINRM CONNECTION FOR USER: **** on PORT 5986 TO 10.171.198.13
+EXEC (via pipeline wrapper)
+fatal: [10.171.198.13]: FAILED! => {
+    "changed": true,
+    "cmd": "Import-Module VMware.VimAutomation.Core -DisableNameChecking  -force\n$conn=Connect-VIServer '10.8.87.40' -User **** -Password ****\n$dr=\"I\"\n$Dv=\"'\"+$dr+\":'\"\n$out=$(Invoke-VMScript -Scripttype Powershell -ScriptText ((Get-WmiObject -Class Win32_logicaldisk -Filter \"DeviceID = $Dv\").GetRelated('Win32_DiskPartition').index) -VM 'DC08-RDP01' -GuestUser **** -GuestPassword ****).ScriptOutput\nif ($out) {\n\"Yes\"\n}\nelse {\"No\"}\n$HDD=\"Hard disk \"+$out[0]\n$EX=(Get-HardDisk -vm \"DC08-RDP01\" | where {$_.Name -eq \"$HDD\"})\n$Harddisk= ($EX).CapacityGB\n$enhance_disk= \"1\"\n[int]$New = [int]$Harddisk + [int]$enhance_disk\nWrite-Output \"$New $Harddisk $HDD\"\n$NewHarddisk = $EX | Set-HardDisk -CapacityGB $New -Confirm:$false",
+    "delta": "0:00:41.127223",
+    "end": "2020-01-07 05:27:26.728543",
+    "failed_when_result": true,
+    "rc": 0,
+    "start": "2020-01-07 05:26:45.601320",
+    "stderr": "Invoke-VMScript : 1/7/2020 12:27:26 AM_x0009_Invoke-VMScript_x0009__x0009_Permission to perform this operation was denied. Required \r\nprivilege 'VirtualMachine.GuestOperations.Modify' on managed object with id 'VirtualMachine-vm-1116'._x0009_\r\nAt line:5 char:8\r\n+ $out=$(Invoke-VMScript -Scripttype Powershell -ScriptText ((Get-WmiOb ...\r\n+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n    + CategoryInfo          : NotSpecified: (:) [Invoke-VMScript], NoPermission\r\n    + FullyQualifiedErrorId : Client20_VmGuestServiceImpl_RunScriptInGuest_ViError,VMware.VimAutomation.ViCore.Cmdlets \r\n   .Commands.InvokeVmScript\r\n \r\nCannot index into a null array.\r\nAt line:10 char:1\r\n+ $HDD=\"Hard disk \"+$out[0]\r\n+ ~~~~~~~~~~~~~~~~~~~~~~~~~\r\n    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException\r\n    + FullyQualifiedErrorId : NullArray",
+    "stderr_lines": [
+        "Invoke-VMScript : 1/7/2020 12:27:26 AM_x0009_Invoke-VMScript_x0009__x0009_Permission to perform this operation was denied. Required ",
+        "privilege 'VirtualMachine.GuestOperations.Modify' on managed object with id 'VirtualMachine-vm-1116'._x0009_",
+        "At line:5 char:8",
+        "+ $out=$(Invoke-VMScript -Scripttype Powershell -ScriptText ((Get-WmiOb ...",
+        "+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+        "    + CategoryInfo          : NotSpecified: (:) [Invoke-VMScript], NoPermission",
+        "    + FullyQualifiedErrorId : Client20_VmGuestServiceImpl_RunScriptInGuest_ViError,VMware.VimAutomation.ViCore.Cmdlets ",
+        "   .Commands.InvokeVmScript",
+        " ",
+        "Cannot index into a null array.",
+        "At line:10 char:1",
+        "+ $HDD=\"Hard disk \"+$out[0]",
+        "+ ~~~~~~~~~~~~~~~~~~~~~~~~~",
+        "    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException",
+        "    + FullyQualifiedErrorId : NullArray"
+    ],
+    "stdout": "No\r\n1  \r\n",
+    "stdout_lines": [
+        "No",
+        "1  "
+    ]
+}
+
+PLAY RECAP *********************************************************************
+10.171.198.13              : ok=2    changed=2    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+
+[8mha:////4Mmkry6y3QkiyLJta1ShEn4UtzUtD9f/Ue8/iGPKoH6eAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSIRCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7Bt6t3Jy+AAAA[0m[Pipeline] }
+[8mha:////4JSFPmuU1i6//rEG9ijMRw5/U4RMgiURA3znBWCA60yiAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCgwRCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFAetrn2uw8Ypq2EvgAAAA==[0m[Pipeline] // dir
+[8mha:////4It6kKm7y9Bf1TEr0DYP4zsFOKjUfXGJZsgLL0HmHYdBAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJAoQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4TysM21330AK0X2OL4AAAA=[0m[Pipeline] }
+[8mha:////4NmH25DVDluBiTEtNFiAgqRB1pAex1WmJ+Dm1kOJtuuPAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQQNCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFAetrn2uw8mogYgvgAAAA==[0m[Pipeline] // stage
+[8mha:////4Ni+bAs5S06/jkjNu0dZDd05URdVorNBHHf/jJP0ErHIAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYRTICEhREVrueEFJjbGiXUX7AtJxYv4Gn8gEImKrXZWWs3zBWVOcKDkZeOwDZjrILvY+6nJgVJ7iTTIhs6yJswUndRu0GTdcUZN7GCOKGChYOmwjpQDeoaVaszdVNGgr06cpm2voAj2Bg8QajKzSfyFMcH62ttM+PP8FcDYMYgtQ7HbfI7lG75hPbzBAAAA[0m[Pipeline] stage
+[8mha:////4CydgyedLH2qEXw3FZpiaydLgjEXEBaxEDRBhhMdbULkAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0gAUhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LDypufCDCAAAA[0m[Pipeline] { (Performing post-Checks)
+Stage "Performing post-Checks" skipped due to earlier failure(s)
+[8mha:////4F1TgW54XMU1qaiXRA/FzIKAbzNIxJAZ5kBRPGlXni7rAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0gQEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LDwyoG8LCAAAA[0m[Pipeline] parallel
+[8mha:////4BOBytNKlrJgkqeaMadNZCuTcXdePYINgguysgHWeOwKAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QgIhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LDxJkC7/CAAAA[0m[Pipeline] { (Branch: Validating Datastore Free Space)
+[8mha:////4L9MG0D5v55qqKZs6O4TCTHviGxIIYOH/U7Rn49szFwcAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoh0YqgQE2vUhROEJoSk0f9tkpJOnIircQdaKjHhwbItWe/1hjIGOFEw3GnsLMbW8t6PZk48U+hunjJ3dOUtYSSveaNzQ0qf19pQ0rCqYLARsNXYeooWTYKdcPIhKy/RVJcU5u0ogFk1wBMKMZOTDOlbpgD7+6gi4Y/zFwBTn4DVh8Xq5Vl+ALe3V3TCAAAA[0m[Pipeline] { (Branch: Validating Server Reachability)
+[8mha:////4B1j7h5kqL/L9ck9My5Z5y5HAcu1pcEfLfpn0nAFRI2BAAAAqR+LCAAAAAAAAP9tjbEOgjAURR8QBldHP6Lg4GAMk2vTxS+oUGuheQ/bhzD5Rf6a/yBK4uSd7rnJzXm+II8BKgpWtAY7h7F2oveDnZsYKXQXT6No6SxqwkjeCGVGRY05LqiIDSxJUsgkrAzWnqJDy7CWrb7rwmu0xYnDvB0kpK65wQMSOZtZB/7CFGBzHZpI+PP8FcDUM6T7HUO2LcvPNX8DuVZRDsMAAAA=[0m[Pipeline] { (Branch: Allocating space)
+[8mha:////4DLW5IpnGvL5l5bQxx8wFglhjnbWApfIg8EldNVl+bRHAAAAqB+LCAAAAAAAAP9tjbEOgjAURR8QBldHP6LIpjFMrg2LX1BLrYXmPWwfwuQX+Wv+gyiJk3e65yY35/mCPAaoKFjRGuwcRu1E7wc7NzFS6C6eRtHSWWjCSN6I2ow1Nea4YE1sYEmSQiZhZVB7ig4tw1q26q4Kr9AWJw7zdpCQuuYGD0jkbGYV+AtTgM11aCLhz/NXAFPPkO53DFm5LT/X/A3yhKJbwwAAAA==[0m[Pipeline] stage
+[8mha:////4B1/Nrr2fKESh66JzcXDrfxn1wpfuVJkMK8CUMNBWvtLAAAApx+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkQRV+PE2rD4BLXUWmj+H9timXwiX813sELi5A2Xu0su3+sNpXdwIqdZr3Aw6KVho510SiySG66WIuvpwiShJ6tYq2JLnWrW2lJQsCrLoeCwUSgteYM6wJb34iEqK1BX5+DSduSQm+4OT8h4IgfhwlJmB7vb1HnCH+cvAOYxQFHv68UP32/5AeRSsaPEAAAA[0m[Pipeline] { (Validating Datastore Free Space)
+[8mha:////4Jrr8yBBezT2aq+0SgIwcWoMl1L1ndzcC8iwEiGf4gIbAAAAqB+LCAAAAAAAAP9tjbEOgjAURR8QBldHP6JonIhhcm1Y/IJaai0072H7ECa/yF/zH0RJnLzTPTe5Oc8X5DFARcGK1mDnMGonej/YuYmRQnfxNIqWzkITRvJG1GasqTHHBWtiA0uSFDIJK4PaU3RoGdayVXdVeIW2OHGYt4OE1DU3eEAiZzOrwF+YAmyuQxMJf56/Aph6hrQsGbLddv+55m+Wac+NwwAAAA==[0m[Pipeline] stage
+[8mha:////4EzQaakpPAtMrDWq3hy2IDpNQ0PpXqTH490VJ7OmcN8pAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BApCDbUiTXqwglCEkLS6P+SpLQTJ+Jq3IHSSkx4sGxL1nu9oYwBagqGOY2txSgt63xvpsQGCu3V08AcXZgkjOQ1a/TQkNKnpTaUNCzKcig4rDRKT9GiSbDmTjxE5QWa6pzCtB055Fbd4QkZn8hJhDSXMcDm1qtI+OP8BcDYJSh22/3sh++3/ABmL9OZxAAAAA==[0m[Pipeline] { (Validating Server Reachability)
+[8mha:////4Ez2/U1S1L2oWHYbVvLkOeffX5iMhqvOIXmEQbNI4cQ3AAAAqB+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkTBwck4sTYsPkEttRaa/8e2WCafyFfzHayQOHnD5e6Sy/d6Q+kdnMhp1iscDHpp2GgnnRKL5Iarpch6ujBJ6Mkq1qrYUqeatbYUFKzKcig4bBRKS96gDrDlvXiIygrU1Tm4tB055Ka7wxMynshBuLCU2cHuNnWe8Mf5C4B5DFDs63rxw/dbfgAzLhElxAAAAA==[0m[Pipeline] stage
+[8mha:////4C3+niKyF1+7++gjvMi6u2PWBOyjquk3T6EL4SkEFCAgAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BApDLCgTqxRF04QkhCSRv+XJKWdOBFX4w6UVmLCg2Vbst7rDWUMUFMwzGlsLUZpWed7MyU2UGivngbm6MIkYSSvWaOHhpQ+LbWhpGFRlkPBYaVReooWTYI1d+IhKi/QVOcUpu3IIbfqDk/I+EROIqS5jAE2t15Fwh/nLwDGLkGx2+5nP3y/5QeNKyY7xAAAAA==[0m[Pipeline] { (Allocating space)
+Stage "Validating Datastore Free Space" skipped due to earlier failure(s)
+[8mha:////4AO7YXBVzcjkvuP43X2JfhY4lhZxzjgqkm/JO2HvExBdAAAApR+LCAAAAAAAAP9tjTESwiAURH+SsbC19BBEbSycVLZMGk+AgAhh/o9AJJUn8mrewUwyY+UWO/u2ee8PrGKAhoJhTmNnMUrLej+YabFMobt5yszRlUnCSF6zVueWlD4v2FLSsKQooeKw1ig9RYsmwYY78RS1F2jqSwrTd+JQWvWAFxR8MicR0gxjgO19UJHw5/krgLHvE1T73XHuwxesAk8AwAAAAA==[0m[Pipeline] }
+Stage "Validating Server Reachability" skipped due to earlier failure(s)
+[8mha:////4PhiRSWC8EeeNxIOUKnnOH9/jQyE0X3FudJsOumcsqrCAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDEgUSSkVrpeEFxjbGjnUXbAen4kV8jT8QJRIVW6x2tpn3B1YxQEPBMKexsxilZb0fzLRYptDdPGXm6MokYSSvWatzS0qfF2wpaVhSlFBxWGuUnqJFk2DDnXiK2gs09SWF6TtxKK16wAsKPpmTCGmGMcD2PqhI+PP8FcDY9wmq/e449+ELcNdkH8AAAAA=[0m[Pipeline] }
+Stage "Allocating space" skipped due to earlier failure(s)
+[8mha:////4I1I2FSBr8blUP5rSvi4pBYLejqhRvwdnse9OWEE7DvpAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDDRJCqWitNLzA2MbYse6C7eBUvIiv8QeiRKJii9XONvP+wCoGaCgY5jR2FqO0rPeDmRbLFLqbp8wcXZkkjOQ1a3VuSenzgi0lDUuKEioOa43SU7RoEmy4E09Re4GmvqQwfScOpVUPeEHBJ3MSIc0wBtjeBxUJf56/Ahj7PkG13x3nPnwB6L0dV8AAAAA=[0m[Pipeline] }
+[8mha:////4DMqrOQXp+2ve/+kufl2UUiV1TwIVB/qywC8aHfS++GDAAAApB+LCAAAAAAAAP9tjTESgjAURD8wFraWHiJA7VjZZmg8QUxiTMj8H5IgVJ7Iq3kHUWas3GJn3zbv+YJNinCkaJjT2FtM0rLgR7MsNlHsr54m5ujCJGEir1mnp46UPq3YUdawpiih4rDVKD0liybDjjtxF7UXaOpzjst34FBaNcADCr6Ys4j5C3OE/W1UifDn+SuAOYQMVds2n27aNwZtS5DAAAAA[0m[Pipeline] // stage
+[8mha:////4EAEPsjAYUcXLg2c8nvtykbXBn6iXwM3GTygeXAcLb/aAAAApR+LCAAAAAAAAP9tjTESwiAURH+SsbC19BBExtKxSsuk8QQIiCTM/xGISeWJvJp3EM2MlVvs7NvmPV+wigGOFCzrDPYOo3Js8KPNi00U+ouniXV0ZoowkjesNVNL2jQLtpQMLClKqASsDSpP0aFNsBGdvMvaS7T1KYX8HQSUTt/gAYXI5iRD+sIcYHsddST8ef4KYB6GBBXn/NO7/RueBzLYwAAAAA==[0m[Pipeline] // stage
+[8mha:////4DQ+upqg6y6qZfR7PCHLBOVkmCwrl1FjilA07IJSH27FAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYRDkKgQFa2VhheYxBg71p2xLyQVL+Jr/IFAJCq2WO1sM88XLFKEA0UjnMbOYmqsCL430xIDxe7iaRCOzqIhTOS1qPVQU6uPM9bEGuZkORQSlhobT8miYVhJp+6q9ApNeeI4fXsJuW1v8IBMTmZWkb8wRlhf+zYR/jx/BTCGwFBU1fbTm90bNri5AMAAAAA=[0m[Pipeline] // stage
+[8mha:////4EeVwzwkS2xIBk1Buwu0c9ny4lBvqiafRSxrgSc9CFTqAAAAph+LCAAAAAAAAP9tjbEOgjAURR8QB1dHP6KEuGgMk2vD4hfUUmuheQ/bhzD5Rf6a/2AjiZN3uucs5/WGVQxQU7CiM9g7jNqJwY82PTFR6K+eJtHRRWjCSN6IxkwNtea0YENsYFmWQyFhbVB7ig4tw0Z26qFKr9CWZw7JHSXkrr3DEzKZyqwCf2EOsL2NbST8df4GYB4GhqKqdgz5Yf8Bu/1Our8AAAA=[0m[Pipeline] }
+Failed in branch Validating Datastore Free Space
+[8mha:////4AamqV4efl9yKeN+aVlkqT36Z/gLPhfme5sK5nSpU+tGAAAAph+LCAAAAAAAAP9tjbEOgjAURR8QB1dHP6KExIUYJ9aGxS+oba2F5j1sH8LkF/lr/oNEEifvdM9ZzusNmxThRNGJzmLvMWkvhjC65YmJYn8NNImOLkITJgpWtHZqydhmxZbYwrosh0LC1qIOlDw6hp3s1EOVQaErzxwXd5SQe3OHJ2RyKbOK/IU5wv42mkT46/wNwDwMDEVVHRjyuv4Alf1M0L8AAAA=[0m[Pipeline] }
+Failed in branch Validating Server Reachability
+[8mha:////4NhfXt7AKeo/3b4yplDnV+iKNBiHA6maWBQDDw8qGl9FAAAApR+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxGgsHKsbDM0niCSGAOZXUwWofJEXs07GGXGyl/8+e837/mCVQxwoGBFZ7B3GFsnBj/atMREob94mkRHZ9ESRvJGNGZqSJvjgg2xgSVZDoWEtcHWU3RoGTayU3dVeoW2PHFI315C7vQNHpDJZGYV+AtzgO111JHw5/krgHkYGIq63n26qt43cnS1wAAAAA==[0m[Pipeline] }
+Failed in branch Allocating space
+[8mha:////4EbjikKriqhgwvqPYgXVK475NpwTr8eUyqDxMGJlXS+wAAAAph+LCAAAAAAAAP9tjbEOgjAURR8QB1dHP6KEQRNjmFwbFr+glloLzXvYPoTJL/LX/AcbSZy80z1nOa83rGKAmoIVncHeYdRODH606YmJQn/1NImOLkITRvJGNGZqqDWnBRtiA8uyHAoJa4PaU3RoGTayUw9VeoW2PHNI7ighd+0dnpDJVGYV+AtzgO1tbCPhr/M3APMwMBRVtWfID7sPtRAylL8AAAA=[0m[Pipeline] // parallel
+[8mha:////4PO8Ra7HqvAzan9CG72EAgxiQPMJmnPO+LMq6xEUQxc5AAAApx+LCAAAAAAAAP9tjbEOgjAURR8QB1dHP6KExMQYw+TasPgFtdRaaN7D9iFMfpG/5j/YSOLkne45y3m9YRUD1BSs6Az2DqN2YvCjTU9MFPqrp0l0dBGaMJI3ojFTQ605LdgQG1iW5VBIWBvUnqJDy7CRnXqo0iu05ZlDckcJuWvv8IRMpjKrwF+YA2xvYxsJf52/AZiHgaGoqj1Dfth9AIbzaSi/AAAA[0m[Pipeline] }
+[8mha:////4A16MErZWkNVwQUy1rkIvHIX2difZ2QjcTTnMgWdC0xgAAAAph+LCAAAAAAAAP9tjbEOgjAURR8QB1dHP6KEuGgMk2vD4hfUUmuheQ/bhzD5Rf6a/2AjiZN3uucs5/WGVQxQU7CiM9g7jNqJwY82PTFR6K+eJtHRRWjCSN6IxkwNtea0YENsYFmWQyFhbVB7ig4tw0Z26qFKr9CWZw7JHSXkrr3DEzKZyqwCf2EOsL2NbST8df4GYB4GhqKq9gz5YfcB8NRbR78AAAA=[0m[Pipeline] // stage
+[8mha:////4Gtr/CVo1RfuJUD50UVPMub4Sj3dsP4EOn9G1tMP7YtNAAAAqB+LCAAAAAAAAP9tjTEOwjAQBC+JUtBS8ghHaZAQoqK10vAC4xjjxLoL9gWn4kV8jT8QiETFVjsrreb5gjIGOFCwojPYO4zaicGPdm4iUegvnpLo6Cw0YSRvRGNSQ605LtgQG1iS5VBIWBnUnqJDy7CWnbqryiu01YnDvO0l5K69wQMyOZtZBf7CFGBzHdtI+PP8FcA0MGRbhqKud59n+Qb5gU1SwgAAAA==[0m[Pipeline] stage
+[8mha:////4O9IlWeDL13xoUbrljxC6mwWXOEq8jXm8e83zgRUThusAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BApZUOIiTXqwglCG0LS6P+SpKQTJ+Jq3IGUSkx4sGxL1nu9ofQOjuQUMxJ7jb7VbLCjSolFcv3VUmSGLqwl9GQla2RsqJOnpTYUJCzKcig4rCS2lrxGFWDNjXiIygpU1Tm4tB045Lq7wxMynshBuPAtk4PNbew84Y/zFwDTEKCo6/3su+38LT+9TXyixAAAAA==[0m[Pipeline] { (Completed)
+Stage "Completed" skipped due to earlier failure(s)
+[8mha:////4KIio4zoRVgUbz2obIZ23zXm5fLQZ272ZNvnKzbwBIDPAAAApB+LCAAAAAAAAP9tjTESgjAQRRcYC1tLD7GIrWNFm0njCWKIMZDZxSQIlSfyat5BBmas/MWf/37z3h/YxABnDhZbQ52jqB32frDzwpFDd/M8YstX1EyRvUFpRsmNqVeUnAysyXIoBGwNac/RkU2wE616qtIrsuUlhfk7Cchd84AXZGI2JxXSAlOA/X1oItPP81cAU98nKKpjtfThC0Uzgv3AAAAA[0m[Pipeline] }
+[8mha:////4KRq1uqmKaP0g4H/r2Eo5r/v5bmVB2g+PqXgl0aGR2LlAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjpEOIitZKwwtMbIwT6y7YF5KKF/E1/oAhEhVbrHa2mecLVjHAgYIVncHeYWydGPxo0xIThf7iaRIdnUVLGMkb0ZipIW2OCzbEBpZkORQS1gZbT9GhZdjITt1V6RXa8sQhfXsJudM3eEAmk5lV4C/MAbbXUUfCn+evAOZhYCiquv50tXsDv8KbnsAAAAA=[0m[Pipeline] // stage
+[8mha:////4DWWtTR0ZB8Ec8W2p77iM+7YbLtus4C0qycRsi+4FnDOAAAAqB+LCAAAAAAAAP9tjTEOwjAQBM+JUtBS8ghHgESDqGitNLzAJMY4se6CfcGpeBFf4w8EIlGx1c5Kq3m+oIgBDhSsbA12DmPtZO8HOzWZKHQXT0m2dJY1YSRvZGVSRY05zlgRG5gjMsgVLAzWnqJDy7BUrb7r0mu05YnDtO0VZK65wQOEmsysA39hDLC6Dk0k/Hn+CmDsGcSOIV9vtp9n8QYCuD7CwgAAAA==[0m[Pipeline] stage
+[8mha:////4HRoXk3y5MBTjzaJBSkjvq/WfkTRDV9LGVgU7ywcRq7SAAAAqB+LCAAAAAAAAP9tjT0OwjAUg19bdWBl5BCp+NlQJ9aoCycISQhJo/dKktJOnIircQdKKzHhwbItWd/rDWUMUFMwzGlsLUZpWed7MyU2UGivngbm6MIkYSSvWaOHhpQ+LbWhpGFRlkPBYaVReooWTYI1d+IhKi/QVOcUpu3IIbfqDk/I+EROIqS5jAE2t15Fwh/nLwDGLkGx3e1nP3y/5QcEixBuxAAAAA==[0m[Pipeline] { (Declarative: Post Actions)
+[8mha:////4CyV7Q64yY5wyfsyvJl7bWSzfZACanZshK/bgesYo8piAAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjEFQoFa2VhhcY2xg71l2wHZyKF/E1/kCUSFRssdrZZt4fWMUADQXDnMbOYpSW9X4w02KZQnfzlJmjK5OEkbxmrc4tKX1esKWkYUlRQsVhrVF6ihZNgg134ilqL9DUlxSm78ShtOoBLyj4ZE4ipBnGANv7oCLhz/NXAGOfoNrtD3Mf+y/j1KiwwAAAAA==[0m[Pipeline] sh
+[8mha:////4CjVkN9Lzh0uKmQ6OOutQnAA6avJ9w3+XVnqGx3oTPjlAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjEKJBqWitNLzA2MbYse6C7eBUvIiv8QeiRKJii9XONvP+wCoGaCgY5jR2FqO0rPeDmRbLFLqbp8wcXZkkjOQ1a3VuSenzgi0lDUuKEioOa43SU7RoEmy4E09Re4GmvqQwfScOpVUPeEHBJ3MSIc0wBtjeBxUJf56/Ahj7BNVuf5j72H8BIIeFm8AAAAA=[0m[Pipeline] sh
+[8mha:////4ObGxmkBG0pv9+23wJ/8ICfzmocCl5tqnNmmM9rUQzW+AAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjEBIFSkVrpeEFxjbGjnUXbAen4kV8jT8QJRIVW6x2tpn3B1YxQEPBMKexsxilZb0fzLRYptDdPGXm6MokYSSvWatzS0qfF2wpaVhSlFBxWGuUnqJFk2DDnXiK2gs09SWF6TtxKK16wAsKPpmTCGmGMcD2PqhI+PP8FcDYJ6h2+8Pcx/4LYbaegsAAAAA=[0m[Pipeline] sh
+[8mha:////4EZ4pL/S5jkkOZFXVxv3dAcdlztCVsORPtnBIjJ0dzS5AAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjEAUSSkVrpeEFxjbGjnUXbAen4kV8jT8QJRIVW6x2tpn3B1YxQEPBMKexsxilZb0fzLRYptDdPGXm6MokYSSvWatzS0qfF2wpaVhSlFBxWGuUnqJFk2DDnXiK2gs09SWF6TtxKK16wAsKPpmTCGmGMcD2PqhI+PP8FcDY9wmq3f449+ELj7J3b8AAAAA=[0m[Pipeline] }
+[8mha:////4KLLf/mvKIu7OuLMVjloCURMim54K0nnlNE4O0OclzfZAAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjoEIoFa2VhhcY2xg71l2wHZyKF/E1/kCUSFRssdrZZt4fWMUADQXDnMbOYpSW9X4w02KZQnfzlJmjK5OEkbxmrc4tKX1esKWkYUlRQsVhrVF6ihZNgg134ilqL9DUlxSm78ShtOoBLyj4ZE4ipBnGANv7oCLhz/NXAGPfJ6h2++Pchy+YLGRXwAAAAA==[0m[Pipeline] // stage
+[8mha:////4B/jz8oLYRMTvYkab1W0Q2Bx1LL9+6n6XQtqmVFs7fccAAAApR+LCAAAAAAAAP9tjTEOwjAQBM+JKGgpeYQDQqJBVLRWGl5gHGOcWHfBvuBUvIiv8QciIlGx1c4083rDIkU4UnSytdh5TMbLPgxuejJT7K6BsmzpIg1homBlbXNNjT3NWBNbmCcKKBUsLZpAyaNjWKlWP3QVNLrqzHFyBwWFb+7wBKGmMuvIXxgjrG9Dkwh/nb8BGPueodzuNgxi/wFjW1sgvgAAAA==[0m[Pipeline] }
+[8mha:////4MjDt4VK24TniF74+xJZv0nR60JtuQGK9thiYxNVqnsLAAAApB+LCAAAAAAAAP9tjTEOwjAQBM+JKGgpeYSjCFEhKlorDS8wsTFOrLtgX3AqXsTX+AMRkajYameaeb1hlSIcKTrZWew9ptbLIYxufjJT7K+BsuzoIlvCRMHKxuaGjD0t2BBbWCYKKBWsLbaBkkfHsFGdfugqaHTVmePsDgoKb+7wBKHmMuvIX5gibG+jSYS/zt8ATMPAUNa7mkHsP2kjMoS+AAAA[0m[Pipeline] // withCredentials
+[8mha:////4JOPeBpzrdWpRp4eBBMv4kV00hgnXk4BD5o5kgVakXoXAAAApB+LCAAAAAAAAP9tjTsOwjAQBdeJKGgpOYQjPh2iorXScALjGOPE2g32BqfiRFyNOxARiYpXvZlmXm9YpAhHik62FjuPyXjZh8FNT2aK3TVQli1dpCFMFKysba6psacZa2IL80QBpYKlRRMoeXQMK9Xqh66CRledOU7uoKDwzR2eINRUZh35C2OE9W1oEuGv8zcAY98zlJvdlkHsPy9plbS+AAAA[0m[Pipeline] }
+[8mha:////4JzECBbZCwdRPSS+tFwMDYfM/JJrhrXzVLIIAjFQNtu4AAAAox+LCAAAAAAAAP9tjbEOgjAURS8SB1dHP6LEMBon14bFL6hQa6F5D9uHMPlF/pr/IJHEyTvdc5bzemOdIo4cnWotdZ5S7VUfBjc/NXLsroFH1fJF1UyJg1WVHStu7GnBisViWbZCrrGxVAdOnpxgq1vzMEUw5IqzxNkdNFa+ueOJTM9lMVG+MEXsbkOTmH6dvwFMfS/I92UpyMoPPNWRF74AAAA=[0m[Pipeline] // node
+[8mha:////4HApMKGGtSamWQQ70V9ImP1+eldBGgiWamJKVerQAghNAAAApB+LCAAAAAAAAP9tjTsOwjAQBdeJKGgpOYQjPh2iorXScALjGOPE2g32BqfiRFyNOxARiYpXvZlmXm9YpAhHik62FjuPyXjZh8FNT2aK3TVQli1dpCFMFKysba6psacZa2IL80QBpYKlRRMoeXQMK9Xqh66CRledOU7uoKDwzR2eINRUZh35C2OE9W1oEuGv8zcAY98zlJvdnkFsP7o5ttK+AAAA[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 2
+Finished: FAILURE

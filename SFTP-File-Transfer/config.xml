@@ -1,0 +1,267 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@2.35">
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@1.3.9"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@1.3.9">
+      <jobProperties/>
+      <triggers/>
+      <parameters/>
+      <options/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+  </actions>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <hudson.plugins.jira.JiraProjectProperty plugin="jira@3.0.9"/>
+    <hudson.model.ParametersDefinitionProperty>
+      <parameterDefinitions>
+        <org.biouno.unochoice.ChoiceParameter plugin="uno-choice@2.2.1">
+          <name>Src_Dc</name>
+          <description></description>
+          <randomName>choice-parameter-9299278108797178</randomName>
+          <visibleItemCount>1</visibleItemCount>
+          <script class="org.biouno.unochoice.model.GroovyScript">
+            <secureScript plugin="script-security@1.64">
+              <script>return[
+&apos;DC2&apos;,
+&apos;DC04&apos;,
+&apos;DC08&apos;,
+&apos;DC10&apos;,
+&apos;DC12&apos;,
+&apos;DC15&apos;,
+&apos;DC16&apos;,
+&apos;DC17&apos;,
+&apos;DC18&apos;,
+&apos;DC19&apos;,
+&apos;DC22&apos;,
+&apos;DC23&apos;,
+&apos;DC41&apos;,
+&apos;DC42&apos;,
+&apos;DC44&apos;
+]</script>
+              <sandbox>false</sandbox>
+            </secureScript>
+            <secureFallbackScript plugin="script-security@1.64">
+              <script>return[&apos;error&apos;]</script>
+              <sandbox>false</sandbox>
+            </secureFallbackScript>
+          </script>
+          <projectName>SFTP-File-Transfer</projectName>
+          <projectFullName>SFTP-File-Transfer</projectFullName>
+          <choiceType>PT_SINGLE_SELECT</choiceType>
+          <filterable>false</filterable>
+          <filterLength>1</filterLength>
+        </org.biouno.unochoice.ChoiceParameter>
+        <org.biouno.unochoice.CascadeChoiceParameter plugin="uno-choice@2.2.1">
+          <name>Src_Url</name>
+          <description></description>
+          <randomName>choice-parameter-9299278117326142</randomName>
+          <visibleItemCount>1</visibleItemCount>
+          <script class="org.biouno.unochoice.model.GroovyScript">
+            <secureScript plugin="script-security@1.64">
+              <script>if (Src_Dc.equals(&quot;DC2&quot;)) {
+  return [&quot;prodftp2.successfactors.eu&quot;]
+} else if (Src_Dc.equals(&quot;DC04&quot;)) {
+  return [&quot;sftp4.successfactors.com&quot;]
+}else if (Src_Dc.equals(&quot;DC08&quot;)) {
+  return [&quot;sftp8.sapsf.com&quot;]
+}else if (Src_Dc.equals(&quot;DC10&quot;)) {
+  return [&quot;sftp10.successfactors.com&quot;]
+}else if (Src_Dc.equals(&quot;DC12&quot;)) {
+  return [&quot;sftp012.successfactors.eu&quot;]
+}else if (Src_Dc.equals(&quot;DC15&quot;)) {
+  return [&quot;sftp15.sapsf.cn&quot;]
+}else if (Src_Dc.equals(&quot;DC16&quot;)) {
+  return [&quot;sftp16.sapsf.eu&quot;]
+}else if (Src_Dc.equals(&quot;DC17&quot;)) {
+  return [&quot;sftp17.sapsf.com&quot;]
+}else if (Src_Dc.equals(&quot;DC18&quot;)) {
+  return [&quot;sftp18.sapsf.com&quot;]
+}else if (Src_Dc.equals(&quot;DC19&quot;)) {
+  return [&quot;sftp19.sapsf.com&quot;]
+}else if (Src_Dc.equals(&quot;DC22&quot;)) {
+  return [&quot;sftp22.sapsf.com&quot;]
+}else if (Src_Dc.equals(&quot;DC23&quot;)) {
+  return [&quot;sftp23.sapsf.com&quot;]
+}else if (Src_Dc.equals(&quot;DC41&quot;)) {
+  return [&quot;sftp41.sapsf.com&quot;]
+}else if (Src_Dc.equals(&quot;DC42&quot;)) {
+  return [&quot;sftp42.sapsf.com&quot;]
+}else {
+  return [&quot;Unknown DC&quot;]
+}
+</script>
+              <sandbox>false</sandbox>
+            </secureScript>
+            <secureFallbackScript plugin="script-security@1.64">
+              <script></script>
+              <sandbox>false</sandbox>
+            </secureFallbackScript>
+          </script>
+          <projectName>SFTP-File-Transfer</projectName>
+          <projectFullName>SFTP-File-Transfer</projectFullName>
+          <parameters class="linked-hash-map"/>
+          <referencedParameters>Src_Dc</referencedParameters>
+          <choiceType>PT_SINGLE_SELECT</choiceType>
+          <filterable>false</filterable>
+          <filterLength>1</filterLength>
+        </org.biouno.unochoice.CascadeChoiceParameter>
+        <hudson.model.StringParameterDefinition>
+          <name>Src_UserName</name>
+          <description></description>
+          <defaultValue>psconsult</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.PasswordParameterDefinition>
+          <name>Src_Password</name>
+          <description></description>
+          <defaultValue>{AQAAABAAAAAQgLqoAUQxXeimL9eNXQxXeJOUmxBDoY9NaEYynbkTntI=}</defaultValue>
+        </hudson.model.PasswordParameterDefinition>
+        <org.biouno.unochoice.ChoiceParameter plugin="uno-choice@2.2.1">
+          <name>Dst_Dc</name>
+          <description></description>
+          <randomName>choice-parameter-9300636334939121</randomName>
+          <visibleItemCount>1</visibleItemCount>
+          <script class="org.biouno.unochoice.model.GroovyScript">
+            <secureScript plugin="script-security@1.64">
+              <script>return[
+&apos;DC2&apos;,
+&apos;DC04&apos;,
+&apos;DC08&apos;,
+&apos;DC10&apos;,
+&apos;DC12&apos;,
+&apos;DC15&apos;,
+&apos;DC16&apos;,
+&apos;DC17&apos;,
+&apos;DC18&apos;,
+&apos;DC19&apos;,
+&apos;DC22&apos;,
+&apos;DC23&apos;,
+&apos;DC41&apos;,
+&apos;DC42&apos;,
+&apos;DC44&apos;
+]</script>
+              <sandbox>false</sandbox>
+            </secureScript>
+            <secureFallbackScript plugin="script-security@1.64">
+              <script>return[&apos;error&apos;]</script>
+              <sandbox>false</sandbox>
+            </secureFallbackScript>
+          </script>
+          <projectName>SFTP-File-Transfer</projectName>
+          <projectFullName>SFTP-File-Transfer</projectFullName>
+          <choiceType>PT_SINGLE_SELECT</choiceType>
+          <filterable>false</filterable>
+          <filterLength>1</filterLength>
+        </org.biouno.unochoice.ChoiceParameter>
+        <org.biouno.unochoice.CascadeChoiceParameter plugin="uno-choice@2.2.1">
+          <name>Dst_Url</name>
+          <description>
+</description>
+          <randomName>choice-parameter-9300636336225183</randomName>
+          <visibleItemCount>1</visibleItemCount>
+          <script class="org.biouno.unochoice.model.GroovyScript">
+            <secureScript plugin="script-security@1.64">
+              <script>if (Dst_Dc.equals(&quot;DC2&quot;)) {
+  return [&quot;prodftp2.successfactors.eu&quot;]
+} else if (Dst_Dc.equals(&quot;DC04&quot;)) {
+  return [&quot;sftp4.successfactors.com&quot;]
+}else if (Dst_Dc.equals(&quot;DC08&quot;)) {
+  return [&quot;sftp8.sapsf.com&quot;]
+}else if (Dst_Dc.equals(&quot;DC10&quot;)) {
+  return [&quot;sftp10.successfactors.com&quot;]
+}else if (Dst_Dc.equals(&quot;DC12&quot;)) {
+  return [&quot;sftp012.successfactors.eu&quot;]
+}else if (Dst_Dc.equals(&quot;DC15&quot;)) {
+  return [&quot;sftp15.sapsf.cn&quot;]
+}else if (Dst_Dc.equals(&quot;DC16&quot;)) {
+  return [&quot;sftp16.sapsf.eu&quot;]
+}else if (Dst_Dc.equals(&quot;DC17&quot;)) {
+  return [&quot;sftp17.sapsf.com&quot;]
+}else if (Dst_Dc.equals(&quot;DC18&quot;)) {
+  return [&quot;sftp18.sapsf.com&quot;]
+}else if (Dst_Dc.equals(&quot;DC19&quot;)) {
+  return [&quot;sftp19.sapsf.com&quot;]
+}else if (Dst_Dc.equals(&quot;DC22&quot;)) {
+  return [&quot;sftp22.sapsf.com&quot;]
+}else if (Dst_Dc.equals(&quot;DC23&quot;)) {
+  return [&quot;sftp23.sapsf.com&quot;]
+}else if (Dst_Dc.equals(&quot;DC41&quot;)) {
+  return [&quot;sftp41.sapsf.com&quot;]
+}else if (Dst_Dc.equals(&quot;DC42&quot;)) {
+  return [&quot;sftp42.sapsf.com&quot;]
+}else {
+  return [&quot;Unknown DC&quot;]
+}
+</script>
+              <sandbox>false</sandbox>
+            </secureScript>
+            <secureFallbackScript plugin="script-security@1.64">
+              <script></script>
+              <sandbox>false</sandbox>
+            </secureFallbackScript>
+          </script>
+          <projectName>SFTP-File-Transfer</projectName>
+          <projectFullName>SFTP-File-Transfer</projectFullName>
+          <parameters class="linked-hash-map"/>
+          <referencedParameters>Dst_Dc</referencedParameters>
+          <choiceType>PT_SINGLE_SELECT</choiceType>
+          <filterable>false</filterable>
+          <filterLength>1</filterLength>
+        </org.biouno.unochoice.CascadeChoiceParameter>
+        <hudson.model.StringParameterDefinition>
+          <name>Dst_UserName</name>
+          <description></description>
+          <defaultValue>psconsult</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.PasswordParameterDefinition>
+          <name>Dst_Password</name>
+          <description></description>
+          <defaultValue>{AQAAABAAAAAQoV9wXwpvgebhz78bJXaUwpmHgMRYVgn4s/SU9me/YkY=}</defaultValue>
+        </hudson.model.PasswordParameterDefinition>
+      </parameterDefinitions>
+    </hudson.model.ParametersDefinitionProperty>
+  </properties>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@2.74">
+    <script>pipeline {
+        agent any
+         stages {
+               stage(&apos;Validating&apos;)
+                {
+                        steps {
+                                dir(&quot;/var/lib/jenkins/workspace/SFTP-Backup/&quot;)
+                                {
+                                        sh &apos;sh server.sh&apos;
+                                        echo &quot;Source: $Src_Dc ; Src-User: $Src_UserName ; Destination: $Dst_Dc ; Dst-User: $Dst_UserName  &quot;
+                                        sh &apos;ansible-playbook main.yml --tags=vald&apos;
+                                 }
+                               }
+                 }
+                 stage(&apos;Fetch Src to Local&apos;)
+                {
+                        steps {
+                                dir(&quot;/var/lib/jenkins/workspace/SFTP-Backup/&quot;)
+                                {
+                                        sh &apos;ansible-playbook main.yml --tags=fetch&apos;
+                                        
+                                 }
+                               }
+                 }
+                 stage(&apos;Sending Local to Destination&apos;)
+                {
+                        steps {
+                                dir(&quot;/var/lib/jenkins/workspace/SFTP-Backup/&quot;)
+                                {
+                                        sh &apos;ansible-playbook main.yml --tags=sending&apos;
+                                        
+                                 }
+                               }
+                 }
+         }
+}</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

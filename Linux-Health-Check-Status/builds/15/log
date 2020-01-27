@@ -1,0 +1,266 @@
+Started by user [8mha:////4LasLZTu51liXJgzWxThIVEU+vfWaWFA1/I2NQbCLbUvAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyxEgY+/dLi1CL9ZFMjSwtLU0sA/LyLlsMAAAA=[0mKolasani Tirupathi Rao
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4OLV+lntHjZuxZp2t894VegAQzqSx7P3txzt/b9ofVCrAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4LwqxUFl6RELUlb7E1W5yt6jrbypcMQx5grSSCh7TyOtAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4KZhxD3tv46iVbhKjbbb27qqykto+K3ZMv6IMwic71ghAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/lib/jenkins/workspace/Linux-Health-Check-Status
+[8mha:////4C58DzLyD46MV1Rd5WJBaVz+E45TYGgZ+5XahqCj2HSlAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4ERG3xrkOFexMT8+1J1pSGvle3kanr7bQDBu0KwPof1+AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4K/ArAjwl9QOpmzlHW5Wms1meZ02ASF9sbPibfSBc2/+AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Code Quality)
+[8mha:////4DIfZIsmi6f3oFGTFqGJySagjQVBFHrlavQDOyIXObFCAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] dir
+Running in /var/lib/jenkins/workspace/Linux-Server-Details
+[8mha:////4FJSxUXCqmMjPbAn2Otf6s68g0+loEa2vUXL2jnVMecTAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] {
+[8mha:////4Mq3AKwSx0vVSMPRy/0YxfyYWZqDxgdjlfx/bbPcFLvTAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaoyVLaHxBMgiwpL/WWDdrTyRV/MOEjexcpJJ5k3zXm9Y5wQnSpZ7g73DrB2PYbR18YlSfws0cU9XrgkzBcOlmSR15rygpGJgCWtgJWBjUAfKDm2BrfDqodqg0LaXkup3FNC4boAnMFHNRaXyhTnB7j52mfDn+SuAORZg+9pD/AAeoCAqvAAAAA==[0m[Pipeline] sh
++ sh server_add.sh
+[8mha:////4DM3Lk3tAlsU1lPh3B/wxNy5RKXBrRZ3ZaibtErxJUTBAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKBDglR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Q77aCbP8Brmfz270AAAA=[0m[Pipeline] }
+[8mha:////4BpI1XEN+XDiALYv7xse127iqD2ZFKfN4U+DGawvaArhAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIMlYVjZZuh8QQRYgxkdjFZhMoTeTXvICMzVv7qv9e81xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL0tBtv8Aj1Msdr0AAAA=[0m[Pipeline] // dir
+[8mha:////4FzmKZ72F7A4KLpmnINmeYNK6i7MpNbRQ67NCEiwNGo7AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRFDSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsTZPsPyRmLRr0AAAA=[0m[Pipeline] }
+[8mha:////4MokXzideS+68U+48OhZhV7oSxzBBXTUVGQcZ7JVHz9+AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRQlSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsTZPsPw2Hi4r0AAAA=[0m[Pipeline] // stage
+[8mha:////4Og/n8JWiO8/VMmjMRbrw3C+rUo6+TlC+cCtwAL4ARVWAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjpHSIitZywwtMYowT6y7YF5KKF/E1/oAhEhVb7ay0mucLyhThQNHJzmLvMTVeDmF0ucmJYn8JNMmOzrIhTBSs1HbS1NrjgprYwhJRwErB2mITKHl0DBvVmbupgkFXnTjmba+g8O0NHiBUNrOJ/IU5wvY6tonw5/krgHlgEDVDsas/x/INoKa7ysEAAAA=[0m[Pipeline] stage
+[8mha:////4AW/ZdNcf5fA+U5P56XTgnq1f22ZA69/S3yo7wZD25fkAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSDAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD5WQ+PfCAAAA[0m[Pipeline] { (Generating Reports)
+[8mha:////4OPlFsSzTQHQqsbvzhmyJTM2zgd5P78Sn7izEIyafLs7AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/s94rDCAAAA[0m[Pipeline] parallel
+[8mha:////4AHFHsVOSX9jnawUuKyuoJF+YLE6fRi7ECeNw2Sb9I7SAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULAgJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfACKOgoTwgAAAA==[0m[Pipeline] { (Branch: Health check)
+[8mha:////4KEo1IYzYW4dTOfzzq+uz/5dMhtYxgEmv3l8lUHIDSWwAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULEgIMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAv6VbYwgAAAA==[0m[Pipeline] { (Branch: Server Details)
+[8mha:////4MtqxmkN7K4elpFyzfzY9WtP7aJCYuNWbW/5UHN4jUA7AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUmJBQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCi3+2y7zedZvQF8icecwgAAAA==[0m[Pipeline] stage
+[8mha:////4GhtkB5aMQAZ+SwxG1T5bhu+9LCtHxu5KnDpeSpAdcjyAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUWBFT1ygLJwhNCGmj/8tPSjtxIq7GHWipxIQHy7ZkvdcbishwInaisdh6jLUXXejdlMRA3F4DDaKhi6gJIwUrlB0UGVstVVGysCjLYSVhbbEOFD26BBvZ6Icug0ZXnhNP21FC7s0dnpDJiZw0p28ZGba33kTCH+cvAMYuQX7Yzbafn8UHbGnGmsIAAAA=[0m[Pipeline] { (Health check)
+[8mha:////4FHpkiWNUoRt7GMiHM9585YFTPmbMjzp8CndrSVwBqciAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUdEOIqWuUhROEJIS00f8lSWknTsTVuAOBSkx4sGxL1nu+oIoBjhQs6wz2DqNybPCjzYlNFPqLp4l1dGaKMJI3TJhJkDbtUgUlA4uKElYc1gaVp+jQJtjwTt5l7SXa+pRC3g4cSqdv8ICCZ3KSIX3LHGB7HXUk/HH+AmAeEpS7fbam+TyrN7f3gRDCAAAA[0m[Pipeline] stage
+[8mha:////4BKw97HXKp2TThWR4I3p3jfyYkjyIIOsIxU+wmrop5aXAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUKiNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPpnFij8IAAAA=[0m[Pipeline] { (Server Details)
+[8mha:////4K+U7pq2zUpe6fIZ/0JQ5GpoFT/WDEgE++UcjYhMGLJyAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dvd7Md5mfxAR8nhQvCAAAA[0m[Pipeline] dir
+Running in /var/lib/jenkins/workspace/Linux-Server-Details
+[8mha:////4HDaXksjIb2wODvaSETCxImmmjOey0wuigI32AHcp2V3AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQjAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/hYjrHCAAAA[0m[Pipeline] {
+[8mha:////4Mp/8dDb7vs3y8ju3GxeRxv17qFiaJAsWjTBBBxG4PoMAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAokFMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfADVPyEewgAAAA==[0m[Pipeline] dir
+Running in /var/lib/jenkins/workspace/Linux-Server-Details
+[8mha:////4Bs8J7gn6dMS4Xui61RS/4ME6WxL+Wuml1G2rXJvhG4uAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYoABMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAyQCqkwgAAAA==[0m[Pipeline] {
+[8mha:////4HEFVcs0IhwwHS+HYlqocGK6kF52HMxSw/0XELs3VmxGAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISEhIaq0lhteYGJjnFh3xnZIKl7E1/gDgUhUbLHa2WaeL1imCEeOFltDnaPUOAy+t9PCgWN38Txgy2dsmBJ7g9IMkrWpZ5ScDcwpSlgIWBlqPCdHNsNatOquKq/IVqccp+8goHT6Bg8oxGTOKuYvjBE2114npp/nrwDGkKHc7j61D2+GdwK3vgAAAA==[0m[Pipeline] sh
+[8mha:////4MnpqsMCQdsfZiYB40Cc4oSvjL8czYbIOJkfqXYUBoUeAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0SCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAHuV4Y5vgAAAA==[0m[Pipeline] sh
++ ansible-playbook Linux-helathcheck.yml -i inventory.txt
++ ansible-playbook Linux_server_report.yml -i inventory.txt
+
+PLAY [server Healthcheck] ******************************************************
+
+TASK [helcheck : Check all port] ***********************************************
+
+PLAY [server Details] **********************************************************
+
+TASK [linrep : Creates directory] **********************************************
+ok: [10.170.153.161 -> localhost]
+
+TASK [helcheck : Port Failed Status] *******************************************
+skipping: [10.170.153.161]
+
+TASK [helcheck : Port Success Status] ******************************************
+ok: [10.170.153.161] => {
+    "msg": "Port 22 is Reachable"
+}
+
+TASK [helcheck : Copy Script to Client Location] *******************************
+ [WARNING]: Platform linux on host 10.170.153.161 is using the discovered
+Python interpreter at /usr/bin/python, but future installation of another
+Python interpreter could change this. See https://docs.ansible.com/ansible/2.8/
+reference_appendices/interpreter_discovery.html for more information.
+ok: [10.170.153.161]
+
+TASK [linrep : CopyScript to Client Location] **********************************
+ [WARNING]: Platform linux on host 10.170.153.161 is using the discovered
+Python interpreter at /usr/bin/python, but future installation of another
+Python interpreter could change this. See https://docs.ansible.com/ansible/2.8/
+reference_appendices/interpreter_discovery.html for more information.
+ok: [10.170.153.161]
+
+TASK [helcheck : Setting variable ping_status] *********************************
+ok: [10.170.153.161]
+
+TASK [helcheck : Linux Ping Check] *********************************************
+ok: [10.170.153.161]
+
+TASK [linrep : execute shell script] *******************************************
+ok: [10.170.153.161]
+
+TASK [helcheck : If ping status is UP] *****************************************
+ok: [10.170.153.161]
+
+TASK [helcheck : CPU Utilization] **********************************************
+changed: [10.170.153.161]
+
+TASK [linrep : Kernel Version L1] **********************************************
+changed: [10.170.153.161]
+
+TASK [helcheck : CPU util status] **********************************************
+ok: [10.170.153.161]
+
+TASK [helcheck : Swap Utilization] *********************************************
+changed: [10.170.153.161]
+
+TASK [linrep : Kernel Version L2] **********************************************
+ok: [10.170.153.161]
+
+TASK [linrep : System Configuration L1] ****************************************
+changed: [10.170.153.161]
+
+TASK [helcheck : Swap Util] ****************************************************
+skipping: [10.170.153.161]
+
+TASK [helcheck : Swap status] **************************************************
+ok: [10.170.153.161]
+
+TASK [helcheck : Total Memory] *************************************************
+changed: [10.170.153.161]
+
+TASK [linrep : System Configuration L1] ****************************************
+ok: [10.170.153.161]
+
+TASK [linrep : Load Average L1] ************************************************
+changed: [10.170.153.161]
+
+TASK [helcheck : used Memory] **************************************************
+changed: [10.170.153.161]
+
+TASK [linrep : Load Average L2] ************************************************
+ok: [10.170.153.161]
+
+TASK [linrep : File System L1] *************************************************
+changed: [10.170.153.161]
+
+TASK [helcheck : Memory Utilization] *******************************************
+changed: [10.170.153.161]
+
+TASK [linrep : File System L2] *************************************************
+ok: [10.170.153.161]
+
+TASK [linrep : cpu information L2] *********************************************
+changed: [10.170.153.161]
+
+TASK [helcheck : memory healthy green] *****************************************
+skipping: [10.170.153.161]
+
+TASK [helcheck : memory healthy red] *******************************************
+ok: [10.170.153.161]
+
+TASK [helcheck : Memory Avialble] **********************************************
+ok: [10.170.153.161]
+
+TASK [helcheck : Disk util] ****************************************************
+changed: [10.170.153.161]
+
+TASK [linrep : cpu information L2] *********************************************
+ok: [10.170.153.161]
+
+TASK [linrep : memory usages L1] ***********************************************
+changed: [10.170.153.161]
+
+TASK [helcheck : Disk status] **************************************************
+ok: [10.170.153.161]
+
+TASK [helcheck : uptime calculate] *********************************************
+changed: [10.170.153.161]
+
+TASK [linrep : memory usages L2] ***********************************************
+ok: [10.170.153.161]
+
+TASK [linrep : Block Device L1] ************************************************
+changed: [10.170.153.161]
+
+TASK [helcheck : Uptime Calculate] *********************************************
+ok: [10.170.153.161]
+
+TASK [helcheck : Service out] **************************************************
+changed: [10.170.153.161]
+
+TASK [linrep : Block Device L2] ************************************************
+ok: [10.170.153.161]
+
+TASK [linrep : Kernel IP routing table L1] *************************************
+changed: [10.170.153.161]
+
+TASK [helcheck : debugging] ****************************************************
+ok: [10.170.153.161] => {
+    "msg": "green"
+}
+
+TASK [helcheck : Disk status] **************************************************
+ok: [10.170.153.161]
+
+TASK [helcheck : template conversion] ******************************************
+changed: [10.170.153.161]
+
+TASK [linrep : Kernel IP routing table L2] *************************************
+ok: [10.170.153.161]
+
+TASK [linrep : Top Ten Memory utilization L1] **********************************
+changed: [10.170.153.161 -> localhost]
+
+PLAY RECAP *********************************************************************
+10.170.153.161             : ok=23   changed=9    unreachable=0    failed=0    skipped=3    rescued=0    ignored=0   
+
+[8mha:////4E417y3ljtJe0d2LNTOnCO8QJ67C2DYwAugcrviRE70IAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCQFQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AHcETLavgAAAA==[0m[Pipeline] }
+[8mha:////4G1TrQIoIQvc77hxhhOQyUyAIsYD/0i6RVZRc+12UB9yAAAApR+LCAAAAAAAAP9tjTsOwjAQRDdBFLSUHGIjPh1KRWu54QQmMcaJtRtsB6fiRFyNO2ARiYopRvOmea83LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AHv8mlmvgAAAA==[0m[Pipeline] // dir
+[8mha:////4ITE5FTBX8+nqrpMhsS2FASvv0WgUu/IpAfx+OfSWgDmAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRoURUaa00vMDEh3Fi3RnbIal4EV/jD1hEomKL1c4283rDOgY4cTCiRxosxc4K70aTl5g4DFfHk+j5IjqmyA5Fi1PLGpsFW04IS4oSVhI2SJ3jaMkk2MpePVTlFJnqnEL+jhJKq+/whEJmc1IhfWEOsLuNOjL9PH8FMHufoDzUuer9B850l5C+AAAA[0m[Pipeline] }
+[8mha:////4BG4E6LSbPP3tsjnhmzhGTF85mow5joBjMs7Qzxo+tcVAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCSImo0lppeIGJjXFi3RnbIal4EV/jD1hEomKL1c4283rDOgY4cTDYaxosxc6id6PJCycOw9XxhD1fsGOK7DS2empZ6WbBlpOGJUUJKwEbTZ3jaMkk2IpePmTlJJnqnEL+jgJKq+7whEJkc5IhfWEOsLuNKjL9PH8FMHufoKzrXIf9B/2XzCy+AAAA[0m[Pipeline] // stage
+[8mha:////4EWq82nCEkunZvYJ8Qp0DRVcgvaTNOgPE8w8uT0ueO9vAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBAUSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwAtHw/FL4AAAA=[0m[Pipeline] }
+changed: [10.170.153.161]
+
+TASK [linrep : Top Ten Memory utilization L2] **********************************
+ok: [10.170.153.161]
+
+TASK [linrep : Top Ten cpu utilization L1] *************************************
+changed: [10.170.153.161]
+
+TASK [linrep : Top Ten cpu utilization L2] *************************************
+ok: [10.170.153.161]
+
+TASK [linrep : Network Addresses L1] *******************************************
+changed: [10.170.153.161]
+
+TASK [linrep : Network Addresses L2] *******************************************
+ok: [10.170.153.161]
+
+TASK [linrep : Multipath L1] ***************************************************
+changed: [10.170.153.161]
+
+TASK [linrep : Multipath L2] ***************************************************
+ok: [10.170.153.161]
+
+TASK [linrep : LVDisplay L1] ***************************************************
+changed: [10.170.153.161]
+
+TASK [linrep : LVDisplay L2] ***************************************************
+ok: [10.170.153.161]
+
+TASK [linrep : PV Display L1] **************************************************
+changed: [10.170.153.161]
+
+TASK [linrep : PV Display L2] **************************************************
+ok: [10.170.153.161]
+
+TASK [linrep : VG Display L1] **************************************************
+changed: [10.170.153.161]
+
+TASK [linrep : VG Display L2] **************************************************
+ok: [10.170.153.161]
+
+TASK [linrep : template conversion] ********************************************
+changed: [10.170.153.161 -> localhost]
+
+PLAY RECAP *********************************************************************
+10.170.153.161             : ok=34   changed=17   unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+[8mha:////4JsiNZT/j1HeupVyLbExvr+DMKFAlRz2LJiHAgJQdFM1AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigRAFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwAQ+HxZL4AAAA=[0m[Pipeline] }
+[8mha:////4KDnEgxIoHbkXmaWj8BzR01Xh7rK3NhwdPTX6jEty4x9AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigZQGUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkF5qHPt6w97o2KVvgAAAA==[0m[Pipeline] // dir
+[8mha:////4K1NeIUFhP0OWKX6D4N5OnGW5UCzmQlKYSCtxPEEoBT6AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRSEGBqNJaaXiBiQ/jxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgRI80WIqdFd6NJi8xcRiujifR80V0TJEdihanljU2C7acEJYUJawkbJA6x9GSSbCVvXqoyiky1TmF/B0llFbf4QmFzOakQvrCHGB3G3Vk+nn+CmD2PkFZH3Lt6w9RhFQuvgAAAA==[0m[Pipeline] }
+[8mha:////4NdSws1QAcU9sSqsgqk6tlqlPykufe2n9vFOykimASOhAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihQYJUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkG5P+Sq6w8SBgWovgAAAA==[0m[Pipeline] // stage
+[8mha:////4FnkHEUhV9DshFcrqJ7B6Tj7+cP0TsuNbZ858ceNNCmqAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiRBUhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJygPda59/QH8X6bfvgAAAA==[0m[Pipeline] }
+[8mha:////4N9tngNOxE0IQGVWGtdsAaBuuwHWkbv84lx9MApWzBWIAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICEqJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw8rLbGtvgAAAA==[0m[Pipeline] // parallel
+[8mha:////4Kawpr2PCp9grpJ2rDludcYV9UlwlsAK5ZiulorhDCyVAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiSFAhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3da768AE0r+T/vgAAAA==[0m[Pipeline] }
+[8mha:////4ClIhbHZyVloFgHJ63XdCf8ryJS6kw+ycLWmJbkSQbmqAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUDpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BGV9yLWvPwztdw6+AAAA[0m[Pipeline] // stage
+[8mha:////4LP+LvW8nXDrveJyWQhfhd0plev9N8EBhF//EZI+S/KiAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYRTkA5R0VpueIFJjHFi3QX7QlLxIr7GHzBEomKrnZVW83xBmSIcKDrZWew9psbLIYwuNzlR7C+BJtnRWTaEiYKV2k6aWntcUBNbWCIKWClYW2wCJY+OYaM6czdVMOiqE8e87RUUvr3BA4TKZjaRvzBH2F7HNhH+PH8FMA8MomYo6t3nWL4Bv7mGhcEAAAA=[0m[Pipeline] stage
+[8mha:////4FIuBX1l+sIFqVZ2LAdcGB5xpXJO8avuxujdYX/zEeL9AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoh0oBtiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsPBA4E38IAAAA=[0m[Pipeline] { (Completed)
+[8mha:////4OYwUt9iHdaY3mrDehtJLwuXU3C8i7YGeEjjiUNCG9HLAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KRNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPIshjPcIAAAA=[0m[Pipeline] dir
+Running in /var/lib/jenkins/workspace/Linux-Server-Details
+[8mha:////4AeX1g2DXeh99e1rOc9J+kmccHdK/c38z9FmaaCjBJWHAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ARbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAUxleXrCAAAA[0m[Pipeline] {
+[8mha:////4GoFxgFXTmdDCKG/6r5W0VgItIhG9G9AqAAO6alQadq+AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSICgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N9bpw82+AAAA[0m[Pipeline] }
+[8mha:////4IFyzBA8OfEBMC3++snFngdQRLplHy98HneAIG8fhomXAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSgISEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQG5CpylvgAAAA==[0m[Pipeline] // dir
+[8mha:////4F+2ZWsIxBOU2EnG11v7hrbFLpIhxa/HaEtBWXKWH+mYAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaegjSpHEcK1uGxhNggghh/idAJJUn8mreQTQzVm6xs2+b93zBOgY4UtDMKhwMxs4w7yZdFssUhqujzCxdWEcYySkmVBbUq9OCgpKCJVUNKw4bhZ2jaFAn2HIr77JxEnVzTqF8Bw616Ud4QMWLOcmQvjAH2N2mPhL+PH8FMHufoG73n2rfiunHGb4AAAA=[0m[Pipeline] }
+[8mha:////4E3pVsJ9XLWbuUrtmHSVLRKovwdKyntNHyOEaPVrWzP9AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCBFQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrDNtd+9wFVJtsGvgAAAA==[0m[Pipeline] // stage
+[8mha:////4AMr5S20IhgilJJMB9yVzmTbQlpZeeJizp4JNYToUQpZAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRElSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfL8VZLsPI0C0dL0AAAA=[0m[Pipeline] }
+[8mha:////4NBPRScZtJX/+vQeYRnwBOzKCt5pvx5IKYfmCiLfvIQgAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRQFSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfL8VZLsPUK9wrb0AAAA=[0m[Pipeline] // node
+[8mha:////4E76L6CU0Hmy8xYwAJ9i8pJReYky0Hn0ZRvjqzVwjZ0KAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRQFSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfL8TZNsPdrYX570AAAA=[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

@@ -1,0 +1,158 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@2.35">
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <hudson.plugins.jira.JiraProjectProperty plugin="jira@3.0.9"/>
+    <hudson.model.ParametersDefinitionProperty>
+      <parameterDefinitions>
+        <hudson.model.ChoiceParameterDefinition>
+          <name>VCenter_Hostname</name>
+          <description></description>
+          <choices class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>xda</string>
+              <string>xdb</string>
+              <string>xdc</string>
+            </a>
+          </choices>
+        </hudson.model.ChoiceParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>Server</name>
+          <description></description>
+          <defaultValue></defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>Datacentre</name>
+          <description></description>
+          <defaultValue></defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.ChoiceParameterDefinition>
+          <name>Mode</name>
+          <description></description>
+          <choices class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>Install</string>
+              <string>Update</string>
+            </a>
+          </choices>
+        </hudson.model.ChoiceParameterDefinition>
+        <hudson.model.ChoiceParameterDefinition>
+          <name>OS</name>
+          <description></description>
+          <choices class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>Windows</string>
+              <string>Linux</string>
+              <string>Both</string>
+            </a>
+          </choices>
+        </hudson.model.ChoiceParameterDefinition>
+        <hudson.model.ChoiceParameterDefinition>
+          <name>Reboot</name>
+          <description></description>
+          <choices class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>Yes</string>
+              <string>No</string>
+            </a>
+          </choices>
+        </hudson.model.ChoiceParameterDefinition>
+      </parameterDefinitions>
+    </hudson.model.ParametersDefinitionProperty>
+  </properties>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@2.74">
+    <script>pipeline {
+        agent any
+		environment {
+		ansible_userid = credentials(&apos;ansible_userid&apos;)
+        ansible_password = credentials(&apos;ansible_password&apos;)
+        VCentre_Username = credentials(&apos;VCentre_Username&apos;)
+        VCentre_Password = credentials(&apos;VCentre_Password&apos;)
+        
+        }
+        stages {
+                stage(&apos;Validating Parameters&apos;) {
+                        steps {
+                            
+                                dir(&quot;/var/lib/jenkins/workspace/vmware_upgrade&quot;) {
+                                        sh &apos;&apos;&apos;
+if [ &quot;$VCenter_Hostname&quot; == &quot;xda&quot; ];then
+VCentre_Hostname=&quot;10.8.87.39&quot;
+elif [ &quot;$VCenter_Hostname&quot; == &quot;xdb&quot; ];then
+VCentre_Hostname=&quot;10.8.87.39&quot;
+elif [ &quot;$VCenter_Hostname&quot; == &quot;xdc&quot; ];then
+VCentre_Hostname=&quot;10.8.87.39&quot;
+fi
+cat &lt;&lt;EOT &gt; /var/lib/jenkins/workspace/vmware_upgrade/hosts
+vcenter_hostname: &quot;$VCentre_Hostname&quot;
+vcenter_username: &quot;$VCentre_Username&quot;
+hostname: &quot;$Server&quot;
+datacentre: &quot;$Datacentre&quot;
+mode: &quot;$Mode&quot;
+os: &quot;$OS&quot;
+reboot_req: &quot;$Reboot&quot;
+EOT
+&apos;&apos;&apos;
+                                        }
+                                        
+                                }
+                               
+                        }
+                        
+                
+                
+                         stage(&apos;Update or Install vmware tool for hosted VM&apos;){
+					steps {
+						dir(&quot;/var/lib/jenkins/workspace/vmware_upgrade&quot;) {
+				    script {
+	                            if ( params.Mode == &apos;Update&apos; &amp;&amp; params.OS == &apos;Both&apos;) {
+                                    sh &apos;sh inventory.sh&apos;
+				    sh &apos;ansible-playbook main.yml -i inventory -e &quot;ansible_user=$ansible_userid ansible_password=$ansible_password vcenter_password=$VCentre_Password&quot; --tags &quot;vmware_upgrade,vm_folder&quot; --extra-vars @/var/lib/jenkins/workspace/vmware_upgrade/hosts&apos;
+                            }
+	                    else if ( params.Mode == &apos;Install&apos; &amp;&amp; params.OS == &apos;Windows&apos;) {
+                            sh &apos;sh inventory_windows.sh&apos;
+			    sh &apos;ansible-playbook vmware_windows.yml -i inventory -e &quot;ansible_user=$ansible_userid ansible_password=$ansible_password&quot; --extra-vars @/var/lib/jenkins/workspace/vmware_upgrade/hosts&apos;
+                           }
+                           else if ( params.Mode == &apos;Install&apos; &amp;&amp; params.OS == &apos;Linux&apos;) {
+                            sh &apos;sh inventory_linux.sh&apos;
+			    sh &apos;ansible-playbook vmware_linux.yml -i inventory -e &quot;ansible_user=$ansible_userid ansible_password=$ansible_password&quot;
+                           }
+                           } 
+                            }
+                        
+						}
+                    }		
+		        
+				
+				stage(&apos;Completed&apos;){
+							steps {								
+								dir(&quot;/var/lib/jenkins/workspace/vmware_upgrade&quot;) {								    
+									
+										}
+									} 
+				        }
+			}			
+
+				      			
+						
+
+                
+	
+	post {
+        always {
+            sh &apos;#echo &quot;&quot; &gt; /var/lib/jenkins/workspace/vmware_upgrade/hosts&apos;
+	    sh &apos;#echo &quot;&quot; &gt; /var/lib/jenkins/workspace/vmware_upgrade/inventory&apos;
+            
+        }
+        
+	}
+}</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

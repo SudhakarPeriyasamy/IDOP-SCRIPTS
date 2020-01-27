@@ -1,0 +1,732 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@2.35">
+  <actions>
+    <hudson.model.ParametersAction>
+      <safeParameters class="sorted-set"/>
+      <parameters>
+        <hudson.model.StringParameterValue>
+          <name>VCenter_Hostname</name>
+          <description></description>
+          <value>xda</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>Hostname</name>
+          <description></description>
+          <value>dc8ucsjh02</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>Snapshot_Name</name>
+          <description></description>
+          <value>dc8ucsjh02_Test</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>Description</name>
+          <description></description>
+          <value>Test</value>
+        </hudson.model.StringParameterValue>
+      </parameters>
+      <parameterDefinitionNames>
+        <string>VCenter_Hostname</string>
+        <string>Hostname</string>
+        <string>Snapshot_Name</string>
+        <string>Description</string>
+      </parameterDefinitionNames>
+    </hudson.model.ParametersAction>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>admin</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@2.15">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction plugin="pipeline-model-definition@1.3.9">
+      <stagesUUID>1a1039ac-fee9-487a-aa32-d736ae93e64d</stagesUUID>
+      <stagesList>
+        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStages plugin="pipeline-model-api@1.3.9">
+          <stages>
+            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+              <name>Validating Parameters</name>
+              <branches>
+                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                  <name>default</name>
+                  <steps>
+                    <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTTreeStep>
+                      <name>dir</name>
+                      <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTSingleArgument">
+                        <value class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue$ConstantValue">
+                          <value class="string">/var/lib/jenkins/workspace/snapshot_creation</value>
+                        </value>
+                      </args>
+                      <children>
+                        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                          <name>sh</name>
+                          <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                            <arguments class="linked-hash-map">
+                              <entry>
+                                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                  <key>script</key>
+                                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                  <value class="string">
+if [ &quot;$VCenter_Hostname&quot; == &quot;xda&quot; ];then
+VCentre_Hostname=&quot;10.8.87.39&quot;
+elif [ &quot;$VCenter_Hostname&quot; == &quot;xdb&quot; ];then
+VCentre_Hostname=&quot;10.8.87.39&quot;
+elif [ &quot;$VCenter_Hostname&quot; == &quot;xdc&quot; ];then
+VCentre_Hostname=&quot;10.8.87.39&quot;
+fi
+echo $Hostname
+cat &lt;&lt;EOT &gt; /var/lib/jenkins/workspace/snapshot_creation/hosts
+vcenter_hostname: &quot;$VCentre_Hostname&quot;
+vcenter_username: &quot;$VCentre_Username&quot;
+hostname: &quot;$Hostname&quot;
+snapshot_name: &quot;$Snapshot_Name&quot;
+description: &quot;$Description&quot;
+EOT
+</value>
+                                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                              </entry>
+                            </arguments>
+                          </args>
+                        </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                      </children>
+                    </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTTreeStep>
+                  </steps>
+                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+              </branches>
+            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+              <name>Validating Hostname</name>
+              <branches>
+                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                  <name>default</name>
+                  <steps>
+                    <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTTreeStep>
+                      <name>dir</name>
+                      <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTSingleArgument">
+                        <value class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue$ConstantValue">
+                          <value class="string">/var/lib/jenkins/workspace/snapshot_creation</value>
+                        </value>
+                      </args>
+                      <children>
+                        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                          <name>sh</name>
+                          <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                            <arguments class="linked-hash-map">
+                              <entry>
+                                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                  <key>script</key>
+                                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                  <value class="string">sh inventory.sh</value>
+                                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                              </entry>
+                            </arguments>
+                          </args>
+                        </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                          <name>sh</name>
+                          <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                            <arguments class="linked-hash-map">
+                              <entry>
+                                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                  <key>script</key>
+                                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                  <value class="string">ansible-playbook check.yml -i inventory -e &quot;ansible_user=$ansible_userid ansible_password=$ansible_password vcenter_password=$VCentre_Password&quot; --tags precheck --extra-vars @/var/lib/jenkins/workspace/snapshot_creation/hosts</value>
+                                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                              </entry>
+                            </arguments>
+                          </args>
+                        </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                      </children>
+                    </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTTreeStep>
+                  </steps>
+                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+              </branches>
+            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+              <name>Performing Pre-Checks</name>
+              <branches/>
+              <parallel>
+                <stages>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                    <name>Validating vCenter connectivity</name>
+                    <branches>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                        <name>default</name>
+                        <steps>
+                          <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTTreeStep>
+                            <name>dir</name>
+                            <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTSingleArgument">
+                              <value class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue$ConstantValue">
+                                <value class="string">/var/lib/jenkins/workspace/snapshot_creation</value>
+                              </value>
+                            </args>
+                            <children>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                                <name>sh</name>
+                                <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                                  <arguments class="linked-hash-map">
+                                    <entry>
+                                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                        <key>script</key>
+                                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                        <value class="string">sh inventory.sh</value>
+                                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                    </entry>
+                                  </arguments>
+                                </args>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                                <name>sh</name>
+                                <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                                  <arguments class="linked-hash-map">
+                                    <entry>
+                                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                        <key>script</key>
+                                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                        <value class="string">ansible-playbook check.yml -i inventory -e &quot;ansible_python_interpreter=/usr/lib/python2.7 ansible_user=$ansible_userid ansible_password=$ansible_password vcenter_password=$VCentre_Password&quot; --tags precheck_connection --extra-vars @/var/lib/jenkins/workspace/snapshot_creation/hosts</value>
+                                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                    </entry>
+                                  </arguments>
+                                </args>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                            </children>
+                          </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTTreeStep>
+                        </steps>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                    </branches>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                    <name>Validating datastore size and vm size</name>
+                    <branches>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                        <name>default</name>
+                        <steps>
+                          <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTTreeStep>
+                            <name>dir</name>
+                            <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTSingleArgument">
+                              <value class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue$ConstantValue">
+                                <value class="string">/var/lib/jenkins/workspace/snapshot_creation</value>
+                              </value>
+                            </args>
+                            <children>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                                <name>sh</name>
+                                <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                                  <arguments class="linked-hash-map">
+                                    <entry>
+                                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                        <key>script</key>
+                                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                        <value class="string">sh inventory.sh</value>
+                                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                    </entry>
+                                  </arguments>
+                                </args>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                                <name>sh</name>
+                                <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                                  <arguments class="linked-hash-map">
+                                    <entry>
+                                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                        <key>script</key>
+                                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                        <value class="string">ansible-playbook check.yml -i inventory -e &quot;ansible_user=$ansible_userid ansible_password=$ansible_password vcenter_password=$VCentre_Password&quot; --tags &quot;precheck_harddisk,precheck_datastore&quot; --extra-vars @/var/lib/jenkins/workspace/snapshot_creation/hosts</value>
+                                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                    </entry>
+                                  </arguments>
+                                </args>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                            </children>
+                          </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTTreeStep>
+                        </steps>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                    </branches>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                    <name>Validating Server Reachability</name>
+                    <branches>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                        <name>default</name>
+                        <steps>
+                          <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTTreeStep>
+                            <name>dir</name>
+                            <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTSingleArgument">
+                              <value class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue$ConstantValue">
+                                <value class="string">/var/lib/jenkins/workspace/snapshot_creation</value>
+                              </value>
+                            </args>
+                            <children>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                                <name>sh</name>
+                                <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                                  <arguments class="linked-hash-map">
+                                    <entry>
+                                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                        <key>script</key>
+                                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                        <value class="string">sh inventory.sh</value>
+                                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                    </entry>
+                                  </arguments>
+                                </args>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                                <name>sh</name>
+                                <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                                  <arguments class="linked-hash-map">
+                                    <entry>
+                                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                        <key>script</key>
+                                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                        <value class="string">ansible-playbook check.yml -i inventory -e &quot;ansible_user=$ansible_userid ansible_password=$ansible_password vcenter_password=$VCentre_Password&quot; --tags medcheck_startup --extra-vars @/var/lib/jenkins/workspace/snapshot_creation/hosts</value>
+                                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                    </entry>
+                                  </arguments>
+                                </args>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                            </children>
+                          </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTTreeStep>
+                        </steps>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                    </branches>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                </stages>
+                <uuid>fc382581-3f94-44e3-8f81-f3567bf74aab</uuid>
+              </parallel>
+            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+              <name>Create Snapshot for hosted VM</name>
+              <branches>
+                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                  <name>default</name>
+                  <steps>
+                    <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTTreeStep>
+                      <name>dir</name>
+                      <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTSingleArgument">
+                        <value class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue$ConstantValue">
+                          <value class="string">/var/lib/jenkins/workspace/snapshot_creation</value>
+                        </value>
+                      </args>
+                      <children>
+                        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                          <name>sh</name>
+                          <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                            <arguments class="linked-hash-map">
+                              <entry>
+                                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                  <key>script</key>
+                                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                  <value class="string">sh inventory.sh</value>
+                                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                              </entry>
+                            </arguments>
+                          </args>
+                        </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                          <name>sh</name>
+                          <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                            <arguments class="linked-hash-map">
+                              <entry>
+                                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                  <key>script</key>
+                                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                  <value class="string">ansible-playbook main.yml -i inventory -e &quot;ansible_user=$ansible_userid ansible_password=$ansible_password vcenter_password=$VCentre_Password&quot; --tags &quot;snapshot_creation,vm_folder&quot; --extra-vars @/var/lib/jenkins/workspace/snapshot_creation/hosts</value>
+                                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                              </entry>
+                            </arguments>
+                          </args>
+                        </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                      </children>
+                    </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTTreeStep>
+                  </steps>
+                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+              </branches>
+            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+              <name>Performing post-Checks</name>
+              <branches/>
+              <parallel>
+                <stages>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                    <name>Validating Snapshot Existence</name>
+                    <branches>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                        <name>default</name>
+                        <steps>
+                          <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTTreeStep>
+                            <name>dir</name>
+                            <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTSingleArgument">
+                              <value class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue$ConstantValue">
+                                <value class="string">/var/lib/jenkins/workspace/snapshot_creation</value>
+                              </value>
+                            </args>
+                            <children>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                                <name>sh</name>
+                                <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                                  <arguments class="linked-hash-map">
+                                    <entry>
+                                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                        <key>script</key>
+                                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                        <value class="string">sh inventory.sh</value>
+                                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                    </entry>
+                                  </arguments>
+                                </args>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                                <name>sh</name>
+                                <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                                  <arguments class="linked-hash-map">
+                                    <entry>
+                                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                        <key>script</key>
+                                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                        <value class="string">ansible-playbook check.yml -i inventory -e &quot;ansible_user=$ansible_userid ansible_password=$ansible_password vcenter_password=$VCentre_Password&quot; --tags postcheck_snapshotcreated --extra-vars @/var/lib/jenkins/workspace/snapshot_creation/hosts</value>
+                                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                    </entry>
+                                  </arguments>
+                                </args>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                            </children>
+                          </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTTreeStep>
+                        </steps>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                    </branches>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                    <name>Validating Datastore Free Space</name>
+                    <branches>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                        <name>default</name>
+                        <steps>
+                          <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTTreeStep>
+                            <name>dir</name>
+                            <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTSingleArgument">
+                              <value class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue$ConstantValue">
+                                <value class="string">/var/lib/jenkins/workspace/snapshot_creation</value>
+                              </value>
+                            </args>
+                            <children>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                                <name>sh</name>
+                                <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                                  <arguments class="linked-hash-map">
+                                    <entry>
+                                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                        <key>script</key>
+                                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                        <value class="string">sh inventory.sh</value>
+                                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                    </entry>
+                                  </arguments>
+                                </args>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                                <name>sh</name>
+                                <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                                  <arguments class="linked-hash-map">
+                                    <entry>
+                                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                        <key>script</key>
+                                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                        <value class="string">ansible-playbook check.yml -i inventory -e &quot;ansible_user=$ansible_userid ansible_password=$ansible_password vcenter_password=$VCentre_Password&quot; --tags precheck_datastore --extra-vars @/var/lib/jenkins/workspace/snapshot_creation/hosts</value>
+                                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                    </entry>
+                                  </arguments>
+                                </args>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                            </children>
+                          </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTTreeStep>
+                        </steps>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                    </branches>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                    <name>Validating Server Reachability</name>
+                    <branches>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                        <name>default</name>
+                        <steps>
+                          <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTTreeStep>
+                            <name>dir</name>
+                            <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTSingleArgument">
+                              <value class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue$ConstantValue">
+                                <value class="string">/var/lib/jenkins/workspace/snapshot_creation</value>
+                              </value>
+                            </args>
+                            <children>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                                <name>sh</name>
+                                <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                                  <arguments class="linked-hash-map">
+                                    <entry>
+                                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                        <key>script</key>
+                                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                        <value class="string">sh inventory.sh</value>
+                                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                    </entry>
+                                  </arguments>
+                                </args>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                                <name>sh</name>
+                                <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                                  <arguments class="linked-hash-map">
+                                    <entry>
+                                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                        <key>script</key>
+                                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                        <value class="string">ansible-playbook check.yml -i inventory -e &quot;ansible_user=$ansible_userid ansible_password=$ansible_password vcenter_password=$VCentre_Password&quot; --tags medcheck_startup --extra-vars @/var/lib/jenkins/workspace/snapshot_creation/hosts</value>
+                                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                    </entry>
+                                  </arguments>
+                                </args>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                            </children>
+                          </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTTreeStep>
+                        </steps>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                    </branches>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                </stages>
+                <uuid>08e779ed-0c99-44c5-ab4d-c2c2487705f4</uuid>
+              </parallel>
+            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+              <name>Completed</name>
+              <branches>
+                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                  <name>default</name>
+                  <steps>
+                    <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTTreeStep>
+                      <name>dir</name>
+                      <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTSingleArgument">
+                        <value class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue$ConstantValue">
+                          <value class="string">/var/lib/jenkins/workspace/snapshot_creation</value>
+                        </value>
+                      </args>
+                      <children/>
+                    </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTTreeStep>
+                  </steps>
+                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+              </branches>
+            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+          </stages>
+          <uuid>1a1039ac-fee9-487a-aa32-d736ae93e64d</uuid>
+        </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStages>
+      </stagesList>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction>
+    <com.cloudbees.plugins.credentials.builds.CredentialsParameterBinder plugin="credentials@2.3.0">
+      <boundCredentials class="concurrent-hash-map"/>
+    </com.cloudbees.plugins.credentials.builds.CredentialsParameterBinder>
+  </actions>
+  <queueId>247</queueId>
+  <timestamp>1569327416141</timestamp>
+  <startTime>1569327416143</startTime>
+  <result>FAILURE</result>
+  <duration>177424</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>FAILURE</result>
+    <script>pipeline {
+        agent any
+		environment {
+		ansible_userid = credentials(&apos;ansible_userid&apos;)
+        ansible_password = credentials(&apos;ansible_password&apos;)
+        VCentre_Username = credentials(&apos;VCentre_Username&apos;)
+        VCentre_Password = credentials(&apos;VCentre_Password&apos;)
+        
+        }
+        stages {
+                stage(&apos;Validating Parameters&apos;) {
+                        steps {
+                            
+                                dir(&quot;/var/lib/jenkins/workspace/snapshot_creation&quot;) {
+                                        sh &apos;&apos;&apos;
+if [ &quot;$VCenter_Hostname&quot; == &quot;xda&quot; ];then
+VCentre_Hostname=&quot;10.8.87.39&quot;
+elif [ &quot;$VCenter_Hostname&quot; == &quot;xdb&quot; ];then
+VCentre_Hostname=&quot;10.8.87.39&quot;
+elif [ &quot;$VCenter_Hostname&quot; == &quot;xdc&quot; ];then
+VCentre_Hostname=&quot;10.8.87.39&quot;
+fi
+echo $Hostname
+cat &lt;&lt;EOT &gt; /var/lib/jenkins/workspace/snapshot_creation/hosts
+vcenter_hostname: &quot;$VCentre_Hostname&quot;
+vcenter_username: &quot;$VCentre_Username&quot;
+hostname: &quot;$Hostname&quot;
+snapshot_name: &quot;$Snapshot_Name&quot;
+description: &quot;$Description&quot;
+EOT
+&apos;&apos;&apos;
+                                        }
+                                        
+                                }
+                               
+                        }
+                        
+                stage(&apos;Validating Hostname&apos;){
+							steps {
+								dir(&quot;/var/lib/jenkins/workspace/snapshot_creation&quot;) {
+								    sh &apos;sh inventory.sh&apos;
+									sh &apos;ansible-playbook check.yml -i inventory -e &quot;ansible_user=$ansible_userid ansible_password=$ansible_password vcenter_password=$VCentre_Password&quot; --tags precheck --extra-vars @/var/lib/jenkins/workspace/snapshot_creation/hosts&apos;
+									}
+								}
+					   }
+                stage(&apos;Performing Pre-Checks&apos;) {
+									
+					parallel {
+						stage(&apos;Validating vCenter connectivity&apos;){
+							steps {
+								dir(&quot;/var/lib/jenkins/workspace/snapshot_creation&quot;) {
+								    sh &apos;sh inventory.sh&apos;
+									sh &apos;ansible-playbook check.yml -i inventory -e &quot;ansible_python_interpreter=/usr/lib/python2.7 ansible_user=$ansible_userid ansible_password=$ansible_password vcenter_password=$VCentre_Password&quot; --tags precheck_connection --extra-vars @/var/lib/jenkins/workspace/snapshot_creation/hosts&apos;
+									}
+								}
+					   }
+					   stage(&apos;Validating datastore size and vm size&apos;){
+							steps {
+								dir(&quot;/var/lib/jenkins/workspace/snapshot_creation&quot;) {
+								    sh &apos;sh inventory.sh&apos;
+									sh &apos;ansible-playbook check.yml -i inventory -e &quot;ansible_user=$ansible_userid ansible_password=$ansible_password vcenter_password=$VCentre_Password&quot; --tags &quot;precheck_harddisk,precheck_datastore&quot; --extra-vars @/var/lib/jenkins/workspace/snapshot_creation/hosts&apos;
+									}
+								}
+					   }
+					   
+					   stage(&apos;Validating Server Reachability&apos;){
+							steps {
+								dir(&quot;/var/lib/jenkins/workspace/snapshot_creation&quot;) {
+								    sh &apos;sh inventory.sh&apos;
+									sh &apos;ansible-playbook check.yml -i inventory -e &quot;ansible_user=$ansible_userid ansible_password=$ansible_password vcenter_password=$VCentre_Password&quot; --tags medcheck_startup --extra-vars @/var/lib/jenkins/workspace/snapshot_creation/hosts&apos;
+									}
+								}
+					   }
+						
+						
+                    }
+                }
+                         stage(&apos;Create Snapshot for hosted VM&apos;){
+					steps {
+						dir(&quot;/var/lib/jenkins/workspace/snapshot_creation&quot;) {
+						     
+                                    sh &apos;sh inventory.sh&apos;
+									sh &apos;ansible-playbook main.yml -i inventory -e &quot;ansible_user=$ansible_userid ansible_password=$ansible_password vcenter_password=$VCentre_Password&quot; --tags &quot;snapshot_creation,vm_folder&quot; --extra-vars @/var/lib/jenkins/workspace/snapshot_creation/hosts&apos;
+                            	
+                            
+                            }
+                        
+						}
+                    }		
+		        
+				stage(&apos;Performing post-Checks&apos;) {
+									
+					parallel {
+					    stage(&apos;Validating Snapshot Existence&apos;){
+							steps {
+								dir(&quot;/var/lib/jenkins/workspace/snapshot_creation&quot;) {
+								    sh &apos;sh inventory.sh&apos;
+									sh &apos;ansible-playbook check.yml -i inventory -e &quot;ansible_user=$ansible_userid ansible_password=$ansible_password vcenter_password=$VCentre_Password&quot; --tags postcheck_snapshotcreated --extra-vars @/var/lib/jenkins/workspace/snapshot_creation/hosts&apos;
+									}
+								}
+					   }
+						stage(&apos;Validating Datastore Free Space&apos;){
+							steps {
+								dir(&quot;/var/lib/jenkins/workspace/snapshot_creation&quot;) {
+								    sh &apos;sh inventory.sh&apos;
+									sh &apos;ansible-playbook check.yml -i inventory -e &quot;ansible_user=$ansible_userid ansible_password=$ansible_password vcenter_password=$VCentre_Password&quot; --tags precheck_datastore --extra-vars @/var/lib/jenkins/workspace/snapshot_creation/hosts&apos;
+									}
+								}
+					   }
+					   stage(&apos;Validating Server Reachability&apos;){
+							steps {
+								dir(&quot;/var/lib/jenkins/workspace/snapshot_creation&quot;) {
+								    sh &apos;sh inventory.sh&apos;
+									sh &apos;ansible-playbook check.yml -i inventory -e &quot;ansible_user=$ansible_userid ansible_password=$ansible_password vcenter_password=$VCentre_Password&quot; --tags medcheck_startup --extra-vars @/var/lib/jenkins/workspace/snapshot_creation/hosts&apos;
+									}
+								}
+					   }
+					}
+				}
+				stage(&apos;Completed&apos;){
+							steps {								
+								dir(&quot;/var/lib/jenkins/workspace/snapshot_creation&quot;) {								    
+									
+										}
+									} 
+				        }
+			}			
+
+				      			
+						
+
+                
+	
+	post {
+        always {
+            sh &apos;#echo &quot;&quot; &gt; /var/lib/jenkins/workspace/snapshot_creation/hosts&apos;
+			sh &apos;#echo &quot;&quot; &gt; /var/lib/jenkins/workspace/snapshot_creation/inventory&apos;
+        }
+        
+	}
+}</script>
+    <loadedScripts class="map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="map">
+      <entry>
+        <string>flowNode</string>
+        <long>375177228</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>616418328</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>1768086568</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>58501728</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>355960599</long>
+      </entry>
+    </timings>
+    <sandbox>true</sandbox>
+    <iota>114</iota>
+    <head>1:114</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>

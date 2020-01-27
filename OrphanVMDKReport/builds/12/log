@@ -1,0 +1,516 @@
+Started by user [8mha:////4CaoB2Pf4pV37y0tI7Ug7cxmj6XmTZElVvK39GEAxNQEAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZu/dLi1CL9xJTczDwACG0V4sAAAAA=[0mAdministrator
+Replayed [8mha:////4Fi3/oouG6pfGNn6jdzC0lsxJns9CF3iv3slAEZZ3D5oAAAApR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZJ/az8JH3/ooKMxLwwXxfvoNSC/KISfUNDfQAuritxzgAAAA==[0m#11
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4OLV+lntHjZuxZp2t894VegAQzqSx7P3txzt/b9ofVCrAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4LwqxUFl6RELUlb7E1W5yt6jrbypcMQx5grSSCh7TyOtAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4KZhxD3tv46iVbhKjbbb27qqykto+K3ZMv6IMwic71ghAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/lib/jenkins/workspace/OrphanVMDKReport
+[8mha:////4C58DzLyD46MV1Rd5WJBaVz+E45TYGgZ+5XahqCj2HSlAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4ERG3xrkOFexMT8+1J1pSGvle3kanr7bQDBu0KwPof1+AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] withCredentials
+Masking supported pattern matches of $ansible_userid or $ansible_password or $VCentre_Username or $VCentre_Password
+[8mha:////4K/ArAjwl9QOpmzlHW5Wms1meZ02ASF9sbPibfSBc2/+AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] {
+[8mha:////4DIfZIsmi6f3oFGTFqGJySagjQVBFHrlavQDOyIXObFCAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] stage
+[8mha:////4FJSxUXCqmMjPbAn2Otf6s68g0+loEa2vUXL2jnVMecTAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] { (Validating Parameter)
+[8mha:////4JGKmfdW0JyHo2FM/61AzdI3x1ILbL+aa+jYfsZVPLQLAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BSEm1igLJwhJCGmj/9skpZ04EVfjDgQqMWHJkm3Jes8X1CnCkaLjrcXOY9Ke92F0JfGJYncNNPGWLlwTJgqWSztJMva0VEnZwiJWwUrA2qIOlDy6DBvRqrtqgkLXnHMs20FA5c0AD2CikLOK+VvmCNvbaBLhj/MXAHOfge2K959f/QbB16AVwAAAAA==[0m[Pipeline] dir
+Running in /var/lib/jenkins/workspace/orphan_vmdkreport
+[8mha:////4DpauG9ftNgMx4ocCjRmGYGv++vOlTn0ZTqjI0rJX0vRAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDJUJUtJYbXmBiY5xYd8G+kFS8iK/xBwKRqNhqZ6XVPF9Q5gQHSl42DtuAuQ6yi72fmhwotZdIg2zoLGvCTNFJ7QZN1h1n1MQO5ogCFgqWDutIOaBnWKnG3E0VDfrqxGna9gqKYG/wAKEmM5vEXxgTrK+9zYQ/z18BjB2D2DEU283nWL4Bsam+msEAAAA=[0m[Pipeline] {
+[8mha:////4AZuGQabZLclvDSc7MlJTuJHmYaTBQ6+hWiqZ1iw8ZpnAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCakRFa6XhBSYxxo5159gOTsWL+Bp/IBCJii1WO9vM8wXrGODIQaNV1BuKrUHvRj0vzBz6q+OMli/YMkV2ChuVG+7UacGGk4IlRQkrARtFreNoSCfYCivvsnKSdHVOYf4OAkrTDfCAQszmJEP6whRgdxu7yPTz/BXA5BOU9f5TtX8D0loxuL4AAAA=[0m[Pipeline] sh
++ cat
++ echo ****
+****
++ echo ****
+****
++ cat
+[8mha:////4AyvExha2DAauUM+pMpI1SzGBwi2ZMbTxKQyqwJ4ZpoZAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICtIgqreWGF5jYGCfWnbEdkooX8TX+QCASFVusdraZ5wuWKcKRo8XWUOcoNQ6D7+20cODYXTwP2PIZG6bE3qA0g2Rt6hklZwNzihIWAlaGGs/Jkc2wFq26q8orstUpx+k7CCidvsEDCjGZs4r5C2OEzbXXienn+SuAMYQM5W7/qe0bsgYiW74AAAA=[0m[Pipeline] }
+[8mha:////4DFkW2ynJGArESzUbQGKwaPPXpRBZAJ/VPBSu3Fkjfr8AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRokKIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsTZPsP6C1U670AAAA=[0m[Pipeline] // dir
+[8mha:////4CZnXPToyqMR4ivDOjVGmKLa0+/8bPaq2HTxncne2QvFAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIREgUSoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/uBNn+A27Bcy69AAAA[0m[Pipeline] }
+[8mha:////4PoxC7DaPhq1iDWvS3Q16dYpcbY8He2mjq40OLMig7rcAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRBaJAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5NudINt/AE/1rIO9AAAA[0m[Pipeline] // stage
+[8mha:////4GWVCKtmtgQyePUq08sqa3WZDWx2Uk4sMqolnoZuupdfAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjmjSIitZywwtMYowT6y7YF5KKF/E1/oAhEhVb7ay0mucLyhThQNHJzmLvMTVeDmF0ucmJYn8JNMmOzrIhTBSs1HbS1NrjgprYwhJRwErB2mITKHl0DBvVmbupgkFXnTjmba+g8O0NHiBUNrOJ/IU5wvY6tonw5/krgHlgEDVDsas/x/INar4f38EAAAA=[0m[Pipeline] stage
+[8mha:////4JomicfLJqc6Unbw2BQMJ9n2FcUuPUKaa/v+2ICQY/JBAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] { (Validating Hostname)
+[8mha:////4Ab4uFnX6yZp/mCZJOw1mH71icf/FLFc2/XsmLidarOPAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTCAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0rlhNLCAAAA[0m[Pipeline] dir
+Running in /var/lib/jenkins/workspace/orphan_vmdkreport
+[8mha:////4H3FEPw0Yt2gsT/iJPY3depRcthUplHrUaR8ZJ6QJnvAAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUbCDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASnCIIrCAAAA[0m[Pipeline] {
+[8mha:////4Mo4kCluwNb/Qeq9xgwYa3IDpr1HLyWtzOSIw+7pLQCmAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICdAilorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYI5e6Qa78dPhmQ9Da+AAAA[0m[Pipeline] sh
++ sh inventory.sh
+[8mha:////4JNDaeFSsbqIGXk6eCYaPNk/68oz2oanceiqi8cDxjJyAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKi0CFEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNknKOtDrn3tP1ih7y++AAAA[0m[Pipeline] sh
++ ansible-playbook check.yml -i inventory -e 'ansible_user=**** ansible_password=**** vcenter_username=**** vcenter_password=****' --tags precheck
+
+PLAY [VM Reboot Precheck] ******************************************************
+
+TASK [Validate connectivity] ***************************************************
+changed: [10.171.198.13] => (item=10.8.87.43)
+
+PLAY RECAP *********************************************************************
+10.171.198.13              : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+[8mha:////4IiBw8QM3tE2NvPf/Puw4ffEWOac60hN9DpTnDm3KvJeAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIR6RCiSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BGVd59ofPoukFhO+AAAA[0m[Pipeline] }
+[8mha:////4EjKJCUf+ktG8Zso/P66VchMgm0QMX15k6dLXHglNuPJAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEFCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw+4R02vvgAAAA==[0m[Pipeline] // dir
+[8mha:////4FO2JJL3/7Qgu4lG42Ba7VdwXRfCWh/mEXpyZwYfUZFsAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEBIFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwAkWr3Ir4AAAA=[0m[Pipeline] }
+[8mha:////4MMgaH3d/4pNDyChKBY95e8mdT9hkAx/w3PUezE1MB1nAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikKBBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw+iiayevgAAAA==[0m[Pipeline] // stage
+[8mha:////4CxEyfltgLGYNoGvqge0DHrJN9VO7h9lJdnjW5HXoiqXAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjUaRBVLSWG15gEmOcWHfBvpBUvIiv8QcMkajYamel1TxfUKYIB4pOdhZ7j6nxcgijy01OFPtLoEl2dJYNYaJgpbaTptYeF9TEFpaIAlYK1habQMmjY9ioztxNFQy66sQxb3sFhW9v8AChsplN5C/MEbbXsU2EP89fAcwDg6gZil39OZZv96T37sEAAAA=[0m[Pipeline] stage
+[8mha:////4Bs8J7gn6dMS4Xui61RS/4ME6WxL+Wuml1G2rXJvhG4uAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYoABMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAyQCqkwgAAAA==[0m[Pipeline] { (Orphan vmdk report generation)
+[8mha:////4OX6ri0TFG7Yni2xNoXG+IkD/L4PWowiQD0lv1dnLqelAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgEJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAnLfKUwgAAAA==[0m[Pipeline] dir
+Running in /var/lib/jenkins/workspace/orphan_vmdkreport
+[8mha:////4IBWE6K7jIgzuJ3dzgoPFL0s11/XBANJY2z/OKX4B6FuAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgIhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0QKVszCAAAA[0m[Pipeline] {
+[8mha:////4D88nqiXCJjDBUeHXarYARdiiWmlyWdDclAnGLCqClS6AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCoEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDREKHeHXPvt8AHN/bm5vgAAAA==[0m[Pipeline] sh
++ sh inventory.sh
+[8mha:////4MM4d6JYkmeOt0aQNubTR42XQqPtiVj/dkQbA2P4jr12AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDREKHeHXPvt8AGMzKKgvgAAAA==[0m[Pipeline] sh
++ ansible-playbook site.yml -i inventory -e 'ansible_user=**** ansible_password=****'
+
+PLAY [VM Tool Status] **********************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [10.171.198.13]
+
+TASK [orphan_vmdk : Create the directory] **************************************
+ok: [10.171.198.13]
+
+TASK [orphan_vmdk : Copy the report generation file] ***************************
+changed: [10.171.198.13]
+
+TASK [orphan_vmdk : Copy the report generation file] ***************************
+ok: [10.171.198.13]
+
+TASK [orphan_vmdk : Copy file] *************************************************
+ok: [10.171.198.13]
+
+TASK [orphan_vmdk : Run Orphan VMDK] *******************************************
+changed: [10.171.198.13]
+
+TASK [orphan_vmdk : debug] *****************************************************
+ok: [10.171.198.13] => {
+    "msg": {
+        "changed": true,
+        "cmd": "powershell.exe C:\\tmp\\orphan_vmdk\\orphan_vmdk.ps1",
+        "delta": "0:02:56.115677",
+        "end": "2019-12-13 08:36:31.644231",
+        "failed": false,
+        "rc": 0,
+        "start": "2019-12-13 08:33:35.528554",
+        "stderr": "Exception calling \"SearchDatastoreSubFolders\" with \"2\" argument(s): \"Datastore 'datastore1 (31)' is not accessible. No \r\nconnected and accessible host is attached to this datastore.\"\r\nAt C:\\tmp\\orphan_vmdk\\orphan_vmdk.ps1:27 char:1\r\n+ $FolderBrowseResult = $dsbrowser.SearchDatastoreSubFolders($rootPath, ...\r\n+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException\r\n    + FullyQualifiedErrorId : VimException\r\n \r\nException calling \"SearchDatastoreSubFolders\" with \"2\" argument(s): \"Datastore 'datastore1' is not accessible. No \r\nconnected and accessible host is attached to this datastore.\"\r\nAt C:\\tmp\\orphan_vmdk\\orphan_vmdk.ps1:27 char:1\r\n+ $FolderBrowseResult = $dsbrowser.SearchDatastoreSubFolders($rootPath, ...\r\n+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException\r\n    + FullyQualifiedErrorId : VimException\r\n \r\n",
+        "stderr_lines": [
+            "Exception calling \"SearchDatastoreSubFolders\" with \"2\" argument(s): \"Datastore 'datastore1 (31)' is not accessible. No ",
+            "connected and accessible host is attached to this datastore.\"",
+            "At C:\\tmp\\orphan_vmdk\\orphan_vmdk.ps1:27 char:1",
+            "+ $FolderBrowseResult = $dsbrowser.SearchDatastoreSubFolders($rootPath, ...",
+            "+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+            "    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException",
+            "    + FullyQualifiedErrorId : VimException",
+            " ",
+            "Exception calling \"SearchDatastoreSubFolders\" with \"2\" argument(s): \"Datastore 'datastore1' is not accessible. No ",
+            "connected and accessible host is attached to this datastore.\"",
+            "At C:\\tmp\\orphan_vmdk\\orphan_vmdk.ps1:27 char:1",
+            "+ $FolderBrowseResult = $dsbrowser.SearchDatastoreSubFolders($rootPath, ...",
+            "+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+            "    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException",
+            "    + FullyQualifiedErrorId : VimException",
+            " "
+        ],
+        "stdout": "WARNING: Please consider joining the VMware Customer Experience Improvement Program, so you can help us make PowerCLI a\r\n better product. You can join using the following command:\r\n\r\nSet-PowerCLIConfiguration -Scope User -ParticipateInCEIP $true\r\n\r\nVMware's Customer Experience Improvement Program (\"CEIP\") provides VMware with information that enables VMware to \r\nimprove its products and services, to fix problems, and to advise you on how best to deploy and use our products.  As \r\npart of the CEIP, VMware collects technical information about your organization’s use of VMware products and services \r\non a regular basis in association with your organization’s VMware license key(s).  This information does not personally\r\n identify any individual.\r\n\r\nFor more details: type \"help about_ceip\" to see the related help article.\r\n\r\nTo disable this warning and set your preference use the following command and restart PowerShell: \r\nSet-PowerCLIConfiguration -Scope User -ParticipateInCEIP $true or $false.\n\r\nScope    ProxyPolicy     DefaultVIServerMode InvalidCertificateAction  DisplayDeprecationWarnings WebOperationTimeout\r\n                                                                                                  Seconds            \r\n-----    -----------     ------------------- ------------------------  -------------------------- -------------------\r\nSession  UseSystemProxy  Multiple            Ignore                    True                       300                \r\nUser                                         Ignore                                                                  \r\nAllUsers                                                                                                             \r\n10.8.87.43\n\r\nIsConnected   : True\r\nId            : /VIServer=sfdc\\****@10.8.87.43:443/\r\nServiceUri    : https://10.8.87.43/sdk\r\nSessionSecret : \"c9e1311eecde5fcfd10c6c7854b1372a4e8d2ee7\"\r\nName          : 10.8.87.43\r\nPort          : 443\r\nSessionId     : \"c9e1311eecde5fcfd10c6c7854b1372a4e8d2ee7\"\r\nUser          : SFDC\\C5286003\r\nUid           : /VIServer=sfdc\\****@10.8.87.43:443/\r\nVersion       : 6.7.0\r\nBuild         : 14368073\r\nProductLine   : vpx\r\nInstanceUuid  : 0c8550ba-c2dd-49cb-87ad-fa59c9d7045f\r\nRefCount      : 1\r\nExtensionData : VMware.Vim.ServiceInstance\r\n\r\nOrphaned Disks in DC08_Transfer_01:\nDC08_Transfer_01\\sc8lp51u002.vmdk\n VMDK Size 50.1968536376953\nDC08_Transfer_01\\sc8lp51u002_1.vmdk\n VMDK Size 51.2007904052734\nDC08_Transfer_01\\dc8dsstgcms02.vmdk\n VMDK Size 100.393707275391\nDC08_Transfer_01\\SC8ITOABI03.vmdk\n VMDK Size 306.200790405273\nDC08_Transfer_01\\SC8ITOABI03_7.vmdk\n VMDK Size 200.787410736084\nDC08_Transfer_01\\8vesx.vmdk\n VMDK Size 40.1574859619141\nDC08_Transfer_01\\8vesx_1.vmdk\n VMDK Size 40.1574859619141\nDC08_Transfer_01\\dc08vmks02_1.vmdk\n VMDK Size 1.45332336425781\nDC08_Transfer_01\\dc08vmks02.vmdk\n VMDK Size 0.779018402099609\nDC08_Transfer_01\\dc8salesengine01.vmdk\n VMDK Size 0.137260437011719\nDC08_Transfer_01\\dc8salesengine01_1.vmdk\n VMDK Size 40.1574859619141\nDC08_Transfer_01\\sc8lp77u001_1.vmdk\n VMDK Size 7.1794319152832\nDC08_Transfer_01\\sc8lp77u001_1-000001.vmdk\n VMDK Size 0.000102996826171875\nDC08_Transfer_01\\sc8lp77u001.vmdk\n VMDK Size 8.74781036376953\nDC08_Transfer_01\\sc8lp77u001-000001.vmdk\n VMDK Size 0.0127716064453125\nDC08_Transfer_01\\sc8wfatest02_3.vmdk\n VMDK Size 100.393707275391\nDC08_Transfer_01\\WIN2k8-ENT-NEW_oct2018.vmdk\n VMDK Size 100.393707275391\nDC08_Transfer_01\\pc8dbmonsql02_1.vmdk\n VMDK Size 75.2952842712402\nDC08_Transfer_01\\pc8dbmonsql02_4.vmdk\n VMDK Size 25.0984306335449\nDC08_Transfer_01\\pc8dbmonsql02_3.vmdk\n VMDK Size 50.1968536376953\nDC08_Transfer_01\\pc8dbmonsql02.vmdk\n VMDK Size 100.393707275391\nDC08_Transfer_01\\pc8dbmonsql02_2.vmdk\n VMDK Size 50.1968536376953\nDC08_Transfer_01\\dc08vmpxe01_1.vmdk\n VMDK Size 7.06552505493164\nDC08_Transfer_01\\dc8dsstgjob02.vmdk\n VMDK Size 100.393707275391\nDC08_Transfer_01\\dc8dsstgjob01.vmdk\n VMDK Size 100.393707275391\nDC08_Transfer_01\\DC8DSSTGCMS01.vmdk\n VMDK Size 100.393707275391\nDC08_Transfer_01\\dc8zk05_1.vmdk\n VMDK Size 80.3149681091309\nDC08_Transfer_01\\dc8zk05_3.vmdk\n VMDK Size 0.147064208984375\nDC08_Transfer_01\\dc8zk05_2.vmdk\n VMDK Size 5.01969528198242\nDC08_Transfer_01\\PC8ITOABI02.vmdk\n VMDK Size 301.181106567383\nDC08_Transfer_01\\dc8cloudsync01.vmdk\n VMDK Size 14.4081077575684\nDC08_Transfer_01\\RHEL7_6_Template_DC8-1.vmdk\n VMDK Size 0.706525325775146\nDC08_Transfer_01\\dpl003.vmdk\n VMDK Size 0.147064208984375\nDC08_Transfer_01\\dpl003_1.vmdk\n VMDK Size 60.2362213134766\nDC08_Transfer_01\\phoebe-9-7-0-125-C600V-disk1.vmdk\n VMDK Size 1.68284559249878\nDC08_Transfer_01\\SLES12_SP3_V0_V10_1.vmdk\n VMDK Size 50.1968536376953\nDC08_Transfer_01\\SLES12_SP3_V0_V10.vmdk\n VMDK Size 50.1968536376953\nDC08_Transfer_01\\SLES11_SP4.vmdk\n VMDK Size 50.1968536376953\nDC08_Transfer_01\\SLES11_SP4_1.vmdk\n VMDK Size 51.2007904052734\nDC08_Transfer_01\\dc8devhaasapp01.vmdk\n VMDK Size 40.1574859619141\nDC08_Transfer_01\\pc8ofbiz02.vmdk\n VMDK Size 100.393707275391\nDC08_Transfer_01\\dc08vmks01.vmdk\n VMDK Size 1.90748977661133\nDC08_Transfer_01\\dc08vmks01_1.vmdk\n VMDK Size 20.0787467956543\nDC08_Transfer_01\\pc8rundeckn03_1.vmdk\n VMDK Size 101.397644042969\nDC08_Transfer_01\\pc8rundeckn03.vmdk\n VMDK Size 100.393707275391\nDC08_Transfer_01\\dc8hanasftp01.vmdk\n VMDK Size 0.147064208984375\nDC08_Transfer_01\\dc8hanasftp01_1.vmdk\n VMDK Size 40.1574859619141\nDC08_Transfer_01\\sc8bs2job01t_1.vmdk\n VMDK Size 0.0023040771484375\nDC08_Transfer_01\\sc8lp06r01.vmdk\n VMDK Size 50.1968536376953\nDC08_Transfer_01\\pc8bwcf600t.vmdk\n VMDK Size 4.03852462768555\nDC08_Transfer_01\\dc8dsstgjob03.vmdk\n VMDK Size 100.393707275391\nDC08_Transfer_01\\sc8bsrch57_2.vmdk\n VMDK Size 501.968509674072\nDC08_Transfer_01\\sc8bsrch57.vmdk\n VMDK Size 50.1968536376953\nDC08_Transfer_01\\sc8bsrch57_1.vmdk\n VMDK Size 51.2007904052734\nDC08_Transfer_01\\DC8-VC8_1.vmdk\n VMDK Size 52.2047271728516\nDC08_Transfer_01\\DC8-VC8.vmdk\n VMDK Size 100.393707275391\nOrphaned Disks in DC08_Template_01:\nDC08_Template_01\\SLES12_SP1_V0_oct2018_1.vmdk\n VMDK Size 0.0023040771484375\nDC08_Template_01\\SLES12_SP1_V0_oct2018.vmdk\n VMDK Size 1.74634552001953\nDC08_Template_01\\SLES12_SP3_V0--issue.vmdk\n VMDK Size 0\nDC08_Template_01\\SLES12_SP1_V0_1.vmdk\n VMDK Size 0.0023040771484375\nDC08_Template_01\\SLES12_SP1_V0.vmdk\n VMDK Size 1.74634552001953\nDC08_Template_01\\dc08tenable01-s.ashfed.sf.priv.vmdk\n VMDK Size 24.0769691467285\nDC08_Template_01\\WIN2k8-ENT-NEW_oct2018.vmdk\n VMDK Size 8.29336166381836\nDC08_Template_01\\WIN2k16-ENT.vmdk\n VMDK Size 10.1680221557617\nDC08_Template_01\\SLES11SP4V0_may17.vmdk\n VMDK Size 2.5792350769043\nDC08_Template_01\\SLES11SP4V0_may17_1.vmdk\n VMDK Size 0.0023040771484375\nDC08_Template_01\\SLES11-SP3-V3_1.vmdk\n VMDK Size 0.0342788696289063\nDC08_Template_01\\SLES11-SP3-V3.vmdk\n VMDK Size 3.47574234008789\nDC08_Template_01\\windows2012-wfa.vmdk\n VMDK Size 9.62265014648438\nDC08_Template_01\\SLES12_SP1_V0_may17.vmdk\n VMDK Size 1.73740005493164\nDC08_Template_01\\SLES12_SP1_V0_may17_1.vmdk\n VMDK Size 0.0023040771484375\nDC08_Template_01\\WIN2k8-ENT-NEW_oct2018.vmdk\n VMDK Size 8.27713394165039\nOrphaned Disks in datastore1 (9):\nOrphaned Disks in datastore1 (31):\nOrphaned Disks in datastore1 (39):\nOrphaned Disks in datastore1 (4):\nOrphaned Disks in datastore1 (38):\nOrphaned Disks in datastore1 (34):\nOrphaned Disks in dc08p18esx023-local:\nOrphaned Disks in datastore1 (36):\nOrphaned Disks in datastore1 (32):\nOrphaned Disks in datastore1 (40):\nOrphaned Disks in datastore1 (12):\nOrphaned Disks in datastore1 (13):\nOrphaned Disks in datastore1 (27):\nOrphaned Disks in datastore1 (22):\nOrphaned Disks in datastore1 (30):\nOrphaned Disks in datastore1 (6):\nOrphaned Disks in datastore1 (35):\nOrphaned Disks in datastore1 (20):\nOrphaned Disks in datastore1 (7):\nOrphaned Disks in datastore1 (16):\nOrphaned Disks in datastore1 (25):\nOrphaned Disks in datastore1 (24):\nOrphaned Disks in datastore1 (3):\nOrphaned Disks in datastore1 (26):\nOrphaned Disks in datastore1 (21):\nOrphaned Disks in datastore1 (18):\nOrphaned Disks in datastore1 (2):\nOrphaned Disks in datastore1 (14):\nOrphaned Disks in datastore1 (29):\nOrphaned Disks in datastore1 (19):\nOrphaned Disks in datastore1 (37):\nOrphaned Disks in datastore1 (28):\nOrphaned Disks in datastore1 (10):\nOrphaned Disks in datastore1 (5):\nOrphaned Disks in datastore1 (11):\nOrphaned Disks in datastore1 (17):\nOrphaned Disks in datastore1 (33):\nOrphaned Disks in datastore1 (15):\nOrphaned Disks in datastore1 (23):\nOrphaned Disks in datastore1:\nOrphaned Disks in dc08p18esx005-local:\nOrphaned Disks in datastore1 (8):\nOrphaned Disks in datastore1 (1):\nOrphaned Disks in dc08p18esx011-local:\nOrphaned Disks in DC08_VC11_C22_03:\nOrphaned Disks in DC08_VC11_C22_01:\nOrphaned Disks in DV08_VC11_022_04:\nOrphaned Disks in DC08_VC11_C22_02:\nOrphaned Disks in DC08_VC11_C22_05:\nOrphaned Disks in DC08_VC11_C21_10:\nOrphaned Disks in DC08_VC11_C21_14:\nOrphaned Disks in DC08_VC11_C21_05:\nOrphaned Disks in DC08_VC11_C21_03:\nOrphaned Disks in DC08_VC11_C21_08:\nOrphaned Disks in DC08_VC11_C21_01:\nOrphaned Disks in DC08_VC11_C21_12:\nOrphaned Disks in DC08_VC11_C21_13:\nOrphaned Disks in DC08_VC11_C21_04:\nOrphaned Disks in DC08_VC11_C21_09:\nOrphaned Disks in DC08_VC11_C21_07:\nOrphaned Disks in DC08_VC11_C21_11:\nOrphaned Disks in DC08_VC11_C21_06:\nOrphaned Disks in DC08_VC11_C21_02:\n\r\n\r\n",
+        "stdout_lines": [
+            "WARNING: Please consider joining the VMware Customer Experience Improvement Program, so you can help us make PowerCLI a",
+            " better product. You can join using the following command:",
+            "",
+            "Set-PowerCLIConfiguration -Scope User -ParticipateInCEIP $true",
+            "",
+            "VMware's Customer Experience Improvement Program (\"CEIP\") provides VMware with information that enables VMware to ",
+            "improve its products and services, to fix problems, and to advise you on how best to deploy and use our products.  As ",
+            "part of the CEIP, VMware collects technical information about your organization’s use of VMware products and services ",
+            "on a regular basis in association with your organization’s VMware license key(s).  This information does not personally",
+            " identify any individual.",
+            "",
+            "For more details: type \"help about_ceip\" to see the related help article.",
+            "",
+            "To disable this warning and set your preference use the following command and restart PowerShell: ",
+            "Set-PowerCLIConfiguration -Scope User -ParticipateInCEIP $true or $false.",
+            "",
+            "Scope    ProxyPolicy     DefaultVIServerMode InvalidCertificateAction  DisplayDeprecationWarnings WebOperationTimeout",
+            "                                                                                                  Seconds            ",
+            "-----    -----------     ------------------- ------------------------  -------------------------- -------------------",
+            "Session  UseSystemProxy  Multiple            Ignore                    True                       300                ",
+            "User                                         Ignore                                                                  ",
+            "AllUsers                                                                                                             ",
+            "10.8.87.43",
+            "",
+            "IsConnected   : True",
+            "Id            : /VIServer=sfdc\\****@10.8.87.43:443/",
+            "ServiceUri    : https://10.8.87.43/sdk",
+            "SessionSecret : \"c9e1311eecde5fcfd10c6c7854b1372a4e8d2ee7\"",
+            "Name          : 10.8.87.43",
+            "Port          : 443",
+            "SessionId     : \"c9e1311eecde5fcfd10c6c7854b1372a4e8d2ee7\"",
+            "User          : SFDC\\C5286003",
+            "Uid           : /VIServer=sfdc\\****@10.8.87.43:443/",
+            "Version       : 6.7.0",
+            "Build         : 14368073",
+            "ProductLine   : vpx",
+            "InstanceUuid  : 0c8550ba-c2dd-49cb-87ad-fa59c9d7045f",
+            "RefCount      : 1",
+            "ExtensionData : VMware.Vim.ServiceInstance",
+            "",
+            "Orphaned Disks in DC08_Transfer_01:",
+            "DC08_Transfer_01\\sc8lp51u002.vmdk",
+            " VMDK Size 50.1968536376953",
+            "DC08_Transfer_01\\sc8lp51u002_1.vmdk",
+            " VMDK Size 51.2007904052734",
+            "DC08_Transfer_01\\dc8dsstgcms02.vmdk",
+            " VMDK Size 100.393707275391",
+            "DC08_Transfer_01\\SC8ITOABI03.vmdk",
+            " VMDK Size 306.200790405273",
+            "DC08_Transfer_01\\SC8ITOABI03_7.vmdk",
+            " VMDK Size 200.787410736084",
+            "DC08_Transfer_01\\8vesx.vmdk",
+            " VMDK Size 40.1574859619141",
+            "DC08_Transfer_01\\8vesx_1.vmdk",
+            " VMDK Size 40.1574859619141",
+            "DC08_Transfer_01\\dc08vmks02_1.vmdk",
+            " VMDK Size 1.45332336425781",
+            "DC08_Transfer_01\\dc08vmks02.vmdk",
+            " VMDK Size 0.779018402099609",
+            "DC08_Transfer_01\\dc8salesengine01.vmdk",
+            " VMDK Size 0.137260437011719",
+            "DC08_Transfer_01\\dc8salesengine01_1.vmdk",
+            " VMDK Size 40.1574859619141",
+            "DC08_Transfer_01\\sc8lp77u001_1.vmdk",
+            " VMDK Size 7.1794319152832",
+            "DC08_Transfer_01\\sc8lp77u001_1-000001.vmdk",
+            " VMDK Size 0.000102996826171875",
+            "DC08_Transfer_01\\sc8lp77u001.vmdk",
+            " VMDK Size 8.74781036376953",
+            "DC08_Transfer_01\\sc8lp77u001-000001.vmdk",
+            " VMDK Size 0.0127716064453125",
+            "DC08_Transfer_01\\sc8wfatest02_3.vmdk",
+            " VMDK Size 100.393707275391",
+            "DC08_Transfer_01\\WIN2k8-ENT-NEW_oct2018.vmdk",
+            " VMDK Size 100.393707275391",
+            "DC08_Transfer_01\\pc8dbmonsql02_1.vmdk",
+            " VMDK Size 75.2952842712402",
+            "DC08_Transfer_01\\pc8dbmonsql02_4.vmdk",
+            " VMDK Size 25.0984306335449",
+            "DC08_Transfer_01\\pc8dbmonsql02_3.vmdk",
+            " VMDK Size 50.1968536376953",
+            "DC08_Transfer_01\\pc8dbmonsql02.vmdk",
+            " VMDK Size 100.393707275391",
+            "DC08_Transfer_01\\pc8dbmonsql02_2.vmdk",
+            " VMDK Size 50.1968536376953",
+            "DC08_Transfer_01\\dc08vmpxe01_1.vmdk",
+            " VMDK Size 7.06552505493164",
+            "DC08_Transfer_01\\dc8dsstgjob02.vmdk",
+            " VMDK Size 100.393707275391",
+            "DC08_Transfer_01\\dc8dsstgjob01.vmdk",
+            " VMDK Size 100.393707275391",
+            "DC08_Transfer_01\\DC8DSSTGCMS01.vmdk",
+            " VMDK Size 100.393707275391",
+            "DC08_Transfer_01\\dc8zk05_1.vmdk",
+            " VMDK Size 80.3149681091309",
+            "DC08_Transfer_01\\dc8zk05_3.vmdk",
+            " VMDK Size 0.147064208984375",
+            "DC08_Transfer_01\\dc8zk05_2.vmdk",
+            " VMDK Size 5.01969528198242",
+            "DC08_Transfer_01\\PC8ITOABI02.vmdk",
+            " VMDK Size 301.181106567383",
+            "DC08_Transfer_01\\dc8cloudsync01.vmdk",
+            " VMDK Size 14.4081077575684",
+            "DC08_Transfer_01\\RHEL7_6_Template_DC8-1.vmdk",
+            " VMDK Size 0.706525325775146",
+            "DC08_Transfer_01\\dpl003.vmdk",
+            " VMDK Size 0.147064208984375",
+            "DC08_Transfer_01\\dpl003_1.vmdk",
+            " VMDK Size 60.2362213134766",
+            "DC08_Transfer_01\\phoebe-9-7-0-125-C600V-disk1.vmdk",
+            " VMDK Size 1.68284559249878",
+            "DC08_Transfer_01\\SLES12_SP3_V0_V10_1.vmdk",
+            " VMDK Size 50.1968536376953",
+            "DC08_Transfer_01\\SLES12_SP3_V0_V10.vmdk",
+            " VMDK Size 50.1968536376953",
+            "DC08_Transfer_01\\SLES11_SP4.vmdk",
+            " VMDK Size 50.1968536376953",
+            "DC08_Transfer_01\\SLES11_SP4_1.vmdk",
+            " VMDK Size 51.2007904052734",
+            "DC08_Transfer_01\\dc8devhaasapp01.vmdk",
+            " VMDK Size 40.1574859619141",
+            "DC08_Transfer_01\\pc8ofbiz02.vmdk",
+            " VMDK Size 100.393707275391",
+            "DC08_Transfer_01\\dc08vmks01.vmdk",
+            " VMDK Size 1.90748977661133",
+            "DC08_Transfer_01\\dc08vmks01_1.vmdk",
+            " VMDK Size 20.0787467956543",
+            "DC08_Transfer_01\\pc8rundeckn03_1.vmdk",
+            " VMDK Size 101.397644042969",
+            "DC08_Transfer_01\\pc8rundeckn03.vmdk",
+            " VMDK Size 100.393707275391",
+            "DC08_Transfer_01\\dc8hanasftp01.vmdk",
+            " VMDK Size 0.147064208984375",
+            "DC08_Transfer_01\\dc8hanasftp01_1.vmdk",
+            " VMDK Size 40.1574859619141",
+            "DC08_Transfer_01\\sc8bs2job01t_1.vmdk",
+            " VMDK Size 0.0023040771484375",
+            "DC08_Transfer_01\\sc8lp06r01.vmdk",
+            " VMDK Size 50.1968536376953",
+            "DC08_Transfer_01\\pc8bwcf600t.vmdk",
+            " VMDK Size 4.03852462768555",
+            "DC08_Transfer_01\\dc8dsstgjob03.vmdk",
+            " VMDK Size 100.393707275391",
+            "DC08_Transfer_01\\sc8bsrch57_2.vmdk",
+            " VMDK Size 501.968509674072",
+            "DC08_Transfer_01\\sc8bsrch57.vmdk",
+            " VMDK Size 50.1968536376953",
+            "DC08_Transfer_01\\sc8bsrch57_1.vmdk",
+            " VMDK Size 51.2007904052734",
+            "DC08_Transfer_01\\DC8-VC8_1.vmdk",
+            " VMDK Size 52.2047271728516",
+            "DC08_Transfer_01\\DC8-VC8.vmdk",
+            " VMDK Size 100.393707275391",
+            "Orphaned Disks in DC08_Template_01:",
+            "DC08_Template_01\\SLES12_SP1_V0_oct2018_1.vmdk",
+            " VMDK Size 0.0023040771484375",
+            "DC08_Template_01\\SLES12_SP1_V0_oct2018.vmdk",
+            " VMDK Size 1.74634552001953",
+            "DC08_Template_01\\SLES12_SP3_V0--issue.vmdk",
+            " VMDK Size 0",
+            "DC08_Template_01\\SLES12_SP1_V0_1.vmdk",
+            " VMDK Size 0.0023040771484375",
+            "DC08_Template_01\\SLES12_SP1_V0.vmdk",
+            " VMDK Size 1.74634552001953",
+            "DC08_Template_01\\dc08tenable01-s.ashfed.sf.priv.vmdk",
+            " VMDK Size 24.0769691467285",
+            "DC08_Template_01\\WIN2k8-ENT-NEW_oct2018.vmdk",
+            " VMDK Size 8.29336166381836",
+            "DC08_Template_01\\WIN2k16-ENT.vmdk",
+            " VMDK Size 10.1680221557617",
+            "DC08_Template_01\\SLES11SP4V0_may17.vmdk",
+            " VMDK Size 2.5792350769043",
+            "DC08_Template_01\\SLES11SP4V0_may17_1.vmdk",
+            " VMDK Size 0.0023040771484375",
+            "DC08_Template_01\\SLES11-SP3-V3_1.vmdk",
+            " VMDK Size 0.0342788696289063",
+            "DC08_Template_01\\SLES11-SP3-V3.vmdk",
+            " VMDK Size 3.47574234008789",
+            "DC08_Template_01\\windows2012-wfa.vmdk",
+            " VMDK Size 9.62265014648438",
+            "DC08_Template_01\\SLES12_SP1_V0_may17.vmdk",
+            " VMDK Size 1.73740005493164",
+            "DC08_Template_01\\SLES12_SP1_V0_may17_1.vmdk",
+            " VMDK Size 0.0023040771484375",
+            "DC08_Template_01\\WIN2k8-ENT-NEW_oct2018.vmdk",
+            " VMDK Size 8.27713394165039",
+            "Orphaned Disks in datastore1 (9):",
+            "Orphaned Disks in datastore1 (31):",
+            "Orphaned Disks in datastore1 (39):",
+            "Orphaned Disks in datastore1 (4):",
+            "Orphaned Disks in datastore1 (38):",
+            "Orphaned Disks in datastore1 (34):",
+            "Orphaned Disks in dc08p18esx023-local:",
+            "Orphaned Disks in datastore1 (36):",
+            "Orphaned Disks in datastore1 (32):",
+            "Orphaned Disks in datastore1 (40):",
+            "Orphaned Disks in datastore1 (12):",
+            "Orphaned Disks in datastore1 (13):",
+            "Orphaned Disks in datastore1 (27):",
+            "Orphaned Disks in datastore1 (22):",
+            "Orphaned Disks in datastore1 (30):",
+            "Orphaned Disks in datastore1 (6):",
+            "Orphaned Disks in datastore1 (35):",
+            "Orphaned Disks in datastore1 (20):",
+            "Orphaned Disks in datastore1 (7):",
+            "Orphaned Disks in datastore1 (16):",
+            "Orphaned Disks in datastore1 (25):",
+            "Orphaned Disks in datastore1 (24):",
+            "Orphaned Disks in datastore1 (3):",
+            "Orphaned Disks in datastore1 (26):",
+            "Orphaned Disks in datastore1 (21):",
+            "Orphaned Disks in datastore1 (18):",
+            "Orphaned Disks in datastore1 (2):",
+            "Orphaned Disks in datastore1 (14):",
+            "Orphaned Disks in datastore1 (29):",
+            "Orphaned Disks in datastore1 (19):",
+            "Orphaned Disks in datastore1 (37):",
+            "Orphaned Disks in datastore1 (28):",
+            "Orphaned Disks in datastore1 (10):",
+            "Orphaned Disks in datastore1 (5):",
+            "Orphaned Disks in datastore1 (11):",
+            "Orphaned Disks in datastore1 (17):",
+            "Orphaned Disks in datastore1 (33):",
+            "Orphaned Disks in datastore1 (15):",
+            "Orphaned Disks in datastore1 (23):",
+            "Orphaned Disks in datastore1:",
+            "Orphaned Disks in dc08p18esx005-local:",
+            "Orphaned Disks in datastore1 (8):",
+            "Orphaned Disks in datastore1 (1):",
+            "Orphaned Disks in dc08p18esx011-local:",
+            "Orphaned Disks in DC08_VC11_C22_03:",
+            "Orphaned Disks in DC08_VC11_C22_01:",
+            "Orphaned Disks in DV08_VC11_022_04:",
+            "Orphaned Disks in DC08_VC11_C22_02:",
+            "Orphaned Disks in DC08_VC11_C22_05:",
+            "Orphaned Disks in DC08_VC11_C21_10:",
+            "Orphaned Disks in DC08_VC11_C21_14:",
+            "Orphaned Disks in DC08_VC11_C21_05:",
+            "Orphaned Disks in DC08_VC11_C21_03:",
+            "Orphaned Disks in DC08_VC11_C21_08:",
+            "Orphaned Disks in DC08_VC11_C21_01:",
+            "Orphaned Disks in DC08_VC11_C21_12:",
+            "Orphaned Disks in DC08_VC11_C21_13:",
+            "Orphaned Disks in DC08_VC11_C21_04:",
+            "Orphaned Disks in DC08_VC11_C21_09:",
+            "Orphaned Disks in DC08_VC11_C21_07:",
+            "Orphaned Disks in DC08_VC11_C21_11:",
+            "Orphaned Disks in DC08_VC11_C21_06:",
+            "Orphaned Disks in DC08_VC11_C21_02:",
+            "",
+            ""
+        ]
+    }
+}
+
+TASK [orphan_vmdk : Get files in a folder] *************************************
+ok: [10.171.198.13]
+
+TASK [orphan_vmdk : debug] *****************************************************
+ok: [10.171.198.13] => {
+    "msg": {
+        "changed": false,
+        "examined": 5,
+        "failed": false,
+        "files": [
+            {
+                "attributes": "Archive",
+                "checksum": "2a8fabe548aa3592dc76eed6ebcb390e53642f03",
+                "creationtime": 1576204854.5851521,
+                "extension": ".txt",
+                "filename": "hosts.txt",
+                "isarchive": true,
+                "isdir": false,
+                "ishidden": false,
+                "islnk": false,
+                "isreadonly": false,
+                "isshared": false,
+                "lastaccesstime": 1576204854.5851521,
+                "lastwritetime": 1576204853.4390488,
+                "owner": "BUILTIN\\Administrators",
+                "path": "C:\\tmp\\orphan_vmdk\\hosts.txt",
+                "size": 26
+            },
+            {
+                "attributes": "Archive",
+                "checksum": "b9d384ca0a333f16e411820226cbd16c90a12ab0",
+                "creationtime": 1576204846.658087,
+                "extension": ".ps1",
+                "filename": "orphan_vmdk.ps1",
+                "isarchive": true,
+                "isdir": false,
+                "ishidden": false,
+                "islnk": false,
+                "isreadonly": false,
+                "isshared": false,
+                "lastaccesstime": 1576204846.658087,
+                "lastwritetime": 1576208008.1617684,
+                "owner": "BUILTIN\\Administrators",
+                "path": "C:\\tmp\\orphan_vmdk\\orphan_vmdk.ps1",
+                "size": 2470
+            },
+            {
+                "attributes": "Archive",
+                "checksum": "860102b56e8615f0e8141682cd8f3c1ff440a20d",
+                "creationtime": 1576204850.6507983,
+                "extension": ".txt",
+                "filename": "server_ip.txt",
+                "isarchive": true,
+                "isdir": false,
+                "ishidden": false,
+                "islnk": false,
+                "isreadonly": false,
+                "isshared": false,
+                "lastaccesstime": 1576204850.6507983,
+                "lastwritetime": 1576206917.9651556,
+                "owner": "BUILTIN\\Administrators",
+                "path": "C:\\tmp\\orphan_vmdk\\server_ip.txt",
+                "size": 11
+            },
+            {
+                "attributes": "Archive",
+                "checksum": "d8280f9bc2e16f6996e9d8cb9125214baf41c485",
+                "creationtime": 1576206570.7337635,
+                "extension": ".csv",
+                "filename": "vmunusedvmdkinfo.csv",
+                "isarchive": true,
+                "isdir": false,
+                "ishidden": false,
+                "islnk": false,
+                "isreadonly": false,
+                "isshared": false,
+                "lastaccesstime": 1576206570.7337635,
+                "lastwritetime": 1576207742.5791283,
+                "owner": "BUILTIN\\Administrators",
+                "path": "C:\\tmp\\orphan_vmdk\\vmunusedvmdkinfo.csv",
+                "size": 8627
+            },
+            {
+                "attributes": "Archive",
+                "checksum": "d8280f9bc2e16f6996e9d8cb9125214baf41c485",
+                "creationtime": 1576208191.579222,
+                "extension": ".csv",
+                "filename": "vmunusedvmdkinfo_2019-12-13_03-33.csv",
+                "isarchive": true,
+                "isdir": false,
+                "ishidden": false,
+                "islnk": false,
+                "isreadonly": false,
+                "isshared": false,
+                "lastaccesstime": 1576208191.579222,
+                "lastwritetime": 1576208191.5852246,
+                "owner": "BUILTIN\\Administrators",
+                "path": "C:\\tmp\\orphan_vmdk\\vmunusedvmdkinfo_2019-12-13_03-33.csv",
+                "size": 8627
+            }
+        ],
+        "matched": 5
+    }
+}
+
+TASK [orphan_vmdk : Get latest file] *******************************************
+ok: [10.171.198.13]
+
+TASK [orphan_vmdk : debug] *****************************************************
+ok: [10.171.198.13] => {
+    "msg": {
+        "attributes": "Archive",
+        "checksum": "d8280f9bc2e16f6996e9d8cb9125214baf41c485",
+        "creationtime": 1576208191.579222,
+        "extension": ".csv",
+        "filename": "vmunusedvmdkinfo_2019-12-13_03-33.csv",
+        "isarchive": true,
+        "isdir": false,
+        "ishidden": false,
+        "islnk": false,
+        "isreadonly": false,
+        "isshared": false,
+        "lastaccesstime": 1576208191.579222,
+        "lastwritetime": 1576208191.5852246,
+        "owner": "BUILTIN\\Administrators",
+        "path": "C:\\tmp\\orphan_vmdk\\vmunusedvmdkinfo_2019-12-13_03-33.csv",
+        "size": 8627
+    }
+}
+
+TASK [orphan_vmdk : Fetch the html file] ***************************************
+fatal: [10.171.198.13]: FAILED! => {"changed": false, "file": "C:\\tmp\\orphan_vmdk\\'C:\\tmp\\orphan_vmdk\\vmunusedvmdkinfo_2019-12-13_03-33.csv'", "msg": "unable to calculate the checksum of the remote file"}
+
+PLAY RECAP *********************************************************************
+10.171.198.13              : ok=11   changed=2    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+
+[8mha:////4Haa4BYB0PshshjtQHoIR5+7Dc+U4wYDiKXhLpRNfRFYAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihQohqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3da768AH8/EyevgAAAA==[0m[Pipeline] }
+[8mha:////4CzawatgZokoFlx6b1l1WK+KWDbK8jR/lURbXtvdSEmJAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRSIOEqNJaaXiBiQ/jxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgRI80WIqdFd6NJi8xcRiujifR80V0TJEdihanljU2C7acEJYUJawkbJA6x9GSSbCVvXqoyiky1TmF/B0llFbf4QmFzOakQvrCHGB3G3Vk+nn+CmD2PkFZ17n2hw/PHxcivgAAAA==[0m[Pipeline] // dir
+[8mha:////4DOw1JDC56w1E/8FHb+D0J+sWnNRHDZjpJr3vGcmEQ7NAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiARIFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwA5jKtr74AAAA=[0m[Pipeline] }
+[8mha:////4OXA42vscQfNYeEI1v63O3itp6NmmsuEOYuoORSPqWPwAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigaBBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw/V0fYTvgAAAA==[0m[Pipeline] // stage
+[8mha:////4FaGej0aDhAh2QHNQ/72/YlHx1tXMTrxD8pFKB0ayZBcAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYRTIKVBVLSWG15gEmOcWHfBvpBUvIiv8QcMkajYamel1TxfUKYIB4pOdhZ7j6nxcgijy01OFPtLoEl2dJYNYaJgpbaTptYeF9TEFpaIAlYK1habQMmjY9ioztxNFQy66sQxb3sFhW9v8AChsplN5C/MEbbXsU2EP89fAcwDg6gZil39OZZvQ6+ASMEAAAA=[0m[Pipeline] stage
+[8mha:////4I6OCbdQkXA2ipaKd0MK2EEep5AUwwWfxvIKPAB8Stq9AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QIIBMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfADpB/iZwgAAAA==[0m[Pipeline] { (Completed)
+Stage "Completed" skipped due to earlier failure(s)
+[8mha:////4PIrVpsvY8lIf2IA1cA0W0UdhqCwbzmVq0nfFCScgJJSAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSUICEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQHcw3TBvgAAAA==[0m[Pipeline] }
+[8mha:////4Nl+f+gwpmuP66XK3+fWICKQJ8XAWFzZlaWC/kx/1EoNAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSICEhRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g3vIC99vgAAAA==[0m[Pipeline] // stage
+[8mha:////4BmzcC9JeOux3xEZpIByuZn9XBq9YyCT0UYjY+tH6W8QAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKhQDSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLcVZPsPGtuGbL0AAAA=[0m[Pipeline] }
+[8mha:////4MudWtcEmy001T0Rx0BoTEDatilXrpVHncsw0yoOYjYAAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRElSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLcVZPsPEKPvyL0AAAA=[0m[Pipeline] // withCredentials
+[8mha:////4H8D+D6qxEAtyKCXYEfmjFKrfHmviJ2wjWV2olqNaw+LAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6Ikhs04uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL/eCrPwAVulI+L0AAAA=[0m[Pipeline] }
+[8mha:////4AGgA0TeUN5bwCvPZkdDHy455zy+vrqpPQ8ypPbs7H1eAAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIU2DlWthkaTxAhxkBmF5NFqDyRV/MOMjJj5a/+e817vbFOEUeOTrWWOk+p9qoPg5ufGjl218CjavmiaqbEwarKjhU39rRgxWKxLMux0thYqgMnT06w1a15mCIYcsVZ4uwOGrlv7ngi03NZTJQvTBG729Akpl/nbwBT3wvyfSnIyg9FVUxbvQAAAA==[0m[Pipeline] // node
+[8mha:////4JClECERG5g4HA1+oF4FkgEfM5xiQjfpfW6i++V39XfdAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6Ikhs04uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL0tBtv8Aw7lrnr0AAAA=[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 2
+Finished: FAILURE
